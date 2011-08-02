@@ -1,0 +1,2 @@
+*switch to PCA9698 (1MHz and up to 64 boards)
+*I2C bus extender (e.g. P82B715TD) may be necessary if we stack many boards
