@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 7/30/2011 2:04:39 PM
+EESchema Schematic File Version 2  date 11/18/2011 9:58:06 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 2 7
 Title "40-channel HV switching board"
-Date "30 jul 2011"
+Date "18 nov 2011"
 Rev "1"
 Comp "Ryan Fobel"
 Comment1 ""
@@ -45,6 +45,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 2050 3350
+Wire Wire Line
+	2050 3800 2050 3200
+Wire Wire Line
+	1950 3550 2150 3550
 Text GLabel 3000 6250 3    60   Input ~ 0
 A2
 Text GLabel 2750 6050 3    60   Input ~ 0
@@ -94,11 +99,8 @@ Wire Wire Line
 	2150 4000 1950 4000
 Wire Wire Line
 	1950 4000 1950 3550
-Connection ~ 2050 3350
 Wire Wire Line
 	2150 3800 2050 3800
-Wire Wire Line
-	2050 3800 2050 3200
 Connection ~ 4000 1000
 Wire Wire Line
 	4000 850  4000 1000
@@ -168,8 +170,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 3350 2150 3350
 Wire Wire Line
-	1950 3550 2150 3550
-Wire Wire Line
 	4400 4950 3550 4950
 Wire Wire Line
 	6800 4950 6800 4650
@@ -220,7 +220,7 @@ L C C11
 U 1 1 4E3302F8
 P 6800 4450
 F 0 "C11" H 6850 4550 50  0000 L CNN
-F 1 "1uF" H 6850 4350 50  0000 L CNN
+F 1 "0.1uF" H 6850 4350 50  0000 L CNN
 	1    6800 4450
 	1    0    0    -1  
 $EndComp
@@ -229,7 +229,7 @@ L C C10
 U 1 1 4E3302B3
 P 3550 5150
 F 0 "C10" H 3600 5250 50  0000 L CNN
-F 1 "1uF" H 3600 5050 50  0000 L CNN
+F 1 "0.1uF" H 3600 5050 50  0000 L CNN
 	1    3550 5150
 	1    0    0    -1  
 $EndComp
@@ -328,7 +328,7 @@ L C C4
 U 1 1 4E32F915
 P 3650 1200
 F 0 "C4" H 3700 1300 50  0000 L CNN
-F 1 "0.1uF" H 3700 1100 50  0000 L CNN
+F 1 "0.01uF" H 3700 1100 50  0000 L CNN
 	1    3650 1200
 	1    0    0    -1  
 $EndComp
@@ -355,7 +355,7 @@ L C C5
 U 1 1 4E32F8DD
 P 3300 1200
 F 0 "C5" H 3350 1300 50  0000 L CNN
-F 1 "1uF" H 3350 1100 50  0000 L CNN
+F 1 "0.1uF" H 3350 1100 50  0000 L CNN
 	1    3300 1200
 	1    0    0    -1  
 $EndComp
@@ -377,7 +377,7 @@ F 1 "CONN_2" V 2550 3900 40  0000 C CNN
 	1    2500 3900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 3550 0    60   Input ~ 0
+Text GLabel 1950 3200 0    60   Input ~ 0
 HVGND
 Text GLabel 6000 5850 2    60   Input ~ 0
 GND
@@ -574,7 +574,7 @@ Text GLabel 2100 900  2    60   Input ~ 0
 SDA
 Text GLabel 2100 1200 2    60   Input ~ 0
 SCL
-Text GLabel 1950 3200 0    60   Input ~ 0
+Text GLabel 1950 3550 0    60   Input ~ 0
 HV
 Text GLabel 9400 1750 0    60   Input ~ 0
 HVOUT1
