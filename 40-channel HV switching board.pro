@@ -1,14 +1,5 @@
-update=11/16/2011 11:17:51 AM
-last_client=eeschema
-[general]
-version=1
-RootSch=minibox.sch
-BoardNm=minibox.brd
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+update=22/02/2012 12:03:31 PM
+last_client=kicad
 [pcbnew]
 version=1
 PadDrlX=320
@@ -27,7 +18,6 @@ TxtLar=120
 MSegLar=150
 LastNetListRead=40-channel HV switching board.net
 [pcbnew/libraries]
-LibDir=../../../library
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -39,9 +29,10 @@ LibName8=valves
 LibName9=led
 LibName10=dip_sockets
 LibName11=wheelerlab
+LibDir=wheelerlab_kicad_library
 [eeschema]
 version=1
-LibDir=../../../library
+LibDir=wheelerlab_kicad_library
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -102,3 +93,10 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=wheelerlab
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
