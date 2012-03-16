@@ -1,5 +1,5 @@
-update=22/02/2012 12:03:31 PM
-last_client=kicad
+update=15/03/2012 11:56:00 PM
+last_client=eeschema
 [pcbnew]
 version=1
 PadDrlX=320
@@ -30,6 +30,13 @@ LibName9=led
 LibName10=dip_sockets
 LibName11=wheelerlab
 LibDir=wheelerlab_kicad_library
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=wheelerlab_kicad_library
@@ -93,10 +100,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=wheelerlab
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[general]
-version=1
