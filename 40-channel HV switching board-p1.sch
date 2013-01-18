@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 16/03/2012 12:06:03 AM
+EESchema Schematic File Version 2  date 18/01/2013 10:50:53 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:40-channel HV switching board-cache
 EELAYER 25  0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
 Sheet 2 7
 Title "40-channel HV switching board"
-Date "16 mar 2012"
+Date "18 jan 2013"
 Rev "1"
 Comp "Ryan Fobel"
 Comment1 ""
@@ -201,7 +202,7 @@ Text Notes 1400 5450 0    60   ~ 0
 I2C ADDRESS\nSELECTION
 Text Notes 4800 2950 0    60   ~ 0
 40-CHANNEL GPIO
-Text Notes 8300 4350 0    60   ~ 0
+Text Notes 8300 4450 0    60   ~ 0
 TO DMF CHIP
 Text GLabel 9250 6650 0    60   Input ~ 0
 HVGND
@@ -399,85 +400,85 @@ GND
 Text GLabel 6800 4250 2    60   Input ~ 0
 +5V
 Text GLabel 6000 3850 2    60   Input ~ 0
-OUT37
-Text GLabel 6000 3650 2    60   Input ~ 0
-OUT38
-Text GLabel 6000 3550 2    60   Input ~ 0
-OUT39
-Text GLabel 6000 3450 2    60   Input ~ 0
-OUT40
-Text GLabel 6000 3950 2    60   Input ~ 0
 OUT36
-Text GLabel 6000 4050 2    60   Input ~ 0
+Text GLabel 6000 3650 2    60   Input ~ 0
+OUT37
+Text GLabel 6000 3550 2    60   Input ~ 0
+OUT38
+Text GLabel 6000 3450 2    60   Input ~ 0
+OUT39
+Text GLabel 6000 3950 2    60   Input ~ 0
 OUT35
-Text GLabel 6000 4150 2    60   Input ~ 0
+Text GLabel 6000 4050 2    60   Input ~ 0
 OUT34
-Text GLabel 6000 4350 2    60   Input ~ 0
+Text GLabel 6000 4150 2    60   Input ~ 0
 OUT33
-Text GLabel 6000 5250 2    60   Input ~ 0
-OUT25
-Text GLabel 6000 5150 2    60   Input ~ 0
-OUT26
-Text GLabel 6000 5050 2    60   Input ~ 0
-OUT27
-Text GLabel 6000 4850 2    60   Input ~ 0
-OUT28
-Text GLabel 6000 4450 2    60   Input ~ 0
+Text GLabel 6000 4350 2    60   Input ~ 0
 OUT32
-Text GLabel 6000 4550 2    60   Input ~ 0
-OUT31
-Text GLabel 6000 4650 2    60   Input ~ 0
-OUT30
-Text GLabel 6000 4750 2    60   Input ~ 0
-OUT29
-Text GLabel 6000 5750 2    60   Input ~ 0
-OUT21
-Text GLabel 6000 5650 2    60   Input ~ 0
-OUT22
-Text GLabel 6000 5550 2    60   Input ~ 0
-OUT23
-Text GLabel 6000 5350 2    60   Input ~ 0
+Text GLabel 6000 5250 2    60   Input ~ 0
 OUT24
-Text GLabel 4400 5750 0    60   Input ~ 0
+Text GLabel 6000 5150 2    60   Input ~ 0
+OUT25
+Text GLabel 6000 5050 2    60   Input ~ 0
+OUT26
+Text GLabel 6000 4850 2    60   Input ~ 0
+OUT27
+Text GLabel 6000 4450 2    60   Input ~ 0
+OUT31
+Text GLabel 6000 4550 2    60   Input ~ 0
+OUT30
+Text GLabel 6000 4650 2    60   Input ~ 0
+OUT29
+Text GLabel 6000 4750 2    60   Input ~ 0
+OUT28
+Text GLabel 6000 5750 2    60   Input ~ 0
 OUT20
-Text GLabel 4400 5650 0    60   Input ~ 0
+Text GLabel 6000 5650 2    60   Input ~ 0
+OUT21
+Text GLabel 6000 5550 2    60   Input ~ 0
+OUT22
+Text GLabel 6000 5350 2    60   Input ~ 0
+OUT23
+Text GLabel 4400 5750 0    60   Input ~ 0
 OUT19
-Text GLabel 4400 5550 0    60   Input ~ 0
+Text GLabel 4400 5650 0    60   Input ~ 0
 OUT18
-Text GLabel 4400 5350 0    60   Input ~ 0
+Text GLabel 4400 5550 0    60   Input ~ 0
 OUT17
-Text GLabel 4400 4850 0    60   Input ~ 0
-OUT13
-Text GLabel 4400 5050 0    60   Input ~ 0
-OUT14
-Text GLabel 4400 5150 0    60   Input ~ 0
-OUT15
-Text GLabel 4400 5250 0    60   Input ~ 0
+Text GLabel 4400 5350 0    60   Input ~ 0
 OUT16
-Text GLabel 4400 4750 0    60   Input ~ 0
+Text GLabel 4400 4850 0    60   Input ~ 0
 OUT12
-Text GLabel 4400 4650 0    60   Input ~ 0
+Text GLabel 4400 5050 0    60   Input ~ 0
+OUT13
+Text GLabel 4400 5150 0    60   Input ~ 0
+OUT14
+Text GLabel 4400 5250 0    60   Input ~ 0
+OUT15
+Text GLabel 4400 4750 0    60   Input ~ 0
 OUT11
-Text GLabel 4400 4550 0    60   Input ~ 0
+Text GLabel 4400 4650 0    60   Input ~ 0
 OUT10
-Text GLabel 4400 4450 0    60   Input ~ 0
+Text GLabel 4400 4550 0    60   Input ~ 0
 OUT9
-Text GLabel 4400 3450 0    60   Input ~ 0
-OUT1
-Text GLabel 4400 3550 0    60   Input ~ 0
-OUT2
-Text GLabel 4400 3650 0    60   Input ~ 0
-OUT3
-Text GLabel 4400 3850 0    60   Input ~ 0
-OUT4
-Text GLabel 4400 4350 0    60   Input ~ 0
+Text GLabel 4400 4450 0    60   Input ~ 0
 OUT8
-Text GLabel 4400 4150 0    60   Input ~ 0
+Text GLabel 4400 3450 0    60   Input ~ 0
+OUT0
+Text GLabel 4400 3550 0    60   Input ~ 0
+OUT1
+Text GLabel 4400 3650 0    60   Input ~ 0
+OUT2
+Text GLabel 4400 3850 0    60   Input ~ 0
+OUT3
+Text GLabel 4400 4350 0    60   Input ~ 0
 OUT7
-Text GLabel 4400 4050 0    60   Input ~ 0
+Text GLabel 4400 4150 0    60   Input ~ 0
 OUT6
-Text GLabel 4400 3950 0    60   Input ~ 0
+Text GLabel 4400 4050 0    60   Input ~ 0
 OUT5
+Text GLabel 4400 3950 0    60   Input ~ 0
+OUT4
 Text GLabel 4400 3350 0    60   Input ~ 0
 SCL
 Text GLabel 4400 3250 0    60   Input ~ 0
@@ -491,83 +492,83 @@ F 1 "PCA9505DGG" H 5200 6100 60  0000 C CNN
 	1    5200 4600
 	1    0    0    -1  
 $EndComp
-Text GLabel 9400 5150 0    60   Input ~ 0
-HVOUT35
 Text GLabel 9400 5250 0    60   Input ~ 0
-HVOUT36
-Text GLabel 9400 5450 0    60   Input ~ 0
-HVOUT38
+HVOUT35
 Text GLabel 9400 5350 0    60   Input ~ 0
-HVOUT37
-Text GLabel 9400 5650 0    60   Input ~ 0
-HVOUT40
+HVOUT36
 Text GLabel 9400 5550 0    60   Input ~ 0
+HVOUT38
+Text GLabel 9400 5450 0    60   Input ~ 0
+HVOUT37
+Text GLabel 9400 1750 0    60   Input ~ 0
+HVOUT0
+Text GLabel 9400 5650 0    60   Input ~ 0
 HVOUT39
-Text GLabel 9400 5050 0    60   Input ~ 0
+Text GLabel 9400 5150 0    60   Input ~ 0
 HVOUT34
-Text GLabel 9400 4950 0    60   Input ~ 0
+Text GLabel 9400 5050 0    60   Input ~ 0
 HVOUT33
-Text GLabel 9400 3350 0    60   Input ~ 0
-HVOUT17
 Text GLabel 9400 3450 0    60   Input ~ 0
-HVOUT18
-Text GLabel 9400 3650 0    60   Input ~ 0
-HVOUT20
+HVOUT17
 Text GLabel 9400 3550 0    60   Input ~ 0
-HVOUT19
-Text GLabel 9400 3950 0    60   Input ~ 0
-HVOUT23
-Text GLabel 9400 4050 0    60   Input ~ 0
-HVOUT24
-Text GLabel 9400 3850 0    60   Input ~ 0
-HVOUT22
+HVOUT18
 Text GLabel 9400 3750 0    60   Input ~ 0
-HVOUT21
-Text GLabel 9400 4550 0    60   Input ~ 0
-HVOUT29
-Text GLabel 9400 4650 0    60   Input ~ 0
-HVOUT30
-Text GLabel 9400 4850 0    60   Input ~ 0
-HVOUT32
-Text GLabel 9400 4750 0    60   Input ~ 0
-HVOUT31
-Text GLabel 9400 4350 0    60   Input ~ 0
-HVOUT27
-Text GLabel 9400 4450 0    60   Input ~ 0
-HVOUT28
-Text GLabel 9400 4250 0    60   Input ~ 0
-HVOUT26
+HVOUT20
+Text GLabel 9400 3650 0    60   Input ~ 0
+HVOUT19
+Text GLabel 9400 4050 0    60   Input ~ 0
+HVOUT23
 Text GLabel 9400 4150 0    60   Input ~ 0
+HVOUT24
+Text GLabel 9400 3950 0    60   Input ~ 0
+HVOUT22
+Text GLabel 9400 3850 0    60   Input ~ 0
+HVOUT21
+Text GLabel 9400 4650 0    60   Input ~ 0
+HVOUT29
+Text GLabel 9400 4750 0    60   Input ~ 0
+HVOUT30
+Text GLabel 9400 4950 0    60   Input ~ 0
+HVOUT32
+Text GLabel 9400 4850 0    60   Input ~ 0
+HVOUT31
+Text GLabel 9400 4450 0    60   Input ~ 0
+HVOUT27
+Text GLabel 9400 4550 0    60   Input ~ 0
+HVOUT28
+Text GLabel 9400 4350 0    60   Input ~ 0
+HVOUT26
+Text GLabel 9400 4250 0    60   Input ~ 0
 HVOUT25
-Text GLabel 9400 2550 0    60   Input ~ 0
-HVOUT9
 Text GLabel 9400 2650 0    60   Input ~ 0
-HVOUT10
-Text GLabel 9400 2850 0    60   Input ~ 0
-HVOUT12
+HVOUT9
 Text GLabel 9400 2750 0    60   Input ~ 0
-HVOUT11
-Text GLabel 9400 3150 0    60   Input ~ 0
-HVOUT15
-Text GLabel 9400 3250 0    60   Input ~ 0
-HVOUT16
-Text GLabel 9400 3050 0    60   Input ~ 0
-HVOUT14
+HVOUT10
 Text GLabel 9400 2950 0    60   Input ~ 0
+HVOUT12
+Text GLabel 9400 2850 0    60   Input ~ 0
+HVOUT11
+Text GLabel 9400 3250 0    60   Input ~ 0
+HVOUT15
+Text GLabel 9400 3350 0    60   Input ~ 0
+HVOUT16
+Text GLabel 9400 3150 0    60   Input ~ 0
+HVOUT14
+Text GLabel 9400 3050 0    60   Input ~ 0
 HVOUT13
-Text GLabel 9400 2150 0    60   Input ~ 0
-HVOUT5
 Text GLabel 9400 2250 0    60   Input ~ 0
-HVOUT6
-Text GLabel 9400 2450 0    60   Input ~ 0
-HVOUT8
+HVOUT5
 Text GLabel 9400 2350 0    60   Input ~ 0
+HVOUT6
+Text GLabel 9400 2550 0    60   Input ~ 0
+HVOUT8
+Text GLabel 9400 2450 0    60   Input ~ 0
 HVOUT7
-Text GLabel 9400 1950 0    60   Input ~ 0
-HVOUT3
 Text GLabel 9400 2050 0    60   Input ~ 0
+HVOUT3
+Text GLabel 9400 2150 0    60   Input ~ 0
 HVOUT4
-Text GLabel 9400 1850 0    60   Input ~ 0
+Text GLabel 9400 1950 0    60   Input ~ 0
 HVOUT2
 Text GLabel 2100 900  2    60   Input ~ 0
 SDA
@@ -575,7 +576,7 @@ Text GLabel 2100 1200 2    60   Input ~ 0
 SCL
 Text GLabel 1950 3550 0    60   Input ~ 0
 HV
-Text GLabel 9400 1750 0    60   Input ~ 0
+Text GLabel 9400 1850 0    60   Input ~ 0
 HVOUT1
 $Comp
 L CONN_2 J4

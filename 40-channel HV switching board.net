@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  16/03/2012 12:06:16 AM
+# EESchema Netlist Version 1.1 created  18/01/2013 10:51:04 AM
 (
  ( /4E330547/4E333560 $noname  SW1 4POS_SW {Lib=4POS_SW}
   (    1 A0 )
@@ -11,46 +11,46 @@
   (    8 GND )
  )
  ( /4E330547/4E330420 $noname  J2 CONN_50 {Lib=CONN_50}
-  (    1 HVOUT1 )
-  (    2 HVOUT2 )
-  (    3 HVOUT3 )
-  (    4 HVOUT4 )
-  (    5 HVOUT5 )
-  (    6 HVOUT6 )
-  (    7 HVOUT7 )
-  (    8 HVOUT8 )
-  (    9 HVOUT9 )
-  (   10 HVOUT10 )
-  (   11 HVOUT11 )
-  (   12 HVOUT12 )
-  (   13 HVOUT13 )
-  (   14 HVOUT14 )
-  (   15 HVOUT15 )
-  (   16 HVOUT16 )
-  (   17 HVOUT17 )
-  (   18 HVOUT18 )
-  (   19 HVOUT19 )
-  (   20 HVOUT20 )
-  (   21 HVOUT21 )
-  (   22 HVOUT22 )
-  (   23 HVOUT23 )
-  (   24 HVOUT24 )
-  (   25 HVOUT25 )
-  (   26 HVOUT26 )
-  (   27 HVOUT27 )
-  (   28 HVOUT28 )
-  (   29 HVOUT29 )
-  (   30 HVOUT30 )
-  (   31 HVOUT31 )
-  (   32 HVOUT32 )
-  (   33 HVOUT33 )
-  (   34 HVOUT34 )
-  (   35 HVOUT35 )
-  (   36 HVOUT36 )
-  (   37 HVOUT37 )
-  (   38 HVOUT38 )
-  (   39 HVOUT39 )
-  (   40 HVOUT40 )
+  (    1 HVOUT0 )
+  (    2 HVOUT1 )
+  (    3 HVOUT2 )
+  (    4 HVOUT3 )
+  (    5 HVOUT4 )
+  (    6 HVOUT5 )
+  (    7 HVOUT6 )
+  (    8 HVOUT7 )
+  (    9 HVOUT8 )
+  (   10 HVOUT9 )
+  (   11 HVOUT10 )
+  (   12 HVOUT11 )
+  (   13 HVOUT12 )
+  (   14 HVOUT13 )
+  (   15 HVOUT14 )
+  (   16 HVOUT15 )
+  (   17 HVOUT16 )
+  (   18 HVOUT17 )
+  (   19 HVOUT18 )
+  (   20 HVOUT19 )
+  (   21 HVOUT20 )
+  (   22 HVOUT21 )
+  (   23 HVOUT22 )
+  (   24 HVOUT23 )
+  (   25 HVOUT24 )
+  (   26 HVOUT25 )
+  (   27 HVOUT26 )
+  (   28 HVOUT27 )
+  (   29 HVOUT28 )
+  (   30 HVOUT29 )
+  (   31 HVOUT30 )
+  (   32 HVOUT31 )
+  (   33 HVOUT32 )
+  (   34 HVOUT33 )
+  (   35 HVOUT34 )
+  (   36 HVOUT35 )
+  (   37 HVOUT36 )
+  (   38 HVOUT37 )
+  (   39 HVOUT38 )
+  (   40 HVOUT39 )
   (   41 HVGND )
   (   42 HVGND )
   (   43 HVGND )
@@ -125,58 +125,58 @@
  ( /4E330547/4D2B9340 $noname  U16 PCA9505DGG {Lib=PCA9505DGG}
   (    1 SDA )
   (    2 SCL )
-  (    3 OUT1 )
-  (    4 OUT2 )
-  (    5 OUT3 )
+  (    3 OUT0 )
+  (    4 OUT1 )
+  (    5 OUT2 )
   (    6 GND )
-  (    7 OUT4 )
-  (    8 OUT5 )
-  (    9 OUT6 )
-  (   10 OUT7 )
+  (    7 OUT3 )
+  (    8 OUT4 )
+  (    9 OUT5 )
+  (   10 OUT6 )
   (   11 GND )
-  (   12 OUT8 )
-  (   13 OUT9 )
-  (   14 OUT10 )
-  (   15 OUT11 )
-  (   16 OUT12 )
-  (   17 OUT13 )
+  (   12 OUT7 )
+  (   13 OUT8 )
+  (   14 OUT9 )
+  (   15 OUT10 )
+  (   16 OUT11 )
+  (   17 OUT12 )
   (   18 +5V )
-  (   19 OUT14 )
-  (   20 OUT15 )
-  (   21 OUT16 )
-  (   22 OUT17 )
+  (   19 OUT13 )
+  (   20 OUT14 )
+  (   21 OUT15 )
+  (   22 OUT16 )
   (   23 GND )
-  (   24 OUT18 )
-  (   25 OUT19 )
-  (   26 OUT20 )
+  (   24 OUT17 )
+  (   25 OUT18 )
+  (   26 OUT19 )
   (   27 A0 )
   (   28 A1 )
   (   29 A2 )
   (   30 GND )
-  (   31 OUT21 )
-  (   32 OUT22 )
-  (   33 OUT23 )
+  (   31 OUT20 )
+  (   32 OUT21 )
+  (   33 OUT22 )
   (   34 GND )
-  (   35 OUT24 )
-  (   36 OUT25 )
-  (   37 OUT26 )
-  (   38 OUT27 )
+  (   35 OUT23 )
+  (   36 OUT24 )
+  (   37 OUT25 )
+  (   38 OUT26 )
   (   39 GND )
-  (   40 OUT28 )
-  (   41 OUT29 )
-  (   42 OUT30 )
-  (   43 OUT31 )
-  (   44 OUT32 )
-  (   45 OUT33 )
+  (   40 OUT27 )
+  (   41 OUT28 )
+  (   42 OUT29 )
+  (   43 OUT30 )
+  (   44 OUT31 )
+  (   45 OUT32 )
   (   46 +5V )
-  (   47 OUT34 )
-  (   48 OUT35 )
-  (   49 OUT36 )
-  (   50 OUT37 )
+  (   47 OUT33 )
+  (   48 OUT34 )
+  (   49 OUT35 )
+  (   50 OUT36 )
   (   51 GND )
-  (   52 OUT38 )
-  (   53 OUT39 )
-  (   54 OUT40 )
+  (   52 OUT37 )
+  (   53 OUT38 )
+  (   54 OUT39 )
   (   55 ? )
   (   56 +5V )
  )
@@ -192,10 +192,10 @@
   (    1 N-000115 )
   (    2 N-000114 )
   (    3 N-000101 )
-  (    4 OUT8 )
+  (    4 OUT7 )
   (    5 HV )
-  (    6 HVOUT8 )
-  (    7 HVOUT8 )
+  (    6 HVOUT7 )
+  (    7 HVOUT7 )
   (    8 HVGND )
  )
  ( /4E33056B/4E331125 $noname  R73 375 {Lib=R}
@@ -210,10 +210,10 @@
   (    1 N-000104 )
   (    2 N-000111 )
   (    3 N-000100 )
-  (    4 OUT7 )
+  (    4 OUT6 )
   (    5 HV )
-  (    6 HVOUT7 )
-  (    7 HVOUT7 )
+  (    6 HVOUT6 )
+  (    7 HVOUT6 )
   (    8 HVGND )
  )
  ( /4E33056B/4E331553 $noname  R2 375 {Lib=R}
@@ -228,10 +228,10 @@
   (    1 N-000103 )
   (    2 N-000113 )
   (    3 N-000102 )
-  (    4 OUT5 )
+  (    4 OUT4 )
   (    5 HV )
-  (    6 HVOUT5 )
-  (    7 HVOUT5 )
+  (    6 HVOUT4 )
+  (    7 HVOUT4 )
   (    8 HVGND )
  )
  ( /4E33056B/4E331544 $noname  R9 375 {Lib=R}
@@ -246,10 +246,10 @@
   (    1 N-000096 )
   (    2 N-000116 )
   (    3 N-000097 )
-  (    4 OUT6 )
+  (    4 OUT5 )
   (    5 HV )
-  (    6 HVOUT6 )
-  (    7 HVOUT6 )
+  (    6 HVOUT5 )
+  (    7 HVOUT5 )
   (    8 HVGND )
  )
  ( /4E33056B/4E331533 $noname  R66 375 {Lib=R}
@@ -264,10 +264,10 @@
   (    1 N-000094 )
   (    2 N-000095 )
   (    3 N-000099 )
-  (    4 OUT3 )
+  (    4 OUT2 )
   (    5 HV )
-  (    6 HVOUT3 )
-  (    7 HVOUT3 )
+  (    6 HVOUT2 )
+  (    7 HVOUT2 )
   (    8 HVGND )
  )
  ( /4E33056B/4E331524 $noname  R10 375 {Lib=R}
@@ -282,10 +282,10 @@
   (    1 N-000110 )
   (    2 N-000117 )
   (    3 N-000098 )
-  (    4 OUT4 )
+  (    4 OUT3 )
   (    5 HV )
-  (    6 HVOUT4 )
-  (    7 HVOUT4 )
+  (    6 HVOUT3 )
+  (    7 HVOUT3 )
   (    8 HVGND )
  )
  ( /4E33056B/4E331511 $noname  R65 375 {Lib=R}
@@ -300,10 +300,10 @@
   (    1 N-000109 )
   (    2 N-000108 )
   (    3 N-000107 )
-  (    4 OUT2 )
+  (    4 OUT1 )
   (    5 HV )
-  (    6 HVOUT2 )
-  (    7 HVOUT2 )
+  (    6 HVOUT1 )
+  (    7 HVOUT1 )
   (    8 HVGND )
  )
  ( /4E33056B/4E33107C $noname  R69 375 {Lib=R}
@@ -312,14 +312,14 @@
  )
  ( /4E33056B/4E3314FD $noname  U1 74AC540 {Lib=74AC540}
   (    1 GND )
-  (    2 OUT2 )
-  (    3 OUT4 )
-  (    4 OUT6 )
-  (    5 OUT8 )
-  (    6 OUT7 )
-  (    7 OUT5 )
-  (    8 OUT3 )
-  (    9 OUT1 )
+  (    2 OUT1 )
+  (    3 OUT3 )
+  (    4 OUT5 )
+  (    5 OUT7 )
+  (    6 OUT6 )
+  (    7 OUT4 )
+  (    8 OUT2 )
+  (    9 OUT0 )
   (   10 GND )
   (   11 N-000112 )
   (   12 N-000095 )
@@ -342,44 +342,44 @@
  )
  ( /4E33056B/4E3314E8 $noname  R70 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT5 )
+  (    2 OUT4 )
  )
  ( /4E33056B/4E3314E5 $noname  R6 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT6 )
+  (    2 OUT5 )
  )
  ( /4E33056B/4E3314E2 $noname  R68 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT8 )
+  (    2 OUT7 )
  )
  ( /4E33056B/4E3314DF $noname  R7 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT7 )
+  (    2 OUT6 )
  )
  ( /4E33056B/4E3309D2 $noname  R74 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT3 )
+  (    2 OUT2 )
  )
  ( /4E33056B/4E3314D4 $noname  R1 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT4 )
+  (    2 OUT3 )
  )
  ( /4E33056B/4E3314D2 $noname  R64 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT2 )
+  (    2 OUT1 )
  )
  ( /4E33056B/4E3314CC $noname  R12 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT1 )
+  (    2 OUT0 )
  )
  ( /4E33056B/4E3314BC $noname  U5 AQW216 {Lib=AQW216}
   (    1 N-000106 )
   (    2 N-000112 )
   (    3 N-000105 )
-  (    4 OUT1 )
+  (    4 OUT0 )
   (    5 HV )
-  (    6 HVOUT1 )
-  (    7 HVOUT1 )
+  (    6 HVOUT0 )
+  (    7 HVOUT0 )
   (    8 HVGND )
  )
  ( /4E33056B/4E3314C0 $noname  R5 375 {Lib=R}
@@ -394,10 +394,10 @@
   (    1 N-000139 )
   (    2 N-000138 )
   (    3 N-000125 )
-  (    4 OUT16 )
+  (    4 OUT15 )
   (    5 HV )
-  (    6 HVOUT16 )
-  (    7 HVOUT16 )
+  (    6 HVOUT15 )
+  (    7 HVOUT15 )
   (    8 HVGND )
  )
  ( /4E331219/4E331567 $noname  R85 375 {Lib=R}
@@ -412,10 +412,10 @@
   (    1 N-000128 )
   (    2 N-000135 )
   (    3 N-000124 )
-  (    4 OUT15 )
+  (    4 OUT14 )
   (    5 HV )
-  (    6 HVOUT15 )
-  (    7 HVOUT15 )
+  (    6 HVOUT14 )
+  (    7 HVOUT14 )
   (    8 HVGND )
  )
  ( /4E331219/4E331120 $noname  R14 375 {Lib=R}
@@ -430,10 +430,10 @@
   (    1 N-000127 )
   (    2 N-000137 )
   (    3 N-000126 )
-  (    4 OUT13 )
+  (    4 OUT12 )
   (    5 HV )
-  (    6 HVOUT13 )
-  (    7 HVOUT13 )
+  (    6 HVOUT12 )
+  (    7 HVOUT12 )
   (    8 HVGND )
  )
  ( /4E331219/4E331547 $noname  R21 375 {Lib=R}
@@ -448,10 +448,10 @@
   (    1 N-000120 )
   (    2 N-000140 )
   (    3 N-000121 )
-  (    4 OUT14 )
+  (    4 OUT13 )
   (    5 HV )
-  (    6 HVOUT14 )
-  (    7 HVOUT14 )
+  (    6 HVOUT13 )
+  (    7 HVOUT13 )
   (    8 HVGND )
  )
  ( /4E331219/4E331532 $noname  R78 375 {Lib=R}
@@ -466,10 +466,10 @@
   (    1 N-000118 )
   (    2 N-000119 )
   (    3 N-000123 )
-  (    4 OUT11 )
+  (    4 OUT10 )
   (    5 HV )
-  (    6 HVOUT11 )
-  (    7 HVOUT11 )
+  (    6 HVOUT10 )
+  (    7 HVOUT10 )
   (    8 HVGND )
  )
  ( /4E331219/4E3310C8 $noname  R22 375 {Lib=R}
@@ -484,10 +484,10 @@
   (    1 N-000134 )
   (    2 N-000141 )
   (    3 N-000122 )
-  (    4 OUT12 )
+  (    4 OUT11 )
   (    5 HV )
-  (    6 HVOUT12 )
-  (    7 HVOUT12 )
+  (    6 HVOUT11 )
+  (    7 HVOUT11 )
   (    8 HVGND )
  )
  ( /4E331219/4E3310C3 $noname  R77 375 {Lib=R}
@@ -502,10 +502,10 @@
   (    1 N-000133 )
   (    2 N-000132 )
   (    3 N-000131 )
-  (    4 OUT10 )
+  (    4 OUT9 )
   (    5 HV )
-  (    6 HVOUT10 )
-  (    7 HVOUT10 )
+  (    6 HVOUT9 )
+  (    7 HVOUT9 )
   (    8 HVGND )
  )
  ( /4E331219/4E331507 $noname  R82 375 {Lib=R}
@@ -514,14 +514,14 @@
  )
  ( /4E331219/4E3314FF $noname  U6 74AC540 {Lib=74AC540}
   (    1 GND )
-  (    2 OUT10 )
-  (    3 OUT12 )
-  (    4 OUT14 )
-  (    5 OUT16 )
-  (    6 OUT15 )
-  (    7 OUT13 )
-  (    8 OUT11 )
-  (    9 OUT9 )
+  (    2 OUT9 )
+  (    3 OUT11 )
+  (    4 OUT13 )
+  (    5 OUT15 )
+  (    6 OUT14 )
+  (    7 OUT12 )
+  (    8 OUT10 )
+  (    9 OUT8 )
   (   10 GND )
   (   11 N-000136 )
   (   12 N-000119 )
@@ -544,44 +544,44 @@
  )
  ( /4E331219/4E3314EA $noname  R81 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT13 )
+  (    2 OUT12 )
  )
  ( /4E331219/4E3314E4 $noname  R18 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT14 )
+  (    2 OUT13 )
  )
  ( /4E331219/4E3314E0 $noname  R80 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT16 )
+  (    2 OUT15 )
  )
  ( /4E331219/4E3314DD $noname  R19 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT15 )
+  (    2 OUT14 )
  )
  ( /4E331219/4E3314DA $noname  R86 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT11 )
+  (    2 OUT10 )
  )
  ( /4E331219/4E3309D1 $noname  R13 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT12 )
+  (    2 OUT11 )
  )
  ( /4E331219/4E3309CE $noname  R75 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT10 )
+  (    2 OUT9 )
  )
  ( /4E331219/4E3314CD $noname  R24 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT9 )
+  (    2 OUT8 )
  )
  ( /4E331219/4E3314BD $noname  U10 AQW216 {Lib=AQW216}
   (    1 N-000130 )
   (    2 N-000136 )
   (    3 N-000129 )
-  (    4 OUT9 )
+  (    4 OUT8 )
   (    5 HV )
-  (    6 HVOUT9 )
-  (    7 HVOUT9 )
+  (    6 HVOUT8 )
+  (    7 HVOUT8 )
   (    8 HVGND )
  )
  ( /4E331219/4E3314C1 $noname  R17 375 {Lib=R}
@@ -596,10 +596,10 @@
   (    1 N-000162 )
   (    2 N-000163 )
   (    3 N-000148 )
-  (    4 OUT24 )
+  (    4 OUT23 )
   (    5 HV )
-  (    6 HVOUT24 )
-  (    7 HVOUT24 )
+  (    6 HVOUT23 )
+  (    7 HVOUT23 )
   (    8 HVGND )
  )
  ( /4E3312C1/4E331564 $noname  R97 375 {Lib=R}
@@ -614,10 +614,10 @@
   (    1 N-000151 )
   (    2 N-000164 )
   (    3 N-000147 )
-  (    4 OUT23 )
+  (    4 OUT22 )
   (    5 HV )
-  (    6 HVOUT23 )
-  (    7 HVOUT23 )
+  (    6 HVOUT22 )
+  (    7 HVOUT22 )
   (    8 HVGND )
  )
  ( /4E3312C1/4E331552 $noname  R26 375 {Lib=R}
@@ -632,10 +632,10 @@
   (    1 N-000150 )
   (    2 N-000160 )
   (    3 N-000149 )
-  (    4 OUT21 )
+  (    4 OUT20 )
   (    5 HV )
-  (    6 HVOUT21 )
-  (    7 HVOUT21 )
+  (    6 HVOUT20 )
+  (    7 HVOUT20 )
   (    8 HVGND )
  )
  ( /4E3312C1/4E331545 $noname  R33 375 {Lib=R}
@@ -650,10 +650,10 @@
   (    1 N-000143 )
   (    2 N-000161 )
   (    3 N-000144 )
-  (    4 OUT22 )
+  (    4 OUT21 )
   (    5 HV )
-  (    6 HVOUT22 )
-  (    7 HVOUT22 )
+  (    6 HVOUT21 )
+  (    7 HVOUT21 )
   (    8 HVGND )
  )
  ( /4E3312C1/4E331114 $noname  R90 375 {Lib=R}
@@ -668,10 +668,10 @@
   (    1 N-000142 )
   (    2 N-000165 )
   (    3 N-000146 )
-  (    4 OUT19 )
+  (    4 OUT18 )
   (    5 HV )
-  (    6 HVOUT19 )
-  (    7 HVOUT19 )
+  (    6 HVOUT18 )
+  (    7 HVOUT18 )
   (    8 HVGND )
  )
  ( /4E3312C1/4E331525 $noname  R34 375 {Lib=R}
@@ -686,10 +686,10 @@
   (    1 N-000157 )
   (    2 N-000159 )
   (    3 N-000145 )
-  (    4 OUT20 )
+  (    4 OUT19 )
   (    5 HV )
-  (    6 HVOUT20 )
-  (    7 HVOUT20 )
+  (    6 HVOUT19 )
+  (    7 HVOUT19 )
   (    8 HVGND )
  )
  ( /4E3312C1/4E331510 $noname  R89 375 {Lib=R}
@@ -704,10 +704,10 @@
   (    1 N-000156 )
   (    2 N-000158 )
   (    3 N-000155 )
-  (    4 OUT18 )
+  (    4 OUT17 )
   (    5 HV )
-  (    6 HVOUT18 )
-  (    7 HVOUT18 )
+  (    6 HVOUT17 )
+  (    7 HVOUT17 )
   (    8 HVGND )
  )
  ( /4E3312C1/4E331505 $noname  R94 375 {Lib=R}
@@ -716,14 +716,14 @@
  )
  ( /4E3312C1/4E3314FC $noname  U11 74AC540 {Lib=74AC540}
   (    1 GND )
-  (    2 OUT18 )
-  (    3 OUT20 )
-  (    4 OUT22 )
-  (    5 OUT24 )
-  (    6 OUT23 )
-  (    7 OUT21 )
-  (    8 OUT19 )
-  (    9 OUT17 )
+  (    2 OUT17 )
+  (    3 OUT19 )
+  (    4 OUT21 )
+  (    5 OUT23 )
+  (    6 OUT22 )
+  (    7 OUT20 )
+  (    8 OUT18 )
+  (    9 OUT16 )
   (   10 GND )
   (   11 N-000153 )
   (   12 N-000165 )
@@ -746,44 +746,44 @@
  )
  ( /4E3312C1/4E3314E9 $noname  R93 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT21 )
+  (    2 OUT20 )
  )
  ( /4E3312C1/4E3314E6 $noname  R30 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT22 )
+  (    2 OUT21 )
  )
  ( /4E3312C1/4E3314E3 $noname  R92 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT24 )
+  (    2 OUT23 )
  )
  ( /4E3312C1/4E3309D5 $noname  R31 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT23 )
+  (    2 OUT22 )
  )
  ( /4E3312C1/4E3314DB $noname  R98 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT19 )
+  (    2 OUT18 )
  )
  ( /4E3312C1/4E3314D5 $noname  R25 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT20 )
+  (    2 OUT19 )
  )
  ( /4E3312C1/4E3314D0 $noname  R87 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT18 )
+  (    2 OUT17 )
  )
  ( /4E3312C1/4E3314CF $noname  R36 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT17 )
+  (    2 OUT16 )
  )
  ( /4E3312C1/4E3314BE $noname  U15 AQW216 {Lib=AQW216}
   (    1 N-000154 )
   (    2 N-000153 )
   (    3 N-000152 )
-  (    4 OUT17 )
+  (    4 OUT16 )
   (    5 HV )
-  (    6 HVOUT17 )
-  (    7 HVOUT17 )
+  (    6 HVOUT16 )
+  (    7 HVOUT16 )
   (    8 HVGND )
  )
  ( /4E3312C1/4E3314C2 $noname  R29 375 {Lib=R}
@@ -798,10 +798,10 @@
   (    1 N-000187 )
   (    2 N-000188 )
   (    3 N-000172 )
-  (    4 OUT32 )
+  (    4 OUT31 )
   (    5 HV )
-  (    6 HVOUT32 )
-  (    7 HVOUT32 )
+  (    6 HVOUT31 )
+  (    7 HVOUT31 )
   (    8 HVGND )
  )
  ( /4E33135C/4E331565 $noname  R111 375 {Lib=R}
@@ -816,10 +816,10 @@
   (    1 N-000175 )
   (    2 N-000186 )
   (    3 N-000171 )
-  (    4 OUT31 )
+  (    4 OUT30 )
   (    5 HV )
-  (    6 HVOUT31 )
-  (    7 HVOUT31 )
+  (    6 HVOUT30 )
+  (    7 HVOUT30 )
   (    8 HVGND )
  )
  ( /4E33135C/4E331550 $noname  R38 375 {Lib=R}
@@ -834,10 +834,10 @@
   (    1 N-000174 )
   (    2 N-000184 )
   (    3 N-000173 )
-  (    4 OUT29 )
+  (    4 OUT28 )
   (    5 HV )
-  (    6 HVOUT29 )
-  (    7 HVOUT29 )
+  (    6 HVOUT28 )
+  (    7 HVOUT28 )
   (    8 HVGND )
  )
  ( /4E33135C/4E331119 $noname  R47 375 {Lib=R}
@@ -852,10 +852,10 @@
   (    1 N-000166 )
   (    2 N-000185 )
   (    3 N-000167 )
-  (    4 OUT30 )
+  (    4 OUT29 )
   (    5 HV )
-  (    6 HVOUT30 )
-  (    7 HVOUT30 )
+  (    6 HVOUT29 )
+  (    7 HVOUT29 )
   (    8 HVGND )
  )
  ( /4E33135C/4E331531 $noname  R104 375 {Lib=R}
@@ -870,10 +870,10 @@
   (    1 N-000170 )
   (    2 N-000189 )
   (    3 N-000169 )
-  (    4 OUT27 )
+  (    4 OUT26 )
   (    5 HV )
-  (    6 HVOUT27 )
-  (    7 HVOUT27 )
+  (    6 HVOUT26 )
+  (    7 HVOUT26 )
   (    8 HVGND )
  )
  ( /4E33135C/4E331526 $noname  R48 375 {Lib=R}
@@ -888,10 +888,10 @@
   (    1 N-000182 )
   (    2 N-000183 )
   (    3 N-000168 )
-  (    4 OUT28 )
+  (    4 OUT27 )
   (    5 HV )
-  (    6 HVOUT28 )
-  (    7 HVOUT28 )
+  (    6 HVOUT27 )
+  (    7 HVOUT27 )
   (    8 HVGND )
  )
  ( /4E33135C/4E331512 $noname  R103 375 {Lib=R}
@@ -906,10 +906,10 @@
   (    1 N-000181 )
   (    2 N-000176 )
   (    3 N-000180 )
-  (    4 OUT26 )
+  (    4 OUT25 )
   (    5 HV )
-  (    6 HVOUT26 )
-  (    7 HVOUT26 )
+  (    6 HVOUT25 )
+  (    7 HVOUT25 )
   (    8 HVGND )
  )
  ( /4E33135C/4E331504 $noname  R108 375 {Lib=R}
@@ -918,14 +918,14 @@
  )
  ( /4E33135C/4E3314FE $noname  U17 74AC540 {Lib=74AC540}
   (    1 GND )
-  (    2 OUT26 )
-  (    3 OUT28 )
-  (    4 OUT30 )
-  (    5 OUT32 )
-  (    6 OUT31 )
-  (    7 OUT29 )
-  (    8 OUT27 )
-  (    9 OUT25 )
+  (    2 OUT25 )
+  (    3 OUT27 )
+  (    4 OUT29 )
+  (    5 OUT31 )
+  (    6 OUT30 )
+  (    7 OUT28 )
+  (    8 OUT26 )
+  (    9 OUT24 )
   (   10 GND )
   (   11 N-000178 )
   (   12 N-000189 )
@@ -948,44 +948,44 @@
  )
  ( /4E33135C/4E3314EB $noname  R107 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT29 )
+  (    2 OUT28 )
  )
  ( /4E33135C/4E3314E7 $noname  R42 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT30 )
+  (    2 OUT29 )
  )
  ( /4E33135C/4E3309D6 $noname  R106 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT32 )
+  (    2 OUT31 )
  )
  ( /4E33135C/4E3314DC $noname  R44 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT31 )
+  (    2 OUT30 )
  )
  ( /4E33135C/4E3314D8 $noname  R112 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT27 )
+  (    2 OUT26 )
  )
  ( /4E33135C/4E3314D7 $noname  R37 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT28 )
+  (    2 OUT27 )
  )
  ( /4E33135C/4E3314D3 $noname  R101 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT26 )
+  (    2 OUT25 )
  )
  ( /4E33135C/4E3314CE $noname  R50 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT25 )
+  (    2 OUT24 )
  )
  ( /4E33135C/4E3314BF $noname  U21 AQW216 {Lib=AQW216}
   (    1 N-000179 )
   (    2 N-000178 )
   (    3 N-000177 )
-  (    4 OUT25 )
+  (    4 OUT24 )
   (    5 HV )
-  (    6 HVOUT25 )
-  (    7 HVOUT25 )
+  (    6 HVOUT24 )
+  (    7 HVOUT24 )
   (    8 HVGND )
  )
  ( /4E33135C/4E3314C3 $noname  R41 375 {Lib=R}
@@ -1000,10 +1000,10 @@
   (    1 N-000212 )
   (    2 N-000213 )
   (    3 N-000198 )
-  (    4 OUT40 )
+  (    4 OUT39 )
   (    5 HV )
-  (    6 HVOUT40 )
-  (    7 HVOUT40 )
+  (    6 HVOUT39 )
+  (    7 HVOUT39 )
   (    8 HVGND )
  )
  ( /4E33141F/4E331566 $noname  R123 375 {Lib=R}
@@ -1018,10 +1018,10 @@
   (    1 N-000201 )
   (    2 N-000196 )
   (    3 N-000197 )
-  (    4 OUT39 )
+  (    4 OUT38 )
   (    5 HV )
-  (    6 HVOUT39 )
-  (    7 HVOUT39 )
+  (    6 HVOUT38 )
+  (    7 HVOUT38 )
   (    8 HVGND )
  )
  ( /4E33141F/4E331551 $noname  R52 375 {Lib=R}
@@ -1036,10 +1036,10 @@
   (    1 N-000200 )
   (    2 N-000209 )
   (    3 N-000199 )
-  (    4 OUT37 )
+  (    4 OUT36 )
   (    5 HV )
-  (    6 HVOUT37 )
-  (    7 HVOUT37 )
+  (    6 HVOUT36 )
+  (    7 HVOUT36 )
   (    8 HVGND )
  )
  ( /4E33141F/4E331546 $noname  R59 375 {Lib=R}
@@ -1054,10 +1054,10 @@
   (    1 N-000191 )
   (    2 N-000211 )
   (    3 N-000192 )
-  (    4 OUT38 )
+  (    4 OUT37 )
   (    5 HV )
-  (    6 HVOUT38 )
-  (    7 HVOUT38 )
+  (    6 HVOUT37 )
+  (    7 HVOUT37 )
   (    8 HVGND )
  )
  ( /4E33141F/4E331530 $noname  R116 375 {Lib=R}
@@ -1072,10 +1072,10 @@
   (    1 N-000190 )
   (    2 N-000208 )
   (    3 N-000195 )
-  (    4 OUT35 )
+  (    4 OUT34 )
   (    5 HV )
-  (    6 HVOUT35 )
-  (    7 HVOUT35 )
+  (    6 HVOUT34 )
+  (    7 HVOUT34 )
   (    8 HVGND )
  )
  ( /4E33141F/4E331527 $noname  R60 375 {Lib=R}
@@ -1090,10 +1090,10 @@
   (    1 N-000207 )
   (    2 N-000193 )
   (    3 N-000194 )
-  (    4 OUT36 )
+  (    4 OUT35 )
   (    5 HV )
-  (    6 HVOUT36 )
-  (    7 HVOUT36 )
+  (    6 HVOUT35 )
+  (    7 HVOUT35 )
   (    8 HVGND )
  )
  ( /4E33141F/4E331513 $noname  R115 375 {Lib=R}
@@ -1108,10 +1108,10 @@
   (    1 N-000206 )
   (    2 N-000210 )
   (    3 N-000205 )
-  (    4 OUT34 )
+  (    4 OUT33 )
   (    5 HV )
-  (    6 HVOUT34 )
-  (    7 HVOUT34 )
+  (    6 HVOUT33 )
+  (    7 HVOUT33 )
   (    8 HVGND )
  )
  ( /4E33141F/4E331506 $noname  R119 375 {Lib=R}
@@ -1120,14 +1120,14 @@
  )
  ( /4E33141F/4E331004 $noname  U23 74AC540 {Lib=74AC540}
   (    1 GND )
-  (    2 OUT34 )
-  (    3 OUT36 )
-  (    4 OUT38 )
-  (    5 OUT40 )
-  (    6 OUT39 )
-  (    7 OUT37 )
-  (    8 OUT35 )
-  (    9 OUT33 )
+  (    2 OUT33 )
+  (    3 OUT35 )
+  (    4 OUT37 )
+  (    5 OUT39 )
+  (    6 OUT38 )
+  (    7 OUT36 )
+  (    8 OUT34 )
+  (    9 OUT32 )
   (   10 GND )
   (   11 N-000203 )
   (   12 N-000208 )
@@ -1150,44 +1150,44 @@
  )
  ( /4E33141F/4E3309D8 $noname  R120 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT37 )
+  (    2 OUT36 )
  )
  ( /4E33141F/4E3309D7 $noname  R56 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT38 )
+  (    2 OUT37 )
  )
  ( /4E33141F/4E3314E1 $noname  R118 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT40 )
+  (    2 OUT39 )
  )
  ( /4E33141F/4E3314DE $noname  R57 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT39 )
+  (    2 OUT38 )
  )
  ( /4E33141F/4E3314D9 $noname  R124 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT35 )
+  (    2 OUT34 )
  )
  ( /4E33141F/4E3314D6 $noname  R51 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT36 )
+  (    2 OUT35 )
  )
  ( /4E33141F/4E3314D1 $noname  R114 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT34 )
+  (    2 OUT33 )
  )
  ( /4E33141F/4E3309AF $noname  R62 4.75k {Lib=R}
   (    1 +5V )
-  (    2 OUT33 )
+  (    2 OUT32 )
  )
  ( /4E33141F/4AF89BA2 $noname  U22 AQW216 {Lib=AQW216}
   (    1 N-000204 )
   (    2 N-000203 )
   (    3 N-000202 )
-  (    4 OUT33 )
+  (    4 OUT32 )
   (    5 HV )
-  (    6 HVOUT33 )
-  (    7 HVOUT33 )
+  (    6 HVOUT32 )
+  (    7 HVOUT32 )
   (    8 HVGND )
  )
  ( /4E33141F/4AF8BE6E $noname  R55 375 {Lib=R}
@@ -2130,12 +2130,12 @@ $endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "OUT37" "OUT37"
+Net 1 "OUT36" "OUT36"
  R120 2
  U25 4
  U23 7
  U16 50
-Net 2 "OUT28" "OUT28"
+Net 2 "OUT27" "OUT27"
  U16 40
  U17 3
  U40 4
@@ -2182,42 +2182,42 @@ Net 3 "GND" "GND"
  U16 6
  C8 1
  C1 1
-Net 4 "OUT15" "OUT15"
+Net 4 "OUT14" "OUT14"
  U6 6
  U16 20
  R19 2
  U7 4
-Net 5 "OUT7" "OUT7"
+Net 5 "OUT6" "OUT6"
  R7 2
  U16 10
  U1 6
  U2 4
-Net 6 "OUT6" "OUT6"
+Net 6 "OUT5" "OUT5"
  U1 4
  U16 9
  R6 2
  U29 4
-Net 7 "OUT5" "OUT5"
+Net 7 "OUT4" "OUT4"
  U3 4
  R70 2
  U16 8
  U1 7
-Net 8 "OUT4" "OUT4"
+Net 8 "OUT3" "OUT3"
  U1 3
  U28 4
  U16 7
  R1 2
-Net 9 "OUT3" "OUT3"
+Net 9 "OUT2" "OUT2"
  U1 8
  R74 2
  U4 4
  U16 5
-Net 10 "OUT2" "OUT2"
+Net 10 "OUT1" "OUT1"
  R64 2
  U16 4
  U27 4
  U1 2
-Net 11 "OUT1" "OUT1"
+Net 11 "OUT0" "OUT0"
  R12 2
  U5 4
  U16 3
@@ -2324,112 +2324,112 @@ Net 15 "HV" "HV"
  U29 5
  U27 5
  J4 2
-Net 16 "OUT19" "OUT19"
+Net 16 "OUT18" "OUT18"
  U11 8
  U14 4
  R98 2
  U16 25
-Net 17 "OUT11" "OUT11"
+Net 17 "OUT10" "OUT10"
  U6 8
  R86 2
  U16 15
  U9 4
-Net 18 "OUT40" "OUT40"
+Net 18 "OUT39" "OUT39"
  U23 5
  U46 4
  R118 2
  U16 54
-Net 19 "OUT32" "OUT32"
+Net 19 "OUT31" "OUT31"
  U17 5
  R106 2
  U42 4
  U16 44
-Net 20 "OUT18" "OUT18"
+Net 20 "OUT17" "OUT17"
  U11 2
  R87 2
  U35 4
  U16 24
-Net 21 "OUT10" "OUT10"
+Net 21 "OUT9" "OUT9"
  R75 2
  U6 2
  U16 14
  U31 4
-Net 22 "OUT39" "OUT39"
+Net 22 "OUT38" "OUT38"
  U23 6
  R57 2
  U24 4
  U16 53
-Net 23 "OUT31" "OUT31"
+Net 23 "OUT30" "OUT30"
  U17 6
  U18 4
  U16 43
  R44 2
-Net 24 "OUT23" "OUT23"
+Net 24 "OUT22" "OUT22"
  U12 4
  U16 33
  R31 2
  U11 6
-Net 25 "OUT9" "OUT9"
+Net 25 "OUT8" "OUT8"
  R24 2
  U10 4
  U6 9
  U16 13
-Net 26 "OUT38" "OUT38"
+Net 26 "OUT37" "OUT37"
  U23 4
  U45 4
  R56 2
  U16 52
-Net 27 "OUT30" "OUT30"
+Net 27 "OUT29" "OUT29"
  U17 4
  U16 42
  U41 4
  R42 2
-Net 28 "OUT22" "OUT22"
+Net 28 "OUT21" "OUT21"
  U37 4
  R30 2
  U16 32
  U11 4
-Net 29 "OUT17" "OUT17"
+Net 29 "OUT16" "OUT16"
  U16 22
  U11 9
  U15 4
  R36 2
-Net 30 "OUT8" "OUT8"
+Net 30 "OUT7" "OUT7"
  U16 12
  U1 5
- R68 2
  U30 4
-Net 31 "OUT29" "OUT29"
+ R68 2
+Net 31 "OUT28" "OUT28"
  U19 4
- U16 41
- R107 2
  U17 7
-Net 32 "OUT21" "OUT21"
- U11 7
- U16 31
+ R107 2
+ U16 41
+Net 32 "OUT20" "OUT20"
  R93 2
+ U16 31
  U13 4
-Net 33 "OUT16" "OUT16"
+ U11 7
+Net 33 "OUT15" "OUT15"
  U16 21
  U34 4
  R80 2
  U6 5
-Net 34 "OUT36" "OUT36"
- U23 3
+Net 34 "OUT35" "OUT35"
  U44 4
+ U23 3
  U16 49
  R51 2
-Net 35 "OUT14" "OUT14"
+Net 35 "OUT13" "OUT13"
  R18 2
  U6 4
  U33 4
  U16 19
-Net 36 "OUT35" "OUT35"
+Net 36 "OUT34" "OUT34"
  U23 8
  R124 2
  U26 4
  U16 48
-Net 37 "OUT27" "OUT27"
+Net 37 "OUT26" "OUT26"
  U20 4
  R112 2
  U17 8
@@ -2438,24 +2438,23 @@ Net 38 "A1" "A1"
  SW1 2
  R100 2
  U16 28
-Net 39 "OUT34" "OUT34"
+Net 39 "OUT33" "OUT33"
  U43 4
  U16 47
  R114 2
  U23 2
-Net 40 "OUT26" "OUT26"
+Net 40 "OUT25" "OUT25"
+ R101 2
  U17 2
  U39 4
- R101 2
  U16 37
-Net 41 "OUT13" "OUT13"
+Net 41 "OUT12" "OUT12"
  U8 4
  U16 17
  R81 2
  U6 7
 Net 42 "+5V" "+5V"
  R47 2
- R46 2
  R32 2
  R116 2
  R38 2
@@ -2464,8 +2463,9 @@ Net 42 "+5V" "+5V"
  R60 2
  R39 2
  R109 2
+ R46 2
  R96 2
- R90 2
+ R111 2
  R28 2
  R79 2
  R121 2
@@ -2473,7 +2473,7 @@ Net 42 "+5V" "+5V"
  R48 2
  R122 2
  R54 2
- R111 2
+ R90 2
  R108 2
  C11 1
  U17 20
@@ -2536,11 +2536,10 @@ Net 42 "+5V" "+5V"
  R71 2
  R114 1
  R51 1
- U23 20
  R3 2
- C8 2
  R72 2
  U6 20
+ C8 2
  R73 2
  R61 2
  J1 9
@@ -2585,215 +2584,216 @@ Net 42 "+5V" "+5V"
  R64 1
  R12 1
  R58 2
+ R7 1
  R57 1
  R118 1
- R7 1
  R56 1
- R120 1
  R2 2
+ R120 1
  R67 2
+ U23 20
  R11 2
  C1 2
  R70 1
- R53 2
  R6 1
- R52 2
+ R53 2
  R4 2
- R68 1
+ R52 2
  R66 2
-Net 43 "OUT25" "OUT25"
- U21 4
+ R68 1
+Net 43 "OUT24" "OUT24"
  U16 36
+ U21 4
  U17 9
  R50 2
-Net 44 "OUT20" "OUT20"
+Net 44 "OUT19" "OUT19"
  R25 2
  U11 3
  U16 26
  U36 4
-Net 45 "OUT12" "OUT12"
+Net 45 "OUT11" "OUT11"
  U32 4
  U16 16
  U6 3
  R13 2
-Net 47 "OUT33" "OUT33"
- U23 9
- R62 2
- U16 45
+Net 47 "OUT32" "OUT32"
  U22 4
-Net 48 "OUT24" "OUT24"
+ U16 45
+ R62 2
+ U23 9
+Net 48 "OUT23" "OUT23"
+ R92 2
  U38 4
  U11 5
- R92 2
  U16 35
 Net 49 "A2" "A2"
+ U16 29
  R43 2
  SW1 3
- U16 29
 Net 50 "A0" "A0"
- SW1 1
- R99 2
  U16 27
-Net 53 "HVOUT39" "HVOUT39"
+ R99 2
+ SW1 1
+Net 53 "HVOUT38" "HVOUT38"
  J2 39
  U24 7
  U24 6
-Net 54 "HVOUT29" "HVOUT29"
+Net 54 "HVOUT28" "HVOUT28"
+ U19 6
  J2 29
  U19 7
- U19 6
-Net 55 "HVOUT19" "HVOUT19"
+Net 55 "HVOUT18" "HVOUT18"
  U14 7
  U14 6
  J2 19
-Net 56 "HVOUT38" "HVOUT38"
- U45 7
- U45 6
+Net 56 "HVOUT37" "HVOUT37"
  J2 38
-Net 57 "HVOUT28" "HVOUT28"
- J2 28
+ U45 6
+ U45 7
+Net 57 "HVOUT27" "HVOUT27"
  U40 6
  U40 7
-Net 58 "HVOUT18" "HVOUT18"
- U35 6
+ J2 28
+Net 58 "HVOUT17" "HVOUT17"
  J2 18
  U35 7
-Net 59 "HVOUT37" "HVOUT37"
- U25 7
- U25 6
+ U35 6
+Net 59 "HVOUT36" "HVOUT36"
  J2 37
-Net 60 "HVOUT27" "HVOUT27"
+ U25 6
+ U25 7
+Net 60 "HVOUT26" "HVOUT26"
  J2 27
  U20 6
  U20 7
-Net 61 "HVOUT17" "HVOUT17"
- J2 17
+Net 61 "HVOUT16" "HVOUT16"
  U15 6
  U15 7
-Net 62 "HVOUT36" "HVOUT36"
- J2 36
+ J2 17
+Net 62 "HVOUT35" "HVOUT35"
  U44 6
+ J2 36
  U44 7
 Net 63 "" ""
- DS1 1
  R45 2
-Net 64 "HVOUT40" "HVOUT40"
- U46 7
- J2 40
+ DS1 1
+Net 64 "HVOUT39" "HVOUT39"
  U46 6
-Net 65 "HVOUT30" "HVOUT30"
+ J2 40
+ U46 7
+Net 65 "HVOUT29" "HVOUT29"
+ J2 30
  U41 6
  U41 7
- J2 30
-Net 66 "HVOUT20" "HVOUT20"
+Net 66 "HVOUT19" "HVOUT19"
  J2 20
- U36 7
  U36 6
-Net 67 "HVOUT10" "HVOUT10"
- J2 10
+ U36 7
+Net 67 "HVOUT9" "HVOUT9"
  U31 7
+ J2 10
  U31 6
-Net 68 "HVOUT9" "HVOUT9"
+Net 68 "HVOUT8" "HVOUT8"
  U10 7
- U10 6
  J2 9
-Net 69 "HVOUT8" "HVOUT8"
+ U10 6
+Net 69 "HVOUT7" "HVOUT7"
+ U30 7
  J2 8
  U30 6
- U30 7
-Net 70 "HVOUT7" "HVOUT7"
- U2 6
- U2 7
+Net 70 "HVOUT6" "HVOUT6"
  J2 7
-Net 71 "HVOUT6" "HVOUT6"
- J2 6
- U29 6
+ U2 7
+ U2 6
+Net 71 "HVOUT5" "HVOUT5"
  U29 7
-Net 72 "HVOUT5" "HVOUT5"
- J2 5
+ U29 6
+ J2 6
+Net 72 "HVOUT4" "HVOUT4"
  U3 6
  U3 7
-Net 73 "HVOUT4" "HVOUT4"
- U28 7
+ J2 5
+Net 73 "HVOUT3" "HVOUT3"
  J2 4
  U28 6
-Net 74 "HVOUT3" "HVOUT3"
+ U28 7
+Net 74 "HVOUT2" "HVOUT2"
  U4 6
  U4 7
  J2 3
-Net 75 "HVOUT2" "HVOUT2"
+Net 75 "HVOUT1" "HVOUT1"
  U27 7
  U27 6
  J2 2
-Net 76 "HVOUT1" "HVOUT1"
+Net 76 "HVOUT0" "HVOUT0"
  J2 1
  U5 6
  U5 7
-Net 77 "HVOUT26" "HVOUT26"
- J2 26
- U39 6
+Net 77 "HVOUT25" "HVOUT25"
  U39 7
-Net 78 "HVOUT16" "HVOUT16"
- U34 7
- U34 6
+ U39 6
+ J2 26
+Net 78 "HVOUT15" "HVOUT15"
  J2 16
-Net 79 "HVOUT35" "HVOUT35"
+ U34 6
+ U34 7
+Net 79 "HVOUT34" "HVOUT34"
  U26 6
  U26 7
  J2 35
-Net 80 "HVOUT25" "HVOUT25"
- J2 25
- U21 7
+Net 80 "HVOUT24" "HVOUT24"
  U21 6
-Net 81 "HVOUT15" "HVOUT15"
+ U21 7
+ J2 25
+Net 81 "HVOUT14" "HVOUT14"
  J2 15
  U7 6
  U7 7
-Net 82 "HVOUT34" "HVOUT34"
+Net 82 "HVOUT33" "HVOUT33"
  J2 34
  U43 7
  U43 6
-Net 83 "HVOUT24" "HVOUT24"
+Net 83 "HVOUT23" "HVOUT23"
  U38 6
  U38 7
  J2 24
-Net 84 "HVOUT14" "HVOUT14"
+Net 84 "HVOUT13" "HVOUT13"
  U33 7
  U33 6
  J2 14
-Net 85 "HVOUT33" "HVOUT33"
- J2 33
+Net 85 "HVOUT32" "HVOUT32"
  U22 6
  U22 7
-Net 86 "HVOUT23" "HVOUT23"
- J2 23
+ J2 33
+Net 86 "HVOUT22" "HVOUT22"
  U12 6
+ J2 23
  U12 7
-Net 87 "HVOUT13" "HVOUT13"
+Net 87 "HVOUT12" "HVOUT12"
  U8 7
  U8 6
  J2 13
-Net 88 "HVOUT32" "HVOUT32"
- U42 6
- U42 7
+Net 88 "HVOUT31" "HVOUT31"
  J2 32
-Net 89 "HVOUT22" "HVOUT22"
- U37 6
- U37 7
+ U42 7
+ U42 6
+Net 89 "HVOUT21" "HVOUT21"
  J2 22
-Net 90 "HVOUT12" "HVOUT12"
- J2 12
- U32 6
+ U37 7
+ U37 6
+Net 90 "HVOUT11" "HVOUT11"
  U32 7
-Net 91 "HVOUT31" "HVOUT31"
- J2 31
+ U32 6
+ J2 12
+Net 91 "HVOUT30" "HVOUT30"
  U18 6
  U18 7
-Net 92 "HVOUT21" "HVOUT21"
- U13 6
- U13 7
+ J2 31
+Net 92 "HVOUT20" "HVOUT20"
  J2 21
-Net 93 "HVOUT11" "HVOUT11"
+ U13 7
+ U13 6
+Net 93 "HVOUT10" "HVOUT10"
  J2 11
  U9 6
  U9 7
@@ -2804,29 +2804,29 @@ Net 95 "" ""
  U1 12
  U4 2
 Net 96 "" ""
- U29 1
  R66 1
+ U29 1
 Net 97 "" ""
- U29 3
  R72 1
+ U29 3
 Net 98 "" ""
- R71 1
  U28 3
+ R71 1
 Net 99 "" ""
  R10 1
  U4 3
 Net 100 "" ""
- U2 3
  R8 1
+ U2 3
 Net 101 "" ""
- U30 3
  R73 1
+ U30 3
 Net 102 "" ""
  R9 1
  U3 3
 Net 103 "" ""
- U3 1
  R3 1
+ U3 1
 Net 104 "" ""
  R2 1
  U2 1
@@ -2834,14 +2834,14 @@ Net 105 "" ""
  U5 3
  R11 1
 Net 106 "" ""
- R5 1
  U5 1
+ R5 1
 Net 107 "" ""
  U27 3
  R69 1
 Net 108 "" ""
- U27 2
  U1 18
+ U27 2
 Net 109 "" ""
  R63 1
  U27 1
@@ -2858,17 +2858,17 @@ Net 113 "" ""
  U1 13
  U3 2
 Net 114 "" ""
- U1 15
  U30 2
+ U1 15
 Net 115 "" ""
- U30 1
  R67 1
+ U30 1
 Net 116 "" ""
- U29 2
  U1 16
+ U29 2
 Net 117 "" ""
- U1 17
  U28 2
+ U1 17
 Net 118 "" ""
  U9 1
  R16 1
@@ -2885,11 +2885,11 @@ Net 122 "" ""
  U32 3
  R83 1
 Net 123 "" ""
- R22 1
  U9 3
+ R22 1
 Net 124 "" ""
- U7 3
  R20 1
+ U7 3
 Net 125 "" ""
  U34 3
  R85 1
@@ -2900,8 +2900,8 @@ Net 127 "" ""
  R15 1
  U8 1
 Net 128 "" ""
- R14 1
  U7 1
+ R14 1
 Net 129 "" ""
  R23 1
  U10 3
@@ -2924,8 +2924,8 @@ Net 135 "" ""
  U7 2
  U6 14
 Net 136 "" ""
- U6 11
  U10 2
+ U6 11
 Net 137 "" ""
  U6 13
  U8 2
@@ -2936,8 +2936,8 @@ Net 139 "" ""
  U34 1
  R79 1
 Net 140 "" ""
- U6 16
  U33 2
+ U6 16
 Net 141 "" ""
  U6 17
  U32 2
@@ -3011,14 +3011,14 @@ Net 164 "" ""
  U11 14
  U12 2
 Net 165 "" ""
- U11 12
  U14 2
+ U11 12
 Net 166 "" ""
- U41 1
  R104 1
+ U41 1
 Net 167 "" ""
- R110 1
  U41 3
+ R110 1
 Net 168 "" ""
  R109 1
  U40 3
@@ -3029,8 +3029,8 @@ Net 170 "" ""
  U20 1
  R40 1
 Net 171 "" ""
- U18 3
  R46 1
+ U18 3
 Net 172 "" ""
  R111 1
  U42 3

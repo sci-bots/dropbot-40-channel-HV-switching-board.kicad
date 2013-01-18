@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 16/03/2012 12:06:03 AM
+EESchema Schematic File Version 2  date 18/01/2013 10:50:53 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:40-channel HV switching board-cache
 EELAYER 25  0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
 Sheet 4 7
 Title "40-channel HV switching board"
-Date "16 mar 2012"
+Date "18 jan 2013"
 Rev "1"
 Comp "Ryan Fobel"
 Comment1 ""
@@ -372,7 +373,7 @@ F 1 "375" V 1800 6600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 3000 7100 2    60   Input ~ 0
-HVOUT16
+HVOUT15
 Text GLabel 3000 7350 2    60   Input ~ 0
 HV
 $Comp
@@ -405,9 +406,9 @@ F 1 "+5V" H 1500 6340 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2050 7350 0    60   Input ~ 0
-OUT16
-Text GLabel 2050 6150 0    60   Input ~ 0
 OUT15
+Text GLabel 2050 6150 0    60   Input ~ 0
+OUT14
 $Comp
 L +5V #PWR017
 U 1 1 4E331123
@@ -440,7 +441,7 @@ $EndComp
 Text GLabel 3000 6150 2    60   Input ~ 0
 HV
 Text GLabel 3000 5900 2    60   Input ~ 0
-HVOUT15
+HVOUT14
 $Comp
 L R R14
 U 1 1 4E331120
@@ -460,7 +461,7 @@ F 1 "375" V 4650 5400 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 5850 5900 2    60   Input ~ 0
-HVOUT13
+HVOUT12
 Text GLabel 5850 6150 2    60   Input ~ 0
 HV
 $Comp
@@ -493,9 +494,9 @@ F 1 "+5V" H 4350 5140 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 4900 6150 0    60   Input ~ 0
-OUT13
+OUT12
 Text GLabel 4900 7350 0    60   Input ~ 0
-OUT14
+OUT13
 $Comp
 L +5V #PWR019
 U 1 1 4E33153D
@@ -527,8 +528,8 @@ F 1 "AQW216" H 5300 6745 60  0000 C CNN
 $EndComp
 Text GLabel 5850 7350 2    60   Input ~ 0
 HV
-Text GLabel 5850 7100 2    60   Input ~ 0
-HVOUT14
+Text GLabel 5850 7100 2    60   Output ~ 0
+HVOUT13
 $Comp
 L R R78
 U 1 1 4E331532
@@ -548,7 +549,7 @@ F 1 "375" V 8350 3500 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 9550 4000 2    60   Input ~ 0
-HVOUT11
+HVOUT10
 Text GLabel 9550 4250 2    60   Input ~ 0
 HV
 $Comp
@@ -581,9 +582,9 @@ F 1 "+5V" H 8050 3240 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 4250 0    60   Input ~ 0
-OUT11
+OUT10
 Text GLabel 8600 5450 0    60   Input ~ 0
-OUT12
+OUT11
 $Comp
 L +5V #PWR021
 U 1 1 4E33151E
@@ -616,7 +617,7 @@ $EndComp
 Text GLabel 9550 5450 2    60   Input ~ 0
 HV
 Text GLabel 9550 5200 2    60   Input ~ 0
-HVOUT12
+HVOUT11
 $Comp
 L R R77
 U 1 1 4E3310C3
@@ -636,7 +637,7 @@ F 1 "375" V 8350 2250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 9550 2750 2    60   Input ~ 0
-HVOUT10
+HVOUT9
 Text GLabel 9550 3000 2    60   Input ~ 0
 HV
 $Comp
@@ -669,11 +670,11 @@ F 1 "+5V" H 8050 1990 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 8600 3000 0    60   Input ~ 0
-OUT10
+OUT9
 Text GLabel 8600 1800 0    60   Input ~ 0
-OUT9
+OUT8
 Text GLabel 1100 1700 0    60   Input ~ 0
-OUT9
+OUT8
 $Comp
 L 74AC540 U6
 U 1 1 4E3314FF
@@ -702,19 +703,19 @@ F 1 "375" V 8050 1350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 1100 2100 0    60   Input ~ 0
-OUT13
-Text GLabel 1100 2700 0    60   Input ~ 0
-OUT14
-Text GLabel 1100 2500 0    60   Input ~ 0
-OUT16
-Text GLabel 1100 2300 0    60   Input ~ 0
-OUT15
-Text GLabel 1100 1900 0    60   Input ~ 0
-OUT11
-Text GLabel 1100 2900 0    60   Input ~ 0
 OUT12
-Text GLabel 1100 3100 0    60   Input ~ 0
+Text GLabel 1100 2700 0    60   Input ~ 0
+OUT13
+Text GLabel 1100 2500 0    60   Input ~ 0
+OUT15
+Text GLabel 1100 2300 0    60   Input ~ 0
+OUT14
+Text GLabel 1100 1900 0    60   Input ~ 0
 OUT10
+Text GLabel 1100 2900 0    60   Input ~ 0
+OUT11
+Text GLabel 1100 3100 0    60   Input ~ 0
+OUT9
 $Comp
 L GND #PWR024
 U 1 1 4E3314F6
@@ -837,7 +838,7 @@ $EndComp
 Text GLabel 9550 1800 2    60   Input ~ 0
 HV
 Text GLabel 9550 1550 2    60   Input ~ 0
-HVOUT9
+HVOUT8
 $Comp
 L R R17
 U 1 1 4E3314C1

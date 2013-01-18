@@ -1,9 +1,9 @@
-Cmp-Mod V01 Created by CvPCB (2011-04-29 BZR 2986)-stable date = 7/29/2011 9:15:11 PM
+Cmp-Mod V01 Created by CvPcb (2011-11-27 BZR 3249)-stable date = 18/01/2013 10:43:39 AM
 
 BeginCmp
 TimeStamp = /4E33056B/4E330C41;
 Reference = C1;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
@@ -17,42 +17,42 @@ EndCmp
 BeginCmp
 TimeStamp = /4E331219/4E3314F2;
 Reference = C3;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/4E32F915;
 Reference = C4;
-ValeurCmp = 0.1uF;
+ValeurCmp = 0.01uF;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/4E32F8DD;
 Reference = C5;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E3312C1/4E3314F1;
 Reference = C6;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E33135C/4E3314F0;
 Reference = C7;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E33141F/4E3314F3;
 Reference = C8;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
@@ -66,14 +66,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4E330547/4E3302B3;
 Reference = C10;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/4E3302F8;
 Reference = C11;
-ValeurCmp = 1uF;
+ValeurCmp = 0.1uF;
 IdModule  = SM0603;
 EndCmp
 
@@ -423,7 +423,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4E330547/4E32F92B;
 Reference = R45;
-ValeurCmp = 374;
+ValeurCmp = 375;
 IdModule  = SM1206;
 EndCmp
 
