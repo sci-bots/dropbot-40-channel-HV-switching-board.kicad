@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 18/01/2013 10:50:53 AM
+EESchema Schematic File Version 2  date 18/01/2013 11:11:45 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:40-channel HV switching board-cache
 EELAYER 25  0
 EELAYER END
 $Descr User 11000 8500

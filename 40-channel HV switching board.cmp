@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-11-27 BZR 3249)-stable date = 18/01/2013 10:43:39 AM
+Cmp-Mod V01 Created by CvPcb (2011-11-27 BZR 3249)-stable date = 18/01/2013 11:12:15 AM
 
 BeginCmp
 TimeStamp = /4E33056B/4E330C41;
@@ -92,10 +92,10 @@ IdModule  = HE10-10C;
 EndCmp
 
 BeginCmp
-TimeStamp = /4E330547/4E330420;
+TimeStamp = /4E330547/50F97415;
 Reference = J2;
-ValeurCmp = CONN_50;
-IdModule  = he10-50c;
+ValeurCmp = CONN_40;
+IdModule  = he10-40c;
 EndCmp
 
 BeginCmp

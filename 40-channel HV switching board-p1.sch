@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 18/01/2013 10:50:53 AM
+EESchema Schematic File Version 2  date 18/01/2013 11:11:45 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,7 +30,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:40-channel HV switching board-cache
 EELAYER 25  0
 EELAYER END
 $Descr User 11000 8500
@@ -45,6 +44,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L CONN_40 J2
+U 1 1 50F97415
+P 9650 3600
+F 0 "J2" V 9700 3600 60  0000 C CNN
+F 1 "CONN_40" V 9800 3600 60  0000 C CNN
+	1    9650 3600
+	1    0    0    -1  
+$EndComp
 Connection ~ 2050 3350
 Wire Wire Line
 	2050 3800 2050 3200
@@ -75,18 +83,6 @@ Wire Wire Line
 Connection ~ 2500 5850
 Wire Wire Line
 	4400 5850 2150 5850
-Connection ~ 9250 5950
-Wire Wire Line
-	9400 5950 9250 5950
-Connection ~ 9250 6150
-Wire Wire Line
-	9400 6150 9250 6150
-Connection ~ 9250 6350
-Wire Wire Line
-	9400 6350 9250 6350
-Connection ~ 9250 6550
-Wire Wire Line
-	9400 6550 9250 6550
 Wire Wire Line
 	6800 4250 6000 4250
 Wire Wire Line
@@ -174,24 +170,6 @@ Wire Wire Line
 Wire Wire Line
 	6800 4950 6800 4650
 Wire Wire Line
-	9400 5750 9250 5750
-Wire Wire Line
-	9250 5750 9250 6650
-Wire Wire Line
-	9250 6650 9400 6650
-Wire Wire Line
-	9400 6450 9250 6450
-Connection ~ 9250 6450
-Wire Wire Line
-	9400 6250 9250 6250
-Connection ~ 9250 6250
-Wire Wire Line
-	9400 6050 9250 6050
-Connection ~ 9250 6050
-Wire Wire Line
-	9400 5850 9250 5850
-Connection ~ 9250 5850
-Wire Wire Line
 	2150 6050 4400 6050
 Wire Wire Line
 	4400 6050 4400 5950
@@ -204,17 +182,6 @@ Text Notes 4800 2950 0    60   ~ 0
 40-CHANNEL GPIO
 Text Notes 8300 4450 0    60   ~ 0
 TO DMF CHIP
-Text GLabel 9250 6650 0    60   Input ~ 0
-HVGND
-$Comp
-L CONN_50 J2
-U 1 1 4E330420
-P 9650 4200
-F 0 "J2" V 9750 3800 60  0000 C CNN
-F 1 "CONN_50" V 9850 3800 60  0000 C CNN
-	1    9650 4200
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C11
 U 1 1 4E3302F8
