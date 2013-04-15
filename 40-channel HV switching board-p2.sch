@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 18/01/2013 11:11:45 AM
+EESchema Schematic File Version 2  date 13/03/2013 4:24:30 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:40-channel HV switching board-cache
 EELAYER 25  0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
 Sheet 3 7
 Title "40-channel HV switching board"
-Date "18 jan 2013"
+Date "13 mar 2013"
 Rev "1"
 Comp "Ryan Fobel"
 Comment1 ""
@@ -398,10 +399,10 @@ F 1 "375" V 1500 6900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR05
+L +5V #PWR4
 U 1 1 4E331124
 P 1500 6250
-F 0 "#PWR05" H 1500 6340 20  0001 C CNN
+F 0 "#PWR4" H 1500 6340 20  0001 C CNN
 F 1 "+5V" H 1500 6340 30  0000 C CNN
 	1    1500 6250
 	1    0    0    -1  
@@ -411,10 +412,10 @@ OUT7
 Text GLabel 2050 6150 0    60   Input ~ 0
 OUT6
 $Comp
-L +5V #PWR06
+L +5V #PWR3
 U 1 1 4E33155F
 P 1500 5050
-F 0 "#PWR06" H 1500 5140 20  0001 C CNN
+F 0 "#PWR3" H 1500 5140 20  0001 C CNN
 F 1 "+5V" H 1500 5140 30  0000 C CNN
 	1    1500 5050
 	1    0    0    -1  
@@ -486,10 +487,10 @@ F 1 "375" V 4350 5700 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR07
+L +5V #PWR7
 U 1 1 4E331118
 P 4350 5050
-F 0 "#PWR07" H 4350 5140 20  0001 C CNN
+F 0 "#PWR7" H 4350 5140 20  0001 C CNN
 F 1 "+5V" H 4350 5140 30  0000 C CNN
 	1    4350 5050
 	1    0    0    -1  
@@ -499,10 +500,10 @@ OUT4
 Text GLabel 4900 7350 0    60   Input ~ 0
 OUT5
 $Comp
-L +5V #PWR08
+L +5V #PWR8
 U 1 1 4E33153C
 P 4350 6250
-F 0 "#PWR08" H 4350 6340 20  0001 C CNN
+F 0 "#PWR8" H 4350 6340 20  0001 C CNN
 F 1 "+5V" H 4350 6340 30  0000 C CNN
 	1    4350 6250
 	1    0    0    -1  
@@ -574,10 +575,10 @@ F 1 "375" V 8050 3800 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR09
+L +5V #PWR12
 U 1 1 4E331523
 P 8050 3150
-F 0 "#PWR09" H 8050 3240 20  0001 C CNN
+F 0 "#PWR12" H 8050 3240 20  0001 C CNN
 F 1 "+5V" H 8050 3240 30  0000 C CNN
 	1    8050 3150
 	1    0    0    -1  
@@ -587,10 +588,10 @@ OUT2
 Text GLabel 8600 5450 0    60   Input ~ 0
 OUT3
 $Comp
-L +5V #PWR010
+L +5V #PWR13
 U 1 1 4E3310C6
 P 8050 4350
-F 0 "#PWR010" H 8050 4440 20  0001 C CNN
+F 0 "#PWR13" H 8050 4440 20  0001 C CNN
 F 1 "+5V" H 8050 4440 30  0000 C CNN
 	1    8050 4350
 	1    0    0    -1  
@@ -662,10 +663,10 @@ F 1 "375" V 8050 2550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR011
+L +5V #PWR11
 U 1 1 4E331500
 P 8050 1900
-F 0 "#PWR011" H 8050 1990 20  0001 C CNN
+F 0 "#PWR11" H 8050 1990 20  0001 C CNN
 F 1 "+5V" H 8050 1990 30  0000 C CNN
 	1    8050 1900
 	1    0    0    -1  
@@ -686,10 +687,10 @@ F 1 "74AC540" H 3750 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR012
+L +5V #PWR10
 U 1 1 4E3314F8
 P 8050 700
-F 0 "#PWR012" H 8050 790 20  0001 C CNN
+F 0 "#PWR10" H 8050 790 20  0001 C CNN
 F 1 "+5V" H 8050 790 30  0000 C CNN
 	1    8050 700 
 	1    0    0    -1  
@@ -716,10 +717,10 @@ OUT3
 Text GLabel 1100 3100 0    60   Input ~ 0
 OUT1
 $Comp
-L GND #PWR013
+L GND #PWR9
 U 1 1 4E3314F5
 P 4500 1250
-F 0 "#PWR013" H 4500 1250 30  0001 C CNN
+F 0 "#PWR9" H 4500 1250 30  0001 C CNN
 F 1 "GND" H 4500 1180 30  0001 C CNN
 	1    4500 1250
 	1    0    0    -1  
@@ -734,10 +735,10 @@ F 1 "0.1uF" H 3500 1050 50  0000 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR014
+L +5V #PWR5
 U 1 1 4E330C25
 P 3150 950
-F 0 "#PWR014" H 3150 1040 20  0001 C CNN
+F 0 "#PWR5" H 3150 1040 20  0001 C CNN
 F 1 "+5V" H 3150 1040 30  0000 C CNN
 	1    3150 950 
 	1    0    0    -1  
@@ -815,10 +816,10 @@ F 1 "4.75k" V 2750 1400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND #PWR6
 U 1 1 4E3314C8
 P 3150 3800
-F 0 "#PWR015" H 3150 3800 30  0001 C CNN
+F 0 "#PWR6" H 3150 3800 30  0001 C CNN
 F 1 "GND" H 3150 3730 30  0001 C CNN
 	1    3150 3800
 	1    0    0    -1  

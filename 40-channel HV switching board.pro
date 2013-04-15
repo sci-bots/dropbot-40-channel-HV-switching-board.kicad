@@ -1,5 +1,7 @@
-update=15/03/2012 11:56:00 PM
+update=12/03/2013 12:14:15 PM
 last_client=eeschema
+[general]
+version=1
 [pcbnew]
 version=1
 PadDrlX=320
@@ -35,8 +37,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=wheelerlab_kicad_library

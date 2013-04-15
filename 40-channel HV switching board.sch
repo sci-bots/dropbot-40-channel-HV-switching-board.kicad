@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 18/01/2013 11:11:45 AM
+EESchema Schematic File Version 2  date 13/03/2013 4:24:30 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:40-channel HV switching board-cache
 EELAYER 25  0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
 Sheet 1 7
 Title "40-channel HV switching board"
-Date "18 jan 2013"
+Date "13 mar 2013"
 Rev "1"
 Comp "Ryan Fobel"
 Comment1 ""
