@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-31 BZR 4008)-stable date = 12/04/2013 5:05:56 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-31 BZR 4008)-stable date = 29/05/2013 11:25:55 AM
 
 BeginCmp
 TimeStamp = /4E33056B/4E330C41;
@@ -102,14 +102,14 @@ BeginCmp
 TimeStamp = /4E330547/4E32F7DF;
 Reference = J3;
 ValeurCmp = CONN_2;
-IdModule  = JACK_BNC;
+IdModule  = JACK_SMA;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/4AF8CDDC;
 Reference = J4;
 ValeurCmp = CONN_2;
-IdModule  = JACK_BNC;
+IdModule  = JACK_SMA;
 EndCmp
 
 BeginCmp
