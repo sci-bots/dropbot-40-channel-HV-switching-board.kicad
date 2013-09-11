@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 29/05/2013 11:52:58 AM
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 2 7
 Title "40-channel HV switching board"
-Date "13 mar 2013"
+Date "11 sep 2013"
 Rev "1"
 Comp "Ryan Fobel"
 Comment1 ""
