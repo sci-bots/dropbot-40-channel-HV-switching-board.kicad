@@ -1,3137 +1,2035 @@
-# EESchema Netlist Version 1.1 created  13/03/2013 4:24:36 PM
-(
- ( /4E330547/5140AB7B $noname  J2 CONN_10 {Lib=CONN_10}
-  (    1 SDA )
-  (    2 ? )
-  (    3 ? )
-  (    4 SCL )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 ? )
-  (   10 ? )
- )
- ( /4E330547/513F6C16 $noname  J1 CONN_4 {Lib=CONN_4}
-  (    1 ? )
-  (    2 GND )
-  (    3 GND )
-  (    4 +5V )
- )
- ( /4E330547/513F5DDF $noname  SW1 12POS_SW {Lib=12POS_SW}
-  (    1 A0 )
-  (    2 A0 )
-  (    3 A0 )
-  (    4 A0 )
-  (    5 A1 )
-  (    6 A1 )
-  (    7 A1 )
-  (    8 A1 )
-  (    9 A2 )
-  (   10 A2 )
-  (   11 A2 )
-  (   12 A2 )
-  (   13 SCL )
-  (   14 SDA )
-  (   15 GND )
-  (   16 +5V )
-  (   17 SCL )
-  (   18 SDA )
-  (   19 GND )
-  (   20 +5V )
-  (   21 SCL )
-  (   22 SDA )
-  (   23 GND )
-  (   24 +5V )
- )
- ( /4E330547/513F561C $noname  U16 PCA9505/9506/9698 {Lib=PCA9505/9506/9698}
-  (    1 SDA )
-  (    2 SCL )
-  (    3 OUT0 )
-  (    4 OUT1 )
-  (    5 OUT2 )
-  (    6 GND )
-  (    7 OUT3 )
-  (    8 OUT4 )
-  (    9 OUT5 )
-  (   10 OUT6 )
-  (   11 GND )
-  (   12 OUT7 )
-  (   13 OUT8 )
-  (   14 OUT9 )
-  (   15 OUT10 )
-  (   16 OUT11 )
-  (   17 OUT12 )
-  (   18 +5V )
-  (   19 OUT13 )
-  (   20 OUT14 )
-  (   21 OUT15 )
-  (   22 OUT16 )
-  (   23 GND )
-  (   24 OUT17 )
-  (   25 OUT18 )
-  (   26 OUT19 )
-  (   27 A0 )
-  (   28 A1 )
-  (   29 A2 )
-  (   30 GND )
-  (   31 OUT20 )
-  (   32 OUT21 )
-  (   33 OUT22 )
-  (   34 GND )
-  (   35 OUT23 )
-  (   36 OUT24 )
-  (   37 OUT25 )
-  (   38 OUT26 )
-  (   39 GND )
-  (   40 OUT27 )
-  (   41 OUT28 )
-  (   42 OUT29 )
-  (   43 OUT30 )
-  (   44 OUT31 )
-  (   45 OUT32 )
-  (   46 +5V )
-  (   47 OUT33 )
-  (   48 OUT34 )
-  (   49 OUT35 )
-  (   50 OUT36 )
-  (   51 GND )
-  (   52 OUT37 )
-  (   53 OUT38 )
-  (   54 OUT39 )
-  (   55 ? )
-  (   56 +5V )
- )
- ( /4E330547/50F97415 $noname  J5 CONN_40 {Lib=CONN_40}
-  (    1 HVOUT0 )
-  (    2 HVOUT1 )
-  (    3 HVOUT2 )
-  (    4 HVOUT3 )
-  (    5 HVOUT4 )
-  (    6 HVOUT5 )
-  (    7 HVOUT6 )
-  (    8 HVOUT7 )
-  (    9 HVOUT8 )
-  (   10 HVOUT9 )
-  (   11 HVOUT10 )
-  (   12 HVOUT11 )
-  (   13 HVOUT12 )
-  (   14 HVOUT13 )
-  (   15 HVOUT14 )
-  (   16 HVOUT15 )
-  (   17 HVOUT16 )
-  (   18 HVOUT17 )
-  (   19 HVOUT18 )
-  (   20 HVOUT19 )
-  (   21 HVOUT20 )
-  (   22 HVOUT21 )
-  (   23 HVOUT22 )
-  (   24 HVOUT23 )
-  (   25 HVOUT24 )
-  (   26 HVOUT25 )
-  (   27 HVOUT26 )
-  (   28 HVOUT27 )
-  (   29 HVOUT28 )
-  (   30 HVOUT29 )
-  (   31 HVOUT30 )
-  (   32 HVOUT31 )
-  (   33 HVOUT32 )
-  (   34 HVOUT33 )
-  (   35 HVOUT34 )
-  (   36 HVOUT35 )
-  (   37 HVOUT36 )
-  (   38 HVOUT37 )
-  (   39 HVOUT38 )
-  (   40 HVOUT39 )
- )
- ( /4E330547/4E3302F8 $noname  C11 0.1uF {Lib=C}
-  (    1 +5V )
-  (    2 GND )
- )
- ( /4E330547/4E3302B3 $noname  C10 0.1uF {Lib=C}
-  (    1 +5V )
-  (    2 GND )
- )
- ( /4E330547/4E32F931 $noname  DS1 LED {Lib=LED}
-  (    1 N-000001 )
-  (    2 GND )
- )
- ( /4E330547/4E32F92B $noname  R45 375 {Lib=R}
-  (    1 +5V )
-  (    2 N-000001 )
- )
- ( /4E330547/4E32F915 $noname  C4 0.01uF {Lib=C}
-  (    1 +5V )
-  (    2 GND )
- )
- ( /4E330547/4E32F90F $noname  C9 33uF {Lib=CP1}
-  (    1 +5V )
-  (    2 GND )
- )
- ( /4E330547/4E32F904 $noname  C2 33uF {Lib=CP1}
-  (    1 +5V )
-  (    2 GND )
- )
- ( /4E330547/4E32F8DD $noname  C5 0.1uF {Lib=C}
-  (    1 +5V )
-  (    2 GND )
- )
- ( /4E330547/4E32F7DF $noname  J3 CONN_2 {Lib=CONN_2}
-  (    1 HVGND )
-  (    2 HV )
- )
- ( /4E330547/4AF8CDDC $noname  J4 CONN_2 {Lib=CONN_2}
-  (    1 HVGND )
-  (    2 HV )
- )
- ( /4E33056B/4E33156C $noname  R67 375 {Lib=R}
-  (    1 N-000122 )
-  (    2 +5V )
- )
- ( /4E33056B/4E331569 $noname  U30 AQW216 {Lib=AQW216}
-  (    1 N-000122 )
-  (    2 N-000121 )
-  (    3 N-000108 )
-  (    4 OUT7 )
-  (    5 HV )
-  (    6 HVOUT7 )
-  (    7 HVOUT7 )
-  (    8 HVGND )
- )
- ( /4E33056B/4E331125 $noname  R73 375 {Lib=R}
-  (    1 N-000108 )
-  (    2 +5V )
- )
- ( /4E33056B/4E331559 $noname  R8 375 {Lib=R}
-  (    1 N-000107 )
-  (    2 +5V )
- )
- ( /4E33056B/4E331556 $noname  U2 AQW216 {Lib=AQW216}
-  (    1 N-000111 )
-  (    2 N-000118 )
-  (    3 N-000107 )
-  (    4 OUT6 )
-  (    5 HV )
-  (    6 HVOUT6 )
-  (    7 HVOUT6 )
-  (    8 HVGND )
- )
- ( /4E33056B/4E331553 $noname  R2 375 {Lib=R}
-  (    1 N-000111 )
-  (    2 +5V )
- )
- ( /4E33056B/4E33111B $noname  R3 375 {Lib=R}
-  (    1 N-000110 )
-  (    2 +5V )
- )
- ( /4E33056B/4E33111A $noname  U3 AQW216 {Lib=AQW216}
-  (    1 N-000110 )
-  (    2 N-000120 )
-  (    3 N-000109 )
-  (    4 OUT4 )
-  (    5 HV )
-  (    6 HVOUT4 )
-  (    7 HVOUT4 )
-  (    8 HVGND )
- )
- ( /4E33056B/4E331544 $noname  R9 375 {Lib=R}
-  (    1 N-000109 )
-  (    2 +5V )
- )
- ( /4E33056B/4E331539 $noname  R72 375 {Lib=R}
-  (    1 N-000104 )
-  (    2 +5V )
- )
- ( /4E33056B/4E331535 $noname  U29 AQW216 {Lib=AQW216}
-  (    1 N-000103 )
-  (    2 N-000123 )
-  (    3 N-000104 )
-  (    4 OUT5 )
-  (    5 HV )
-  (    6 HVOUT5 )
-  (    7 HVOUT5 )
-  (    8 HVGND )
- )
- ( /4E33056B/4E331533 $noname  R66 375 {Lib=R}
-  (    1 N-000103 )
-  (    2 +5V )
- )
- ( /4E33056B/4E33152F $noname  R4 375 {Lib=R}
-  (    1 N-000101 )
-  (    2 +5V )
- )
- ( /4E33056B/4E3310C9 $noname  U4 AQW216 {Lib=AQW216}
-  (    1 N-000101 )
-  (    2 N-000102 )
-  (    3 N-000106 )
-  (    4 OUT2 )
-  (    5 HV )
-  (    6 HVOUT2 )
-  (    7 HVOUT2 )
-  (    8 HVGND )
- )
- ( /4E33056B/4E331524 $noname  R10 375 {Lib=R}
-  (    1 N-000106 )
-  (    2 +5V )
- )
- ( /4E33056B/4E331518 $noname  R71 375 {Lib=R}
-  (    1 N-000105 )
-  (    2 +5V )
- )
- ( /4E33056B/4E331515 $noname  U28 AQW216 {Lib=AQW216}
-  (    1 N-000117 )
-  (    2 N-000124 )
-  (    3 N-000105 )
-  (    4 OUT3 )
-  (    5 HV )
-  (    6 HVOUT3 )
-  (    7 HVOUT3 )
-  (    8 HVGND )
- )
- ( /4E33056B/4E331511 $noname  R65 375 {Lib=R}
-  (    1 N-000117 )
-  (    2 +5V )
- )
- ( /4E33056B/4E33150E $noname  R63 375 {Lib=R}
-  (    1 N-000116 )
-  (    2 +5V )
- )
- ( /4E33056B/4E33107D $noname  U27 AQW216 {Lib=AQW216}
-  (    1 N-000116 )
-  (    2 N-000115 )
-  (    3 N-000114 )
-  (    4 OUT1 )
-  (    5 HV )
-  (    6 HVOUT1 )
-  (    7 HVOUT1 )
-  (    8 HVGND )
- )
- ( /4E33056B/4E33107C $noname  R69 375 {Lib=R}
-  (    1 N-000114 )
-  (    2 +5V )
- )
- ( /4E33056B/4E3314FD $noname  U1 74AC540 {Lib=74AC540}
-  (    1 GND )
-  (    2 OUT1 )
-  (    3 OUT3 )
-  (    4 OUT5 )
-  (    5 OUT7 )
-  (    6 OUT6 )
-  (    7 OUT4 )
-  (    8 OUT2 )
-  (    9 OUT0 )
-  (   10 GND )
-  (   11 N-000119 )
-  (   12 N-000102 )
-  (   13 N-000120 )
-  (   14 N-000118 )
-  (   15 N-000121 )
-  (   16 N-000123 )
-  (   17 N-000124 )
-  (   18 N-000115 )
-  (   19 GND )
-  (   20 +5V )
- )
- ( /4E33056B/4E3314C4 $noname  R11 375 {Lib=R}
-  (    1 N-000112 )
-  (    2 +5V )
- )
- ( /4E33056B/4E330C41 $noname  C1 0.1uF {Lib=C}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /4E33056B/4E3314E8 $noname  R70 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT4 )
- )
- ( /4E33056B/4E3314E5 $noname  R6 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT5 )
- )
- ( /4E33056B/4E3314E2 $noname  R68 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT7 )
- )
- ( /4E33056B/4E3314DF $noname  R7 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT6 )
- )
- ( /4E33056B/4E3309D2 $noname  R74 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT2 )
- )
- ( /4E33056B/4E3314D4 $noname  R1 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT3 )
- )
- ( /4E33056B/4E3314D2 $noname  R64 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT1 )
- )
- ( /4E33056B/4E3314CC $noname  R12 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT0 )
- )
- ( /4E33056B/4E3314BC $noname  U5 AQW216 {Lib=AQW216}
-  (    1 N-000113 )
-  (    2 N-000119 )
-  (    3 N-000112 )
-  (    4 OUT0 )
-  (    5 HV )
-  (    6 HVOUT0 )
-  (    7 HVOUT0 )
-  (    8 HVGND )
- )
- ( /4E33056B/4E3314C0 $noname  R5 375 {Lib=R}
-  (    1 N-000113 )
-  (    2 +5V )
- )
- ( /4E331219/4E331127 $noname  R79 375 {Lib=R}
-  (    1 N-000146 )
-  (    2 +5V )
- )
- ( /4E331219/4E331126 $noname  U34 AQW216 {Lib=AQW216}
-  (    1 N-000146 )
-  (    2 N-000145 )
-  (    3 N-000132 )
-  (    4 OUT15 )
-  (    5 HV )
-  (    6 HVOUT15 )
-  (    7 HVOUT15 )
-  (    8 HVGND )
- )
- ( /4E331219/4E331567 $noname  R85 375 {Lib=R}
-  (    1 N-000132 )
-  (    2 +5V )
- )
- ( /4E331219/4E33155B $noname  R20 375 {Lib=R}
-  (    1 N-000131 )
-  (    2 +5V )
- )
- ( /4E331219/4E331557 $noname  U7 AQW216 {Lib=AQW216}
-  (    1 N-000135 )
-  (    2 N-000142 )
-  (    3 N-000131 )
-  (    4 OUT14 )
-  (    5 HV )
-  (    6 HVOUT14 )
-  (    7 HVOUT14 )
-  (    8 HVGND )
- )
- ( /4E331219/4E331120 $noname  R14 375 {Lib=R}
-  (    1 N-000135 )
-  (    2 +5V )
- )
- ( /4E331219/4E33154E $noname  R15 375 {Lib=R}
-  (    1 N-000134 )
-  (    2 +5V )
- )
- ( /4E331219/4E331549 $noname  U8 AQW216 {Lib=AQW216}
-  (    1 N-000134 )
-  (    2 N-000144 )
-  (    3 N-000133 )
-  (    4 OUT12 )
-  (    5 HV )
-  (    6 HVOUT12 )
-  (    7 HVOUT12 )
-  (    8 HVGND )
- )
- ( /4E331219/4E331547 $noname  R21 375 {Lib=R}
-  (    1 N-000133 )
-  (    2 +5V )
- )
- ( /4E331219/4E33153A $noname  R84 375 {Lib=R}
-  (    1 N-000128 )
-  (    2 +5V )
- )
- ( /4E331219/4E331115 $noname  U33 AQW216 {Lib=AQW216}
-  (    1 N-000127 )
-  (    2 N-000147 )
-  (    3 N-000128 )
-  (    4 OUT13 )
-  (    5 HV )
-  (    6 HVOUT13 )
-  (    7 HVOUT13 )
-  (    8 HVGND )
- )
- ( /4E331219/4E331532 $noname  R78 375 {Lib=R}
-  (    1 N-000127 )
-  (    2 +5V )
- )
- ( /4E331219/4E33152E $noname  R16 375 {Lib=R}
-  (    1 N-000125 )
-  (    2 +5V )
- )
- ( /4E331219/4E33152B $noname  U9 AQW216 {Lib=AQW216}
-  (    1 N-000125 )
-  (    2 N-000126 )
-  (    3 N-000130 )
-  (    4 OUT10 )
-  (    5 HV )
-  (    6 HVOUT10 )
-  (    7 HVOUT10 )
-  (    8 HVGND )
- )
- ( /4E331219/4E3310C8 $noname  R22 375 {Lib=R}
-  (    1 N-000130 )
-  (    2 +5V )
- )
- ( /4E331219/4E331519 $noname  R83 375 {Lib=R}
-  (    1 N-000129 )
-  (    2 +5V )
- )
- ( /4E331219/4E3310C4 $noname  U32 AQW216 {Lib=AQW216}
-  (    1 N-000141 )
-  (    2 N-000148 )
-  (    3 N-000129 )
-  (    4 OUT11 )
-  (    5 HV )
-  (    6 HVOUT11 )
-  (    7 HVOUT11 )
-  (    8 HVGND )
- )
- ( /4E331219/4E3310C3 $noname  R77 375 {Lib=R}
-  (    1 N-000141 )
-  (    2 +5V )
- )
- ( /4E331219/4E33150D $noname  R76 375 {Lib=R}
-  (    1 N-000140 )
-  (    2 +5V )
- )
- ( /4E331219/4E33150A $noname  U31 AQW216 {Lib=AQW216}
-  (    1 N-000140 )
-  (    2 N-000139 )
-  (    3 N-000138 )
-  (    4 OUT9 )
-  (    5 HV )
-  (    6 HVOUT9 )
-  (    7 HVOUT9 )
-  (    8 HVGND )
- )
- ( /4E331219/4E331507 $noname  R82 375 {Lib=R}
-  (    1 N-000138 )
-  (    2 +5V )
- )
- ( /4E331219/4E3314FF $noname  U6 74AC540 {Lib=74AC540}
-  (    1 GND )
-  (    2 OUT9 )
-  (    3 OUT11 )
-  (    4 OUT13 )
-  (    5 OUT15 )
-  (    6 OUT14 )
-  (    7 OUT12 )
-  (    8 OUT10 )
-  (    9 OUT8 )
-  (   10 GND )
-  (   11 N-000143 )
-  (   12 N-000126 )
-  (   13 N-000144 )
-  (   14 N-000142 )
-  (   15 N-000145 )
-  (   16 N-000147 )
-  (   17 N-000148 )
-  (   18 N-000139 )
-  (   19 GND )
-  (   20 +5V )
- )
- ( /4E331219/4E3314C5 $noname  R23 375 {Lib=R}
-  (    1 N-000136 )
-  (    2 +5V )
- )
- ( /4E331219/4E3314F2 $noname  C3 0.1uF {Lib=C}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /4E331219/4E3314EA $noname  R81 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT12 )
- )
- ( /4E331219/4E3314E4 $noname  R18 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT13 )
- )
- ( /4E331219/4E3314E0 $noname  R80 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT15 )
- )
- ( /4E331219/4E3314DD $noname  R19 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT14 )
- )
- ( /4E331219/4E3314DA $noname  R86 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT10 )
- )
- ( /4E331219/4E3309D1 $noname  R13 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT11 )
- )
- ( /4E331219/4E3309CE $noname  R75 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT9 )
- )
- ( /4E331219/4E3314CD $noname  R24 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT8 )
- )
- ( /4E331219/4E3314BD $noname  U10 AQW216 {Lib=AQW216}
-  (    1 N-000137 )
-  (    2 N-000143 )
-  (    3 N-000136 )
-  (    4 OUT8 )
-  (    5 HV )
-  (    6 HVOUT8 )
-  (    7 HVOUT8 )
-  (    8 HVGND )
- )
- ( /4E331219/4E3314C1 $noname  R17 375 {Lib=R}
-  (    1 N-000137 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E33156D $noname  R91 375 {Lib=R}
-  (    1 N-000169 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E33156A $noname  U38 AQW216 {Lib=AQW216}
-  (    1 N-000169 )
-  (    2 N-000170 )
-  (    3 N-000155 )
-  (    4 OUT23 )
-  (    5 HV )
-  (    6 HVOUT23 )
-  (    7 HVOUT23 )
-  (    8 HVGND )
- )
- ( /4E3312C1/4E331564 $noname  R97 375 {Lib=R}
-  (    1 N-000155 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E331122 $noname  R32 375 {Lib=R}
-  (    1 N-000154 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E331121 $noname  U12 AQW216 {Lib=AQW216}
-  (    1 N-000158 )
-  (    2 N-000171 )
-  (    3 N-000154 )
-  (    4 OUT22 )
-  (    5 HV )
-  (    6 HVOUT22 )
-  (    7 HVOUT22 )
-  (    8 HVGND )
- )
- ( /4E3312C1/4E331552 $noname  R26 375 {Lib=R}
-  (    1 N-000158 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E33154F $noname  R27 375 {Lib=R}
-  (    1 N-000157 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E331548 $noname  U13 AQW216 {Lib=AQW216}
-  (    1 N-000157 )
-  (    2 N-000167 )
-  (    3 N-000156 )
-  (    4 OUT20 )
-  (    5 HV )
-  (    6 HVOUT20 )
-  (    7 HVOUT20 )
-  (    8 HVGND )
- )
- ( /4E3312C1/4E331545 $noname  R33 375 {Lib=R}
-  (    1 N-000156 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E331538 $noname  R96 375 {Lib=R}
-  (    1 N-000151 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E331536 $noname  U37 AQW216 {Lib=AQW216}
-  (    1 N-000150 )
-  (    2 N-000168 )
-  (    3 N-000151 )
-  (    4 OUT21 )
-  (    5 HV )
-  (    6 HVOUT21 )
-  (    7 HVOUT21 )
-  (    8 HVGND )
- )
- ( /4E3312C1/4E331114 $noname  R90 375 {Lib=R}
-  (    1 N-000150 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E3310CA $noname  R28 375 {Lib=R}
-  (    1 N-000149 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E331528 $noname  U14 AQW216 {Lib=AQW216}
-  (    1 N-000149 )
-  (    2 N-000172 )
-  (    3 N-000153 )
-  (    4 OUT18 )
-  (    5 HV )
-  (    6 HVOUT18 )
-  (    7 HVOUT18 )
-  (    8 HVGND )
- )
- ( /4E3312C1/4E331525 $noname  R34 375 {Lib=R}
-  (    1 N-000153 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E3310C5 $noname  R95 375 {Lib=R}
-  (    1 N-000152 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E331514 $noname  U36 AQW216 {Lib=AQW216}
-  (    1 N-000164 )
-  (    2 N-000166 )
-  (    3 N-000152 )
-  (    4 OUT19 )
-  (    5 HV )
-  (    6 HVOUT19 )
-  (    7 HVOUT19 )
-  (    8 HVGND )
- )
- ( /4E3312C1/4E331510 $noname  R89 375 {Lib=R}
-  (    1 N-000164 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E33150F $noname  R88 375 {Lib=R}
-  (    1 N-000163 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E33150B $noname  U35 AQW216 {Lib=AQW216}
-  (    1 N-000163 )
-  (    2 N-000165 )
-  (    3 N-000162 )
-  (    4 OUT17 )
-  (    5 HV )
-  (    6 HVOUT17 )
-  (    7 HVOUT17 )
-  (    8 HVGND )
- )
- ( /4E3312C1/4E331505 $noname  R94 375 {Lib=R}
-  (    1 N-000162 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E3314FC $noname  U11 74AC540 {Lib=74AC540}
-  (    1 GND )
-  (    2 OUT17 )
-  (    3 OUT19 )
-  (    4 OUT21 )
-  (    5 OUT23 )
-  (    6 OUT22 )
-  (    7 OUT20 )
-  (    8 OUT18 )
-  (    9 OUT16 )
-  (   10 GND )
-  (   11 N-000160 )
-  (   12 N-000172 )
-  (   13 N-000167 )
-  (   14 N-000171 )
-  (   15 N-000170 )
-  (   16 N-000168 )
-  (   17 N-000166 )
-  (   18 N-000165 )
-  (   19 GND )
-  (   20 +5V )
- )
- ( /4E3312C1/4E3314C6 $noname  R35 375 {Lib=R}
-  (    1 N-000159 )
-  (    2 +5V )
- )
- ( /4E3312C1/4E3314F1 $noname  C6 0.1uF {Lib=C}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /4E3312C1/4E3314E9 $noname  R93 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT20 )
- )
- ( /4E3312C1/4E3314E6 $noname  R30 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT21 )
- )
- ( /4E3312C1/4E3314E3 $noname  R92 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT23 )
- )
- ( /4E3312C1/4E3309D5 $noname  R31 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT22 )
- )
- ( /4E3312C1/4E3314DB $noname  R98 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT18 )
- )
- ( /4E3312C1/4E3314D5 $noname  R25 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT19 )
- )
- ( /4E3312C1/4E3314D0 $noname  R87 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT17 )
- )
- ( /4E3312C1/4E3314CF $noname  R36 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT16 )
- )
- ( /4E3312C1/4E3314BE $noname  U15 AQW216 {Lib=AQW216}
-  (    1 N-000161 )
-  (    2 N-000160 )
-  (    3 N-000159 )
-  (    4 OUT16 )
-  (    5 HV )
-  (    6 HVOUT16 )
-  (    7 HVOUT16 )
-  (    8 HVGND )
- )
- ( /4E3312C1/4E3314C2 $noname  R29 375 {Lib=R}
-  (    1 N-000161 )
-  (    2 +5V )
- )
- ( /4E33135C/4E33156F $noname  R105 375 {Lib=R}
-  (    1 N-000194 )
-  (    2 +5V )
- )
- ( /4E33135C/4E331568 $noname  U42 AQW216 {Lib=AQW216}
-  (    1 N-000194 )
-  (    2 N-000195 )
-  (    3 N-000179 )
-  (    4 OUT31 )
-  (    5 HV )
-  (    6 HVOUT31 )
-  (    7 HVOUT31 )
-  (    8 HVGND )
- )
- ( /4E33135C/4E331565 $noname  R111 375 {Lib=R}
-  (    1 N-000179 )
-  (    2 +5V )
- )
- ( /4E33135C/4E33155A $noname  R46 375 {Lib=R}
-  (    1 N-000178 )
-  (    2 +5V )
- )
- ( /4E33135C/4E331554 $noname  U18 AQW216 {Lib=AQW216}
-  (    1 N-000182 )
-  (    2 N-000193 )
-  (    3 N-000178 )
-  (    4 OUT30 )
-  (    5 HV )
-  (    6 HVOUT30 )
-  (    7 HVOUT30 )
-  (    8 HVGND )
- )
- ( /4E33135C/4E331550 $noname  R38 375 {Lib=R}
-  (    1 N-000182 )
-  (    2 +5V )
- )
- ( /4E33135C/4E33154C $noname  R39 375 {Lib=R}
-  (    1 N-000181 )
-  (    2 +5V )
- )
- ( /4E33135C/4E33154A $noname  U19 AQW216 {Lib=AQW216}
-  (    1 N-000181 )
-  (    2 N-000191 )
-  (    3 N-000180 )
-  (    4 OUT28 )
-  (    5 HV )
-  (    6 HVOUT28 )
-  (    7 HVOUT28 )
-  (    8 HVGND )
- )
- ( /4E33135C/4E331119 $noname  R47 375 {Lib=R}
-  (    1 N-000180 )
-  (    2 +5V )
- )
- ( /4E33135C/4E33153B $noname  R110 375 {Lib=R}
-  (    1 N-000174 )
-  (    2 +5V )
- )
- ( /4E33135C/4E331537 $noname  U41 AQW216 {Lib=AQW216}
-  (    1 N-000173 )
-  (    2 N-000192 )
-  (    3 N-000174 )
-  (    4 OUT29 )
-  (    5 HV )
-  (    6 HVOUT29 )
-  (    7 HVOUT29 )
-  (    8 HVGND )
- )
- ( /4E33135C/4E331531 $noname  R104 375 {Lib=R}
-  (    1 N-000173 )
-  (    2 +5V )
- )
- ( /4E33135C/4E33152D $noname  R40 375 {Lib=R}
-  (    1 N-000177 )
-  (    2 +5V )
- )
- ( /4E33135C/4E331529 $noname  U20 AQW216 {Lib=AQW216}
-  (    1 N-000177 )
-  (    2 N-000196 )
-  (    3 N-000176 )
-  (    4 OUT26 )
-  (    5 HV )
-  (    6 HVOUT26 )
-  (    7 HVOUT26 )
-  (    8 HVGND )
- )
- ( /4E33135C/4E331526 $noname  R48 375 {Lib=R}
-  (    1 N-000176 )
-  (    2 +5V )
- )
- ( /4E33135C/4E33151A $noname  R109 375 {Lib=R}
-  (    1 N-000175 )
-  (    2 +5V )
- )
- ( /4E33135C/4E331516 $noname  U40 AQW216 {Lib=AQW216}
-  (    1 N-000189 )
-  (    2 N-000190 )
-  (    3 N-000175 )
-  (    4 OUT27 )
-  (    5 HV )
-  (    6 HVOUT27 )
-  (    7 HVOUT27 )
-  (    8 HVGND )
- )
- ( /4E33135C/4E331512 $noname  R103 375 {Lib=R}
-  (    1 N-000189 )
-  (    2 +5V )
- )
- ( /4E33135C/4E33107E $noname  R102 375 {Lib=R}
-  (    1 N-000188 )
-  (    2 +5V )
- )
- ( /4E33135C/4E331509 $noname  U39 AQW216 {Lib=AQW216}
-  (    1 N-000188 )
-  (    2 N-000183 )
-  (    3 N-000187 )
-  (    4 OUT25 )
-  (    5 HV )
-  (    6 HVOUT25 )
-  (    7 HVOUT25 )
-  (    8 HVGND )
- )
- ( /4E33135C/4E331504 $noname  R108 375 {Lib=R}
-  (    1 N-000187 )
-  (    2 +5V )
- )
- ( /4E33135C/4E3314FE $noname  U17 74AC540 {Lib=74AC540}
-  (    1 GND )
-  (    2 OUT25 )
-  (    3 OUT27 )
-  (    4 OUT29 )
-  (    5 OUT31 )
-  (    6 OUT30 )
-  (    7 OUT28 )
-  (    8 OUT26 )
-  (    9 OUT24 )
-  (   10 GND )
-  (   11 N-000185 )
-  (   12 N-000196 )
-  (   13 N-000191 )
-  (   14 N-000193 )
-  (   15 N-000195 )
-  (   16 N-000192 )
-  (   17 N-000190 )
-  (   18 N-000183 )
-  (   19 GND )
-  (   20 +5V )
- )
- ( /4E33135C/4E3314C7 $noname  R49 375 {Lib=R}
-  (    1 N-000184 )
-  (    2 +5V )
- )
- ( /4E33135C/4E3314F0 $noname  C7 0.1uF {Lib=C}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /4E33135C/4E3314EB $noname  R107 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT28 )
- )
- ( /4E33135C/4E3314E7 $noname  R42 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT29 )
- )
- ( /4E33135C/4E3309D6 $noname  R106 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT31 )
- )
- ( /4E33135C/4E3314DC $noname  R44 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT30 )
- )
- ( /4E33135C/4E3314D8 $noname  R112 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT26 )
- )
- ( /4E33135C/4E3314D7 $noname  R37 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT27 )
- )
- ( /4E33135C/4E3314D3 $noname  R101 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT25 )
- )
- ( /4E33135C/4E3314CE $noname  R50 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT24 )
- )
- ( /4E33135C/4E3314BF $noname  U21 AQW216 {Lib=AQW216}
-  (    1 N-000186 )
-  (    2 N-000185 )
-  (    3 N-000184 )
-  (    4 OUT24 )
-  (    5 HV )
-  (    6 HVOUT24 )
-  (    7 HVOUT24 )
-  (    8 HVGND )
- )
- ( /4E33135C/4E3314C3 $noname  R41 375 {Lib=R}
-  (    1 N-000186 )
-  (    2 +5V )
- )
- ( /4E33141F/4E33156E $noname  R117 375 {Lib=R}
-  (    1 N-000219 )
-  (    2 +5V )
- )
- ( /4E33141F/4E33156B $noname  U46 AQW216 {Lib=AQW216}
-  (    1 N-000219 )
-  (    2 N-000220 )
-  (    3 N-000205 )
-  (    4 OUT39 )
-  (    5 HV )
-  (    6 HVOUT39 )
-  (    7 HVOUT39 )
-  (    8 HVGND )
- )
- ( /4E33141F/4E331566 $noname  R123 375 {Lib=R}
-  (    1 N-000205 )
-  (    2 +5V )
- )
- ( /4E33141F/4E331558 $noname  R58 375 {Lib=R}
-  (    1 N-000204 )
-  (    2 +5V )
- )
- ( /4E33141F/4E331555 $noname  U24 AQW216 {Lib=AQW216}
-  (    1 N-000208 )
-  (    2 N-000203 )
-  (    3 N-000204 )
-  (    4 OUT38 )
-  (    5 HV )
-  (    6 HVOUT38 )
-  (    7 HVOUT38 )
-  (    8 HVGND )
- )
- ( /4E33141F/4E331551 $noname  R52 375 {Lib=R}
-  (    1 N-000208 )
-  (    2 +5V )
- )
- ( /4E33141F/4E33154D $noname  R53 375 {Lib=R}
-  (    1 N-000207 )
-  (    2 +5V )
- )
- ( /4E33141F/4E33154B $noname  U25 AQW216 {Lib=AQW216}
-  (    1 N-000207 )
-  (    2 N-000216 )
-  (    3 N-000206 )
-  (    4 OUT36 )
-  (    5 HV )
-  (    6 HVOUT36 )
-  (    7 HVOUT36 )
-  (    8 HVGND )
- )
- ( /4E33141F/4E331546 $noname  R59 375 {Lib=R}
-  (    1 N-000206 )
-  (    2 +5V )
- )
- ( /4E33141F/4E331116 $noname  R122 375 {Lib=R}
-  (    1 N-000199 )
-  (    2 +5V )
- )
- ( /4E33141F/4E331534 $noname  U45 AQW216 {Lib=AQW216}
-  (    1 N-000198 )
-  (    2 N-000218 )
-  (    3 N-000199 )
-  (    4 OUT37 )
-  (    5 HV )
-  (    6 HVOUT37 )
-  (    7 HVOUT37 )
-  (    8 HVGND )
- )
- ( /4E33141F/4E331530 $noname  R116 375 {Lib=R}
-  (    1 N-000198 )
-  (    2 +5V )
- )
- ( /4E33141F/4E33152C $noname  R54 375 {Lib=R}
-  (    1 N-000197 )
-  (    2 +5V )
- )
- ( /4E33141F/4E33152A $noname  U26 AQW216 {Lib=AQW216}
-  (    1 N-000197 )
-  (    2 N-000215 )
-  (    3 N-000202 )
-  (    4 OUT34 )
-  (    5 HV )
-  (    6 HVOUT34 )
-  (    7 HVOUT34 )
-  (    8 HVGND )
- )
- ( /4E33141F/4E331527 $noname  R60 375 {Lib=R}
-  (    1 N-000202 )
-  (    2 +5V )
- )
- ( /4E33141F/4E33151B $noname  R121 375 {Lib=R}
-  (    1 N-000201 )
-  (    2 +5V )
- )
- ( /4E33141F/4E331517 $noname  U44 AQW216 {Lib=AQW216}
-  (    1 N-000214 )
-  (    2 N-000200 )
-  (    3 N-000201 )
-  (    4 OUT35 )
-  (    5 HV )
-  (    6 HVOUT35 )
-  (    7 HVOUT35 )
-  (    8 HVGND )
- )
- ( /4E33141F/4E331513 $noname  R115 375 {Lib=R}
-  (    1 N-000214 )
-  (    2 +5V )
- )
- ( /4E33141F/4E33150C $noname  R113 375 {Lib=R}
-  (    1 N-000213 )
-  (    2 +5V )
- )
- ( /4E33141F/4E331508 $noname  U43 AQW216 {Lib=AQW216}
-  (    1 N-000213 )
-  (    2 N-000217 )
-  (    3 N-000212 )
-  (    4 OUT33 )
-  (    5 HV )
-  (    6 HVOUT33 )
-  (    7 HVOUT33 )
-  (    8 HVGND )
- )
- ( /4E33141F/4E331506 $noname  R119 375 {Lib=R}
-  (    1 N-000212 )
-  (    2 +5V )
- )
- ( /4E33141F/4E331004 $noname  U23 74AC540 {Lib=74AC540}
-  (    1 GND )
-  (    2 OUT33 )
-  (    3 OUT35 )
-  (    4 OUT37 )
-  (    5 OUT39 )
-  (    6 OUT38 )
-  (    7 OUT36 )
-  (    8 OUT34 )
-  (    9 OUT32 )
-  (   10 GND )
-  (   11 N-000210 )
-  (   12 N-000215 )
-  (   13 N-000216 )
-  (   14 N-000203 )
-  (   15 N-000220 )
-  (   16 N-000218 )
-  (   17 N-000200 )
-  (   18 N-000217 )
-  (   19 GND )
-  (   20 +5V )
- )
- ( /4E33141F/4D2B789A $noname  R61 375 {Lib=R}
-  (    1 N-000209 )
-  (    2 +5V )
- )
- ( /4E33141F/4E3314F3 $noname  C8 0.1uF {Lib=C}
-  (    1 GND )
-  (    2 +5V )
- )
- ( /4E33141F/4E3309D8 $noname  R120 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT36 )
- )
- ( /4E33141F/4E3309D7 $noname  R56 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT37 )
- )
- ( /4E33141F/4E3314E1 $noname  R118 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT39 )
- )
- ( /4E33141F/4E3314DE $noname  R57 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT38 )
- )
- ( /4E33141F/4E3314D9 $noname  R124 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT34 )
- )
- ( /4E33141F/4E3314D6 $noname  R51 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT35 )
- )
- ( /4E33141F/4E3314D1 $noname  R114 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT33 )
- )
- ( /4E33141F/4E3309AF $noname  R62 4.75k {Lib=R}
-  (    1 +5V )
-  (    2 OUT32 )
- )
- ( /4E33141F/4AF89BA2 $noname  U22 AQW216 {Lib=AQW216}
-  (    1 N-000211 )
-  (    2 N-000210 )
-  (    3 N-000209 )
-  (    4 OUT32 )
-  (    5 HV )
-  (    6 HVOUT32 )
-  (    7 HVOUT32 )
-  (    8 HVGND )
- )
- ( /4E33141F/4AF8BE6E $noname  R55 375 {Lib=R}
-  (    1 N-000211 )
-  (    2 +5V )
- )
-)
-*
-{ Allowed footprints by component:
-$component C11
- SM*
- C?
- C1-1
-$endlist
-$component C10
- SM*
- C?
- C1-1
-$endlist
-$component DS1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component R45
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C4
- SM*
- C?
- C1-1
-$endlist
-$component C9
- CP*
- SM*
-$endlist
-$component C2
- CP*
- SM*
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component R67
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R73
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R8
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R3
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R9
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R72
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R66
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R4
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R10
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R71
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R65
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R63
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R69
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R11
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C1
- SM*
- C?
- C1-1
-$endlist
-$component R70
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R6
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R68
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R7
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R74
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R64
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R12
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R5
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R79
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R85
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R20
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R14
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R15
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R21
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R84
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R78
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R16
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R22
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R83
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R77
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R76
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R82
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R23
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C3
- SM*
- C?
- C1-1
-$endlist
-$component R81
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R18
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R80
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R19
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R86
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R13
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R75
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R24
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R17
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R91
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R97
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R32
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R26
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R27
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R33
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R96
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R90
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R28
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R34
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R95
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R89
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R88
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R94
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R35
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component R93
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R30
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R92
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R31
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R98
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R25
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R87
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R36
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R29
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R105
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R111
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R46
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R38
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R39
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R47
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R110
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R104
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R40
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R48
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R109
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R103
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R102
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R108
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R49
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C7
- SM*
- C?
- C1-1
-$endlist
-$component R107
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R42
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R106
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R44
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R112
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R37
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R101
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R50
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R41
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R117
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R123
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R58
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R52
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R53
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R59
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R122
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R116
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R54
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R60
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R121
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R115
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R113
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R119
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R61
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component C8
- SM*
- C?
- C1-1
-$endlist
-$component R120
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R56
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R118
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R57
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R124
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R51
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R114
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R62
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R55
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$endfootprintlist
-}
-{ Pin List by Nets
-Net 1 "" ""
- DS1 1
- R45 2
-Net 3 "HVOUT38" "HVOUT38"
- U24 6
- U24 7
- J5 39
-Net 4 "HVOUT28" "HVOUT28"
- J5 29
- U19 7
- U19 6
-Net 5 "HVOUT18" "HVOUT18"
- U14 6
- U14 7
- J5 19
-Net 6 "HVOUT37" "HVOUT37"
- J5 38
- U45 6
- U45 7
-Net 7 "HVOUT27" "HVOUT27"
- U40 7
- U40 6
- J5 28
-Net 8 "HVOUT17" "HVOUT17"
- U35 6
- U35 7
- J5 18
-Net 9 "HV" "HV"
- U34 5
- U13 5
- U12 5
- U37 5
- U36 5
- U14 5
- U27 5
- U5 5
- U3 5
- U2 5
- U4 5
- U28 5
- U29 5
- U31 5
- U10 5
- U8 5
- U7 5
- U9 5
- U32 5
- U33 5
- U30 5
- U45 5
- U44 5
- U26 5
- U24 5
- U25 5
- U22 5
- U43 5
- U46 5
- U15 5
- U35 5
- U38 5
- U41 5
- U20 5
- U18 5
- U42 5
- U19 5
- U21 5
- U39 5
- U40 5
- J4 2
- J3 2
-Net 10 "+5V" "+5V"
- R28 2
- R96 2
- R95 2
- R34 2
- R32 2
- R97 2
- R33 2
- R27 2
- R79 2
- R90 2
- R26 2
- R31 1
- R92 1
- R30 1
- R93 1
- C6 2
- R35 2
- R29 2
- R36 1
- R87 1
- R25 1
- R98 1
- R94 2
- R88 2
- R89 2
- U11 20
- R67 2
- R78 2
- R16 2
- R84 2
- R83 2
- R22 2
- R20 2
- R13 1
- R86 1
- R82 2
- R76 2
- R77 2
- U6 20
- R85 2
- R21 2
- R15 2
- R14 2
- R19 1
- R80 1
- R18 1
- R81 1
- C3 2
- R23 2
- R17 2
- R24 1
- R75 1
- R59 2
- R53 2
- R52 2
- R57 1
- R118 1
- R56 1
- R120 1
- C8 2
- R61 2
- R55 2
- R62 1
- R114 1
- R51 1
- R124 1
- R119 2
- R113 2
- R116 2
- R54 2
- C4 1
- C9 1
- R122 2
- C2 1
- R121 2
- R60 2
- C5 1
- R58 2
- R123 2
- R117 2
- R45 1
- R115 2
- U23 20
- C11 1
- C10 1
- R46 2
- R111 2
- R47 2
- R39 2
- R38 2
- R44 1
- R106 1
- R42 1
- R107 1
- C7 2
- R49 2
- R41 2
- R91 2
- R104 2
- R40 2
- R110 2
- R109 2
- R48 2
- R105 2
- R50 1
- R101 1
- R37 1
- R112 1
- R102 2
- R103 2
- U16 18
- U17 20
- R108 2
- R7 1
- R9 2
- R8 2
- R5 2
- R11 2
- R72 2
- U1 20
- R73 2
- R66 2
- R4 2
- J1 4
- R2 2
- R63 2
- R69 2
- R3 2
- R74 1
- R65 2
- R1 1
- U16 46
- U16 56
- R64 1
- R12 1
- R10 2
- C1 2
- SW1 24
- R71 2
- SW1 20
- R68 1
- SW1 16
- R6 1
- R70 1
-Net 11 "HVOUT29" "HVOUT29"
- U41 7
- U41 6
- J5 30
-Net 12 "HVOUT19" "HVOUT19"
- U36 7
- U36 6
- J5 20
-Net 13 "HVOUT9" "HVOUT9"
- U31 7
- U31 6
- J5 10
-Net 14 "HVOUT8" "HVOUT8"
- U10 6
- U10 7
- J5 9
-Net 15 "HVOUT7" "HVOUT7"
- U30 7
- U30 6
- J5 8
-Net 16 "HVOUT6" "HVOUT6"
- U2 7
- U2 6
- J5 7
-Net 17 "HVOUT5" "HVOUT5"
- U29 6
- J5 6
- U29 7
-Net 18 "HVOUT4" "HVOUT4"
- U3 6
- U3 7
- J5 5
-Net 19 "HVOUT3" "HVOUT3"
- J5 4
- U28 7
- U28 6
-Net 20 "HVOUT2" "HVOUT2"
- J5 3
- U4 6
- U4 7
-Net 21 "HVOUT1" "HVOUT1"
- U27 7
- J5 2
- U27 6
-Net 22 "HVOUT0" "HVOUT0"
- J5 1
- U5 6
- U5 7
-Net 23 "OUT35" "OUT35"
- U23 3
- R51 2
- U16 49
- U44 4
-Net 24 "OUT13" "OUT13"
- U33 4
- R18 2
- U6 4
- U16 19
-Net 25 "OUT34" "OUT34"
- R124 2
- U23 8
- U16 48
- U26 4
-Net 26 "OUT26" "OUT26"
- U20 4
- R112 2
- U16 38
- U17 8
-Net 27 "OUT33" "OUT33"
- R114 2
- U23 2
- U43 4
- U16 47
-Net 28 "OUT25" "OUT25"
- R101 2
- U16 37
- U39 4
- U17 2
-Net 29 "HVOUT36" "HVOUT36"
- U25 6
- U25 7
- J5 37
-Net 30 "HVOUT26" "HVOUT26"
- J5 27
- U20 6
- U20 7
-Net 31 "HVOUT16" "HVOUT16"
- U15 7
- U15 6
- J5 17
-Net 32 "HVOUT35" "HVOUT35"
- U44 7
- J5 36
- U44 6
-Net 33 "HVOUT25" "HVOUT25"
- U39 7
- J5 26
- U39 6
-Net 34 "HVOUT15" "HVOUT15"
- J5 16
- U34 6
- U34 7
-Net 35 "HVOUT34" "HVOUT34"
- J5 35
- U26 7
- U26 6
-Net 36 "HVOUT24" "HVOUT24"
- U21 7
- U21 6
- J5 25
-Net 37 "HVOUT14" "HVOUT14"
- J5 15
- U7 6
- U7 7
-Net 38 "HVOUT33" "HVOUT33"
- U43 7
- U43 6
- J5 34
-Net 39 "HVOUT23" "HVOUT23"
- J5 24
- U38 6
- U38 7
-Net 40 "HVOUT13" "HVOUT13"
- J5 14
- U33 6
- U33 7
-Net 41 "HVOUT32" "HVOUT32"
- J5 33
- U22 7
- U22 6
-Net 42 "HVOUT22" "HVOUT22"
- J5 23
- U12 6
- U12 7
-Net 43 "HVOUT12" "HVOUT12"
- U8 6
- U8 7
- J5 13
-Net 44 "HVOUT31" "HVOUT31"
- U42 6
- U42 7
- J5 32
-Net 45 "HVOUT21" "HVOUT21"
- J5 22
- U37 7
- U37 6
-Net 46 "HVOUT11" "HVOUT11"
- U32 7
- J5 12
- U32 6
-Net 47 "HVOUT30" "HVOUT30"
- U18 7
- J5 31
- U18 6
-Net 48 "HVOUT20" "HVOUT20"
- J5 21
- U13 6
- U13 7
-Net 49 "HVOUT10" "HVOUT10"
- U9 7
- U9 6
- J5 11
-Net 50 "HVOUT39" "HVOUT39"
- J5 40
- U46 7
- U46 6
-Net 51 "HVGND" "HVGND"
- U40 8
- U37 8
- U41 8
- U3 8
- U28 8
- U44 8
- U43 8
- U18 8
- U33 8
- U4 8
- U29 8
- U22 8
- U9 8
- U7 8
- U27 8
- J4 1
- U34 8
- U20 8
- U42 8
- U19 8
- U36 8
- U35 8
- J3 1
- U5 8
- U24 8
- U21 8
- U31 8
- U26 8
- U32 8
- U45 8
- U13 8
- U38 8
- U30 8
- U39 8
- U12 8
- U14 8
- U15 8
- U8 8
- U2 8
- U25 8
- U10 8
- U46 8
-Net 58 "SCL" "SCL"
- SW1 17
- SW1 13
- J2 4
- SW1 21
- U16 2
-Net 61 "SDA" "SDA"
- SW1 18
- SW1 22
- U16 1
- SW1 14
- J2 1
-Net 63 "OUT37" "OUT37"
- U16 52
- U23 4
- U45 4
- R56 2
-Net 64 "OUT29" "OUT29"
- U41 4
- R42 2
- U16 42
- U17 4
-Net 65 "OUT21" "OUT21"
- U11 4
- R30 2
- U16 32
- U37 4
-Net 66 "OUT16" "OUT16"
- U11 9
- U15 4
- R36 2
- U16 22
-Net 67 "OUT7" "OUT7"
- U30 4
- U16 12
- R68 2
- U1 5
-Net 68 "OUT28" "OUT28"
- U19 4
- R107 2
- U17 7
- U16 41
-Net 69 "OUT20" "OUT20"
- R93 2
- U11 7
- U13 4
- U16 31
-Net 70 "OUT15" "OUT15"
- U16 21
- R80 2
- U6 5
- U34 4
-Net 71 "OUT36" "OUT36"
- R120 2
- U25 4
- U23 7
- U16 50
-Net 72 "OUT27" "OUT27"
- U16 40
- R37 2
- U17 3
- U40 4
-Net 73 "OUT14" "OUT14"
- U7 4
- U16 20
- U6 6
- R19 2
-Net 74 "OUT6" "OUT6"
- R7 2
- U2 4
- U16 10
- U1 6
-Net 75 "OUT5" "OUT5"
- R6 2
- U29 4
- U1 4
- U16 9
-Net 76 "OUT4" "OUT4"
- U1 7
- U3 4
- U16 8
- R70 2
-Net 77 "OUT3" "OUT3"
- U16 7
- U1 3
- U28 4
- R1 2
-Net 78 "OUT2" "OUT2"
- U16 5
- R74 2
- U4 4
- U1 8
-Net 79 "OUT1" "OUT1"
- U1 2
- U16 4
- U27 4
- R64 2
-Net 80 "OUT0" "OUT0"
- U5 4
- U1 9
- R12 2
- U16 3
-Net 81 "OUT12" "OUT12"
- U16 17
- R81 2
- U8 4
- U6 7
-Net 82 "OUT24" "OUT24"
- U16 36
- R50 2
- U21 4
- U17 9
-Net 83 "OUT19" "OUT19"
- U36 4
- U16 26
- R25 2
- U11 3
-Net 84 "OUT11" "OUT11"
- U16 16
- R13 2
- U6 3
- U32 4
-Net 85 "OUT32" "OUT32"
- R62 2
- U22 4
- U16 45
- U23 9
-Net 86 "OUT23" "OUT23"
- U11 5
- U16 35
- U38 4
- R92 2
-Net 87 "OUT18" "OUT18"
- U11 8
- R98 2
- U14 4
- U16 25
-Net 88 "OUT10" "OUT10"
- U9 4
- U16 15
- R86 2
- U6 8
-Net 89 "OUT39" "OUT39"
- U23 5
- R118 2
- U16 54
- U46 4
-Net 90 "OUT31" "OUT31"
- U16 44
- U17 5
- R106 2
- U42 4
-Net 91 "OUT17" "OUT17"
- U16 24
- U11 2
- R87 2
- U35 4
-Net 92 "OUT9" "OUT9"
- U31 4
- U16 14
- R75 2
- U6 2
-Net 93 "OUT38" "OUT38"
- U16 53
- U23 6
- R57 2
- U24 4
-Net 94 "OUT30" "OUT30"
- U16 43
- U17 6
- U18 4
- R44 2
-Net 95 "OUT22" "OUT22"
- U12 4
- R31 2
- U16 33
- U11 6
-Net 96 "OUT8" "OUT8"
- U6 9
- R24 2
- U10 4
- U16 13
-Net 97 "A0" "A0"
- SW1 1
- SW1 2
- SW1 3
- SW1 4
- U16 27
-Net 98 "GND" "GND"
- C7 1
- U1 19
- U23 1
- J1 3
- J1 2
- C6 1
- U17 19
- U23 10
- U23 19
- C4 2
- U6 10
- U6 1
- U16 6
- U16 51
- U16 11
- C1 1
- U16 30
- U17 10
- U17 1
- U16 23
- U16 39
- U16 34
- C8 1
- C3 1
- C5 2
- C2 2
- U6 19
- C9 2
- U11 1
- SW1 15
- C10 2
- SW1 23
- U1 10
- C11 2
- U1 1
- U11 19
- SW1 19
- DS1 2
- U11 10
-Net 99 "A2" "A2"
- U16 29
- SW1 9
- SW1 12
- SW1 11
- SW1 10
-Net 100 "A1" "A1"
- U16 28
- SW1 7
- SW1 8
- SW1 5
- SW1 6
-Net 101 "" ""
- U4 1
- R4 1
-Net 102 "" ""
- U1 12
- U4 2
-Net 103 "" ""
- R66 1
- U29 1
-Net 104 "" ""
- R72 1
- U29 3
-Net 105 "" ""
- U28 3
- R71 1
-Net 106 "" ""
- U4 3
- R10 1
-Net 107 "" ""
- U2 3
- R8 1
-Net 108 "" ""
- U30 3
- R73 1
-Net 109 "" ""
- U3 3
- R9 1
-Net 110 "" ""
- R3 1
- U3 1
-Net 111 "" ""
- R2 1
- U2 1
-Net 112 "" ""
- R11 1
- U5 3
-Net 113 "" ""
- U5 1
- R5 1
-Net 114 "" ""
- U27 3
- R69 1
-Net 115 "" ""
- U27 2
- U1 18
-Net 116 "" ""
- R63 1
- U27 1
-Net 117 "" ""
- U28 1
- R65 1
-Net 118 "" ""
- U2 2
- U1 14
-Net 119 "" ""
- U1 11
- U5 2
-Net 120 "" ""
- U1 13
- U3 2
-Net 121 "" ""
- U30 2
- U1 15
-Net 122 "" ""
- R67 1
- U30 1
-Net 123 "" ""
- U1 16
- U29 2
-Net 124 "" ""
- U28 2
- U1 17
-Net 125 "" ""
- U9 1
- R16 1
-Net 126 "" ""
- U6 12
- U9 2
-Net 127 "" ""
- R78 1
- U33 1
-Net 128 "" ""
- U33 3
- R84 1
-Net 129 "" ""
- R83 1
- U32 3
-Net 130 "" ""
- R22 1
- U9 3
-Net 131 "" ""
- U7 3
- R20 1
-Net 132 "" ""
- R85 1
- U34 3
-Net 133 "" ""
- R21 1
- U8 3
-Net 134 "" ""
- R15 1
- U8 1
-Net 135 "" ""
- U7 1
- R14 1
-Net 136 "" ""
- U10 3
- R23 1
-Net 137 "" ""
- U10 1
- R17 1
-Net 138 "" ""
- R82 1
- U31 3
-Net 139 "" ""
- U31 2
- U6 18
-Net 140 "" ""
- U31 1
- R76 1
-Net 141 "" ""
- R77 1
- U32 1
-Net 142 "" ""
- U6 14
- U7 2
-Net 143 "" ""
- U10 2
- U6 11
-Net 144 "" ""
- U8 2
- U6 13
-Net 145 "" ""
- U6 15
- U34 2
-Net 146 "" ""
- R79 1
- U34 1
-Net 147 "" ""
- U33 2
- U6 16
-Net 148 "" ""
- U6 17
- U32 2
-Net 149 "" ""
- R28 1
- U14 1
-Net 150 "" ""
- R90 1
- U37 1
-Net 151 "" ""
- R96 1
- U37 3
-Net 152 "" ""
- U36 3
- R95 1
-Net 153 "" ""
- U14 3
- R34 1
-Net 154 "" ""
- U12 3
- R32 1
-Net 155 "" ""
- U38 3
- R97 1
-Net 156 "" ""
- R33 1
- U13 3
-Net 157 "" ""
- U13 1
- R27 1
-Net 158 "" ""
- R26 1
- U12 1
-Net 159 "" ""
- U15 3
- R35 1
-Net 160 "" ""
- U11 11
- U15 2
-Net 161 "" ""
- U15 1
- R29 1
-Net 162 "" ""
- R94 1
- U35 3
-Net 163 "" ""
- U35 1
- R88 1
-Net 164 "" ""
- U36 1
- R89 1
-Net 165 "" ""
- U11 18
- U35 2
-Net 166 "" ""
- U11 17
- U36 2
-Net 167 "" ""
- U11 13
- U13 2
-Net 168 "" ""
- U11 16
- U37 2
-Net 169 "" ""
- R91 1
- U38 1
-Net 170 "" ""
- U11 15
- U38 2
-Net 171 "" ""
- U12 2
- U11 14
-Net 172 "" ""
- U11 12
- U14 2
-Net 173 "" ""
- U41 1
- R104 1
-Net 174 "" ""
- R110 1
- U41 3
-Net 175 "" ""
- R109 1
- U40 3
-Net 176 "" ""
- R48 1
- U20 3
-Net 177 "" ""
- U20 1
- R40 1
-Net 178 "" ""
- R46 1
- U18 3
-Net 179 "" ""
- U42 3
- R111 1
-Net 180 "" ""
- R47 1
- U19 3
-Net 181 "" ""
- U19 1
- R39 1
-Net 182 "" ""
- R38 1
- U18 1
-Net 183 "" ""
- U17 18
- U39 2
-Net 184 "" ""
- U21 3
- R49 1
-Net 185 "" ""
- U17 11
- U21 2
-Net 186 "" ""
- R41 1
- U21 1
-Net 187 "" ""
- U39 3
- R108 1
-Net 188 "" ""
- U39 1
- R102 1
-Net 189 "" ""
- R103 1
- U40 1
-Net 190 "" ""
- U40 2
- U17 17
-Net 191 "" ""
- U19 2
- U17 13
-Net 192 "" ""
- U41 2
- U17 16
-Net 193 "" ""
- U18 2
- U17 14
-Net 194 "" ""
- U42 1
- R105 1
-Net 195 "" ""
- U42 2
- U17 15
-Net 196 "" ""
- U17 12
- U20 2
-Net 197 "" ""
- R54 1
- U26 1
-Net 198 "" ""
- U45 1
- R116 1
-Net 199 "" ""
- U45 3
- R122 1
-Net 200 "" ""
- U44 2
- U23 17
-Net 201 "" ""
- U44 3
- R121 1
-Net 202 "" ""
- U26 3
- R60 1
-Net 203 "" ""
- U24 2
- U23 14
-Net 204 "" ""
- R58 1
- U24 3
-Net 205 "" ""
- U46 3
- R123 1
-Net 206 "" ""
- U25 3
- R59 1
-Net 207 "" ""
- U25 1
- R53 1
-Net 208 "" ""
- U24 1
- R52 1
-Net 209 "" ""
- R61 1
- U22 3
-Net 210 "" ""
- U22 2
- U23 11
-Net 211 "" ""
- R55 1
- U22 1
-Net 212 "" ""
- R119 1
- U43 3
-Net 213 "" ""
- U43 1
- R113 1
-Net 214 "" ""
- R115 1
- U44 1
-Net 215 "" ""
- U23 12
- U26 2
-Net 216 "" ""
- U25 2
- U23 13
-Net 217 "" ""
- U23 18
- U43 2
-Net 218 "" ""
- U45 2
- U23 16
-Net 219 "" ""
- U46 1
- R117 1
-Net 220 "" ""
- U23 15
- U46 2
-}
-#End
+(export (version D)
+  (design
+    (source "D:/docs/Dropbox/dropbot/40-channel_HV_switching_board/40-channel HV switching board.sch")
+    (date "1/28/2014 10:38:23 AM")
+    (tool "eeschema (2013-07-07 BZR 4022)-stable"))
+  (components
+    (comp (ref J2)
+      (value CONN_10)
+      (libsource (lib conn) (part CONN_10))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 5140AB7B))
+    (comp (ref J1)
+      (value CONN_4)
+      (libsource (lib conn) (part CONN_4))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 513F6C16))
+    (comp (ref SW1)
+      (value 12POS_SW)
+      (libsource (lib wheelerlab) (part 12POS_SW))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 513F5DDF))
+    (comp (ref U16)
+      (value PCA9505/9506/9698)
+      (libsource (lib wheelerlab) (part PCA9505/9506/9698))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 513F561C))
+    (comp (ref J5)
+      (value CONN_40)
+      (libsource (lib wheelerlab) (part CONN_40))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 50F97415))
+    (comp (ref C11)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E3302F8))
+    (comp (ref C10)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E3302B3))
+    (comp (ref DS1)
+      (value LED)
+      (libsource (lib device) (part LED))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E32F931))
+    (comp (ref R45)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E32F92B))
+    (comp (ref C4)
+      (value 0.01uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E32F915))
+    (comp (ref C9)
+      (value 33uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E32F90F))
+    (comp (ref C2)
+      (value 33uF)
+      (libsource (lib device) (part CP1))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E32F904))
+    (comp (ref C5)
+      (value 0.1uF)
+      (libsource (lib device) (part C))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E32F8DD))
+    (comp (ref J3)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4E32F7DF))
+    (comp (ref J4)
+      (value CONN_2)
+      (libsource (lib conn) (part CONN_2))
+      (sheetpath (names "/page 1/") (tstamps /4E330547/))
+      (tstamp 4AF8CDDC))
+    (comp (ref R24)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB5B))
+    (comp (ref R67)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB5C))
+    (comp (ref U30)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB5D))
+    (comp (ref R73)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB5E))
+    (comp (ref R8)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D490))
+    (comp (ref U2)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D491))
+    (comp (ref R2)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB61))
+    (comp (ref R65)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB62))
+    (comp (ref U3)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D494))
+    (comp (ref R71)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D495))
+    (comp (ref R72)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D496))
+    (comp (ref U29)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D497))
+    (comp (ref R66)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB67))
+    (comp (ref R3)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D499))
+    (comp (ref U4)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB69))
+    (comp (ref R9)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB6A))
+    (comp (ref R10)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB6B))
+    (comp (ref U28)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB6C))
+    (comp (ref R4)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB6D))
+    (comp (ref R63)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB6E))
+    (comp (ref R69)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB6F))
+    (comp (ref R11)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB71))
+    (comp (ref R12)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4A3))
+    (comp (ref U5)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB73))
+    (comp (ref R5)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB74))
+    (comp (ref R64)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4A8))
+    (comp (ref U27)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4A9))
+    (comp (ref R74)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB7C))
+    (comp (ref R1)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB7F))
+    (comp (ref R70)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4B3))
+    (comp (ref R6)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4B6))
+    (comp (ref R7)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4B9))
+    (comp (ref R68)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4BC))
+    (comp (ref R79)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4C2))
+    (comp (ref U34)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB8D))
+    (comp (ref R85)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB8E))
+    (comp (ref R20)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB8F))
+    (comp (ref U7)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4DA))
+    (comp (ref R14)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB91))
+    (comp (ref R15)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4E6))
+    (comp (ref U8)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4EC))
+    (comp (ref R21)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4F2))
+    (comp (ref R84)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4F8))
+    (comp (ref U33)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D4FE))
+    (comp (ref R78)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D504))
+    (comp (ref R16)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB98))
+    (comp (ref U9)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB99))
+    (comp (ref R22)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D516))
+    (comp (ref R83)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D51C))
+    (comp (ref U32)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D522))
+    (comp (ref R77)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DB9D))
+    (comp (ref R76)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D52E))
+    (comp (ref R82)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D535))
+    (comp (ref R23)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D542))
+    (comp (ref U10)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DBA2))
+    (comp (ref R17)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DBA3))
+    (comp (ref R75)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D572))
+    (comp (ref U31)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D579))
+    (comp (ref R86)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D5A6))
+    (comp (ref R13)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D5C4))
+    (comp (ref R81)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D5E2))
+    (comp (ref R18)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D600))
+    (comp (ref R19)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DBB7))
+    (comp (ref R80)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D63C))
+    (comp (ref R36)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D80A))
+    (comp (ref R28)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D858))
+    (comp (ref U14)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D85E))
+    (comp (ref R34)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D864))
+    (comp (ref R95)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D86A))
+    (comp (ref U36)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DBC0))
+    (comp (ref R89)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DBC1))
+    (comp (ref R88)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D87C))
+    (comp (ref R94)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D883))
+    (comp (ref R35)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D88F))
+    (comp (ref U15)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D896))
+    (comp (ref R29)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D89E))
+    (comp (ref R87)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DBCA))
+    (comp (ref U35)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DBCB))
+    (comp (ref R98)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6DBCF))
+    (comp (ref R25)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 2/") (tstamps /4E33056B/))
+      (tstamp 52E6D90B))
+    (comp (ref R107)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D48A))
+    (comp (ref R103)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D48D))
+    (comp (ref U40)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D48E))
+    (comp (ref R109)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D48F))
+    (comp (ref R48)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB5F))
+    (comp (ref U20)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB60))
+    (comp (ref R40)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D492))
+    (comp (ref R41)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D493))
+    (comp (ref U21)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB63))
+    (comp (ref R49)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB64))
+    (comp (ref R108)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB65))
+    (comp (ref U39)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB66))
+    (comp (ref R102)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D498))
+    (comp (ref R26)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB68))
+    (comp (ref U12)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D49A))
+    (comp (ref R32)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D49B))
+    (comp (ref R97)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D49C))
+    (comp (ref U38)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D49D))
+    (comp (ref R91)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D49E))
+    (comp (ref R90)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D49F))
+    (comp (ref R96)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4A0))
+    (comp (ref R33)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4A2))
+    (comp (ref R93)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB72))
+    (comp (ref U13)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4A4))
+    (comp (ref R27)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4A5))
+    (comp (ref R30)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB77))
+    (comp (ref U37)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB78))
+    (comp (ref R31)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4AD))
+    (comp (ref R92)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4B0))
+    (comp (ref R50)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB82))
+    (comp (ref R101)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB85))
+    (comp (ref R112)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB88))
+    (comp (ref R37)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB8B))
+    (comp (ref R115)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB8C))
+    (comp (ref U44)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4C8))
+    (comp (ref R121)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4CE))
+    (comp (ref R60)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4D4))
+    (comp (ref U26)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB90))
+    (comp (ref R54)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D4E0))
+    (comp (ref R55)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB92))
+    (comp (ref U22)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB93))
+    (comp (ref R61)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB94))
+    (comp (ref R119)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB95))
+    (comp (ref U43)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB96))
+    (comp (ref R113)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB97))
+    (comp (ref R38)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D50A))
+    (comp (ref U18)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D510))
+    (comp (ref R46)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB9A))
+    (comp (ref R111)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB9B))
+    (comp (ref U42)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB9C))
+    (comp (ref R105)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D528))
+    (comp (ref R104)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB9E))
+    (comp (ref R110)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DB9F))
+    (comp (ref R47)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBA1))
+    (comp (ref U19)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D54F))
+    (comp (ref R39)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D557))
+    (comp (ref R42)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBA6))
+    (comp (ref U41)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBA7))
+    (comp (ref R44)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBAB))
+    (comp (ref R106)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBAE))
+    (comp (ref R62)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBB1))
+    (comp (ref R114)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBB4))
+    (comp (ref R124)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D61E))
+    (comp (ref R51)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBBA))
+    (comp (ref R120)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBBB))
+    (comp (ref R52)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBBC))
+    (comp (ref U24)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBBD))
+    (comp (ref R58)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBBE))
+    (comp (ref R123)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBBF))
+    (comp (ref U46)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D870))
+    (comp (ref R117)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D876))
+    (comp (ref R116)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBC2))
+    (comp (ref R122)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBC3))
+    (comp (ref R59)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBC5))
+    (comp (ref U25)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBC6))
+    (comp (ref R53)
+      (value 375)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBC7))
+    (comp (ref R56)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D8B9))
+    (comp (ref U45)
+      (value AQW216)
+      (libsource (lib wheelerlab) (part AQW216))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D8C0))
+    (comp (ref R57)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6D8ED))
+    (comp (ref R118)
+      (value 4.75k)
+      (libsource (lib device) (part R))
+      (sheetpath (names "/page 3/") (tstamps /4E331219/))
+      (tstamp 52E6DBD2)))
+  (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part CP1)
+      (description "Condensateur polarise")
+      (footprints
+        (fp CP*)
+        (fp SM*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) CP1)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistance)
+      (footprints
+        (fp R?)
+        (fp SM0603)
+        (fp SM0805)
+        (fp R?-*)
+        (fp SM1206))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib conn) (part CONN_10)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_10))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))))
+    (libpart (lib conn) (part CONN_2)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib conn) (part CONN_4)
+      (description "Symbole general de connecteur")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_4))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))))
+    (libpart (lib wheelerlab) (part 12POS_SW)
+      (fields
+        (field (name Reference) SW)
+        (field (name Value) 12POS_SW)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name 1) (type input))
+        (pin (num 2) (name 2) (type input))
+        (pin (num 3) (name 3) (type input))
+        (pin (num 4) (name 4) (type input))
+        (pin (num 5) (name 5) (type input))
+        (pin (num 6) (name 6) (type input))
+        (pin (num 7) (name 7) (type input))
+        (pin (num 8) (name 8) (type input))
+        (pin (num 9) (name 9) (type input))
+        (pin (num 10) (name 10) (type input))
+        (pin (num 11) (name 11) (type input))
+        (pin (num 12) (name 12) (type input))
+        (pin (num 13) (name 13) (type input))
+        (pin (num 14) (name 14) (type input))
+        (pin (num 15) (name 15) (type input))
+        (pin (num 16) (name 16) (type input))
+        (pin (num 17) (name 17) (type input))
+        (pin (num 18) (name 18) (type input))
+        (pin (num 19) (name 19) (type input))
+        (pin (num 20) (name 20) (type input))
+        (pin (num 21) (name 21) (type input))
+        (pin (num 22) (name 22) (type input))
+        (pin (num 23) (name 23) (type input))
+        (pin (num 24) (name 24) (type input))))
+    (libpart (lib wheelerlab) (part AQW216)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) AQW216)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name ANOD1) (type input))
+        (pin (num 2) (name CATH1) (type input))
+        (pin (num 3) (name ANOD2) (type input))
+        (pin (num 4) (name CATH2) (type input))
+        (pin (num 5) (name INOUTB2) (type passive))
+        (pin (num 6) (name INOUTA2) (type passive))
+        (pin (num 7) (name INOUTB1) (type passive))
+        (pin (num 8) (name INOUTA1) (type passive))))
+    (libpart (lib wheelerlab) (part CONN_40)
+      (description "Symbole general de connexion")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_40)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))
+        (pin (num 7) (name P7) (type passive))
+        (pin (num 8) (name P8) (type passive))
+        (pin (num 9) (name P9) (type passive))
+        (pin (num 10) (name P10) (type passive))
+        (pin (num 11) (name P11) (type passive))
+        (pin (num 12) (name P12) (type passive))
+        (pin (num 13) (name P13) (type passive))
+        (pin (num 14) (name P14) (type passive))
+        (pin (num 15) (name P15) (type passive))
+        (pin (num 16) (name P16) (type passive))
+        (pin (num 17) (name P17) (type passive))
+        (pin (num 18) (name P18) (type passive))
+        (pin (num 19) (name P19) (type passive))
+        (pin (num 20) (name P20) (type passive))
+        (pin (num 21) (name P21) (type passive))
+        (pin (num 22) (name P22) (type passive))
+        (pin (num 23) (name P23) (type passive))
+        (pin (num 24) (name P24) (type passive))
+        (pin (num 25) (name P25) (type passive))
+        (pin (num 26) (name P26) (type passive))
+        (pin (num 27) (name P27) (type passive))
+        (pin (num 28) (name P28) (type passive))
+        (pin (num 29) (name P29) (type passive))
+        (pin (num 30) (name P30) (type passive))
+        (pin (num 31) (name P31) (type passive))
+        (pin (num 32) (name P32) (type passive))
+        (pin (num 33) (name P33) (type passive))
+        (pin (num 34) (name P34) (type passive))
+        (pin (num 35) (name P35) (type passive))
+        (pin (num 36) (name P36) (type passive))
+        (pin (num 37) (name P37) (type passive))
+        (pin (num 38) (name P38) (type passive))
+        (pin (num 39) (name P39) (type passive))
+        (pin (num 40) (name P40) (type passive))))
+    (libpart (lib wheelerlab) (part PCA9505/9506/9698)
+      (fields
+        (field (name Reference) U)
+        (field (name Value) PCA9505/9506/9698)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name SDA) (type input))
+        (pin (num 2) (name SCL) (type input))
+        (pin (num 3) (name IO0_0) (type input))
+        (pin (num 4) (name IO0_1) (type input))
+        (pin (num 5) (name IO0_2) (type input))
+        (pin (num 6) (name VSS) (type input))
+        (pin (num 7) (name IO0_3) (type input))
+        (pin (num 8) (name IO0_4) (type input))
+        (pin (num 9) (name IO0_5) (type input))
+        (pin (num 10) (name IO0_6) (type input))
+        (pin (num 11) (name VSS) (type input))
+        (pin (num 12) (name IO0_7) (type input))
+        (pin (num 13) (name IO1_0) (type input))
+        (pin (num 14) (name IO1_1) (type input))
+        (pin (num 15) (name IO1_2) (type input))
+        (pin (num 16) (name IO1_3) (type input))
+        (pin (num 17) (name IO1_4) (type input))
+        (pin (num 18) (name VDD) (type input))
+        (pin (num 19) (name IO1_5) (type input))
+        (pin (num 20) (name IO1_6) (type input))
+        (pin (num 21) (name IO1_7) (type input))
+        (pin (num 22) (name IO2_0) (type input))
+        (pin (num 23) (name VSS) (type input))
+        (pin (num 24) (name IO2_1) (type input))
+        (pin (num 25) (name IO2_2) (type input))
+        (pin (num 26) (name IO2_3) (type input))
+        (pin (num 27) (name A0) (type input))
+        (pin (num 28) (name A1) (type input))
+        (pin (num 29) (name A2) (type input))
+        (pin (num 30) (name OE) (type input))
+        (pin (num 31) (name IO2_4) (type input))
+        (pin (num 32) (name IO2_5) (type input))
+        (pin (num 33) (name IO2_6) (type input))
+        (pin (num 34) (name VSS) (type input))
+        (pin (num 35) (name IO2_7) (type input))
+        (pin (num 36) (name IO3_0) (type input))
+        (pin (num 37) (name IO3_1) (type input))
+        (pin (num 38) (name IO3_2) (type input))
+        (pin (num 39) (name VSS) (type input))
+        (pin (num 40) (name IO3_3) (type input))
+        (pin (num 41) (name IO3_4) (type input))
+        (pin (num 42) (name IO3_5) (type input))
+        (pin (num 43) (name IO3_6) (type input))
+        (pin (num 44) (name IO3_7) (type input))
+        (pin (num 45) (name IO4_0) (type input))
+        (pin (num 46) (name VDD) (type input))
+        (pin (num 47) (name IO4_1) (type input))
+        (pin (num 48) (name IO4_2) (type input))
+        (pin (num 49) (name IO4_3) (type input))
+        (pin (num 50) (name IO4_4) (type input))
+        (pin (num 51) (name VSS) (type input))
+        (pin (num 52) (name IO4_5) (type input))
+        (pin (num 53) (name IO4_6) (type input))
+        (pin (num 54) (name IO4_7) (type input))
+        (pin (num 55) (name INT) (type input))
+        (pin (num 56) (name RESET) (type input)))))
+  (libraries
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\library\\conn.lib"))
+    (library (logical wheelerlab)
+      (uri library\wheelerlab.lib)))
+  (nets
+    (net (code 1) (name "")
+      (node (ref R45) (pin 2))
+      (node (ref DS1) (pin 1)))
+    (net (code 2) (name "")
+      (node (ref U16) (pin 55)))
+    (net (code 3) (name +5V)
+      (node (ref R24) (pin 1))
+      (node (ref R67) (pin 2))
+      (node (ref R98) (pin 1))
+      (node (ref R56) (pin 1))
+      (node (ref R4) (pin 2))
+      (node (ref R31) (pin 1))
+      (node (ref R114) (pin 1))
+      (node (ref R63) (pin 2))
+      (node (ref R80) (pin 1))
+      (node (ref R92) (pin 1))
+      (node (ref R13) (pin 1))
+      (node (ref R65) (pin 2))
+      (node (ref R106) (pin 1))
+      (node (ref R79) (pin 2))
+      (node (ref R3) (pin 2))
+      (node (ref R18) (pin 1))
+      (node (ref R66) (pin 2))
+      (node (ref R44) (pin 1))
+      (node (ref R42) (pin 1))
+      (node (ref R50) (pin 1))
+      (node (ref R89) (pin 2))
+      (node (ref J1) (pin 4))
+      (node (ref R86) (pin 1))
+      (node (ref R25) (pin 1))
+      (node (ref R113) (pin 2))
+      (node (ref R37) (pin 1))
+      (node (ref SW1) (pin 20))
+      (node (ref R90) (pin 2))
+      (node (ref R39) (pin 2))
+      (node (ref SW1) (pin 24))
+      (node (ref R88) (pin 2))
+      (node (ref SW1) (pin 16))
+      (node (ref R115) (pin 2))
+      (node (ref R12) (pin 1))
+      (node (ref R26) (pin 2))
+      (node (ref R102) (pin 2))
+      (node (ref R105) (pin 2))
+      (node (ref R53) (pin 2))
+      (node (ref R27) (pin 2))
+      (node (ref R36) (pin 1))
+      (node (ref R62) (pin 1))
+      (node (ref R28) (pin 2))
+      (node (ref R55) (pin 2))
+      (node (ref R54) (pin 2))
+      (node (ref R2) (pin 2))
+      (node (ref R19) (pin 1))
+      (node (ref R104) (pin 2))
+      (node (ref R93) (pin 1))
+      (node (ref R38) (pin 2))
+      (node (ref R64) (pin 1))
+      (node (ref U16) (pin 18))
+      (node (ref R52) (pin 2))
+      (node (ref C9) (pin 1))
+      (node (ref R41) (pin 2))
+      (node (ref R91) (pin 2))
+      (node (ref R40) (pin 2))
+      (node (ref R76) (pin 2))
+      (node (ref R77) (pin 2))
+      (node (ref R29) (pin 2))
+      (node (ref R1) (pin 1))
+      (node (ref C2) (pin 1))
+      (node (ref R124) (pin 1))
+      (node (ref R6) (pin 1))
+      (node (ref R15) (pin 2))
+      (node (ref R14) (pin 2))
+      (node (ref R30) (pin 1))
+      (node (ref R45) (pin 1))
+      (node (ref C10) (pin 1))
+      (node (ref C4) (pin 1))
+      (node (ref C11) (pin 1))
+      (node (ref R74) (pin 1))
+      (node (ref R75) (pin 1))
+      (node (ref R70) (pin 1))
+      (node (ref R51) (pin 1))
+      (node (ref R120) (pin 1))
+      (node (ref C5) (pin 1))
+      (node (ref R112) (pin 1))
+      (node (ref R107) (pin 1))
+      (node (ref U16) (pin 56))
+      (node (ref R118) (pin 1))
+      (node (ref R68) (pin 1))
+      (node (ref R101) (pin 1))
+      (node (ref R81) (pin 1))
+      (node (ref R7) (pin 1))
+      (node (ref R5) (pin 2))
+      (node (ref R17) (pin 2))
+      (node (ref R16) (pin 2))
+      (node (ref R57) (pin 1))
+      (node (ref R117) (pin 2))
+      (node (ref R103) (pin 2))
+      (node (ref R87) (pin 1))
+      (node (ref U16) (pin 46))
+      (node (ref R116) (pin 2))
+      (node (ref R78) (pin 2)))
+    (net (code 4) (name HVOUT38)
+      (node (ref U24) (pin 6))
+      (node (ref J5) (pin 39))
+      (node (ref U24) (pin 7)))
+    (net (code 5) (name HVOUT28)
+      (node (ref U19) (pin 6))
+      (node (ref J5) (pin 29))
+      (node (ref U19) (pin 7)))
+    (net (code 6) (name HVOUT18)
+      (node (ref U14) (pin 6))
+      (node (ref J5) (pin 19))
+      (node (ref U14) (pin 7)))
+    (net (code 7) (name HVOUT37)
+      (node (ref U45) (pin 7))
+      (node (ref U45) (pin 6))
+      (node (ref J5) (pin 38)))
+    (net (code 8) (name HVOUT27)
+      (node (ref U40) (pin 7))
+      (node (ref J5) (pin 28))
+      (node (ref U40) (pin 6)))
+    (net (code 9) (name HVOUT17)
+      (node (ref J5) (pin 18))
+      (node (ref U35) (pin 6))
+      (node (ref U35) (pin 7)))
+    (net (code 10) (name HV)
+      (node (ref U45) (pin 5))
+      (node (ref U13) (pin 5))
+      (node (ref U14) (pin 5))
+      (node (ref U37) (pin 5))
+      (node (ref U15) (pin 5))
+      (node (ref U36) (pin 5))
+      (node (ref U24) (pin 5))
+      (node (ref U25) (pin 5))
+      (node (ref U10) (pin 5))
+      (node (ref U32) (pin 5))
+      (node (ref U31) (pin 5))
+      (node (ref U35) (pin 5))
+      (node (ref U42) (pin 5))
+      (node (ref U46) (pin 5))
+      (node (ref U3) (pin 5))
+      (node (ref U33) (pin 5))
+      (node (ref U2) (pin 5))
+      (node (ref U22) (pin 5))
+      (node (ref U18) (pin 5))
+      (node (ref U19) (pin 5))
+      (node (ref U43) (pin 5))
+      (node (ref U28) (pin 5))
+      (node (ref U34) (pin 5))
+      (node (ref U29) (pin 5))
+      (node (ref U7) (pin 5))
+      (node (ref U27) (pin 5))
+      (node (ref U4) (pin 5))
+      (node (ref J4) (pin 2))
+      (node (ref U30) (pin 5))
+      (node (ref J3) (pin 2))
+      (node (ref U41) (pin 5))
+      (node (ref U38) (pin 5))
+      (node (ref U12) (pin 5))
+      (node (ref U5) (pin 5))
+      (node (ref U40) (pin 5))
+      (node (ref U9) (pin 5))
+      (node (ref U21) (pin 5))
+      (node (ref U20) (pin 5))
+      (node (ref U39) (pin 5))
+      (node (ref U8) (pin 5))
+      (node (ref U44) (pin 5))
+      (node (ref U26) (pin 5)))
+    (net (code 11) (name HVOUT1)
+      (node (ref U27) (pin 7))
+      (node (ref U27) (pin 6))
+      (node (ref J5) (pin 2)))
+    (net (code 12) (name HVOUT29)
+      (node (ref U41) (pin 7))
+      (node (ref U41) (pin 6))
+      (node (ref J5) (pin 30)))
+    (net (code 13) (name HVOUT19)
+      (node (ref J5) (pin 20))
+      (node (ref U36) (pin 6))
+      (node (ref U36) (pin 7)))
+    (net (code 14) (name HVOUT9)
+      (node (ref U31) (pin 7))
+      (node (ref J5) (pin 10))
+      (node (ref U31) (pin 6)))
+    (net (code 15) (name HVOUT8)
+      (node (ref J5) (pin 9))
+      (node (ref U10) (pin 6))
+      (node (ref U10) (pin 7)))
+    (net (code 16) (name HVOUT7)
+      (node (ref U30) (pin 7))
+      (node (ref U30) (pin 6))
+      (node (ref J5) (pin 8)))
+    (net (code 17) (name HVOUT6)
+      (node (ref U2) (pin 7))
+      (node (ref U2) (pin 6))
+      (node (ref J5) (pin 7)))
+    (net (code 18) (name HVOUT5)
+      (node (ref J5) (pin 6))
+      (node (ref U29) (pin 7))
+      (node (ref U29) (pin 6)))
+    (net (code 19) (name HVOUT4)
+      (node (ref U3) (pin 6))
+      (node (ref U3) (pin 7))
+      (node (ref J5) (pin 5)))
+    (net (code 20) (name HVOUT3)
+      (node (ref J5) (pin 4))
+      (node (ref U28) (pin 7))
+      (node (ref U28) (pin 6)))
+    (net (code 21) (name HVOUT2)
+      (node (ref J5) (pin 3))
+      (node (ref U4) (pin 7))
+      (node (ref U4) (pin 6)))
+    (net (code 22) (name HVOUT39)
+      (node (ref U46) (pin 6))
+      (node (ref U46) (pin 7))
+      (node (ref J5) (pin 40)))
+    (net (code 23) (name HVOUT0)
+      (node (ref U5) (pin 6))
+      (node (ref U5) (pin 7))
+      (node (ref J5) (pin 1)))
+    (net (code 24) (name OUT35)
+      (node (ref R51) (pin 2))
+      (node (ref U16) (pin 49))
+      (node (ref U44) (pin 2))
+      (node (ref U44) (pin 3)))
+    (net (code 25) (name OUT13)
+      (node (ref U33) (pin 3))
+      (node (ref U16) (pin 19))
+      (node (ref U33) (pin 2))
+      (node (ref R18) (pin 2)))
+    (net (code 26) (name OUT34)
+      (node (ref R124) (pin 2))
+      (node (ref U16) (pin 48))
+      (node (ref U26) (pin 2))
+      (node (ref U26) (pin 3)))
+    (net (code 27) (name OUT26)
+      (node (ref U20) (pin 2))
+      (node (ref U16) (pin 38))
+      (node (ref U20) (pin 3))
+      (node (ref R112) (pin 2)))
+    (net (code 28) (name OUT25)
+      (node (ref R101) (pin 2))
+      (node (ref U16) (pin 37))
+      (node (ref U39) (pin 3))
+      (node (ref U39) (pin 2)))
+    (net (code 29) (name HVOUT23)
+      (node (ref U38) (pin 7))
+      (node (ref U38) (pin 6))
+      (node (ref J5) (pin 24)))
+    (net (code 30) (name HVOUT36)
+      (node (ref J5) (pin 37))
+      (node (ref U25) (pin 6))
+      (node (ref U25) (pin 7)))
+    (net (code 31) (name HVOUT26)
+      (node (ref U20) (pin 7))
+      (node (ref U20) (pin 6))
+      (node (ref J5) (pin 27)))
+    (net (code 32) (name HVOUT16)
+      (node (ref U15) (pin 7))
+      (node (ref U15) (pin 6))
+      (node (ref J5) (pin 17)))
+    (net (code 33) (name HVOUT35)
+      (node (ref J5) (pin 36))
+      (node (ref U44) (pin 6))
+      (node (ref U44) (pin 7)))
+    (net (code 34) (name HVOUT25)
+      (node (ref U39) (pin 6))
+      (node (ref J5) (pin 26))
+      (node (ref U39) (pin 7)))
+    (net (code 35) (name HVOUT15)
+      (node (ref U34) (pin 7))
+      (node (ref J5) (pin 16))
+      (node (ref U34) (pin 6)))
+    (net (code 36) (name HVOUT34)
+      (node (ref J5) (pin 35))
+      (node (ref U26) (pin 7))
+      (node (ref U26) (pin 6)))
+    (net (code 37) (name HVOUT24)
+      (node (ref U21) (pin 6))
+      (node (ref U21) (pin 7))
+      (node (ref J5) (pin 25)))
+    (net (code 38) (name HVOUT14)
+      (node (ref U7) (pin 6))
+      (node (ref U7) (pin 7))
+      (node (ref J5) (pin 15)))
+    (net (code 39) (name HVOUT33)
+      (node (ref U43) (pin 7))
+      (node (ref J5) (pin 34))
+      (node (ref U43) (pin 6)))
+    (net (code 40) (name HVOUT13)
+      (node (ref J5) (pin 14))
+      (node (ref U33) (pin 7))
+      (node (ref U33) (pin 6)))
+    (net (code 41) (name HVOUT32)
+      (node (ref J5) (pin 33))
+      (node (ref U22) (pin 6))
+      (node (ref U22) (pin 7)))
+    (net (code 42) (name HVOUT22)
+      (node (ref J5) (pin 23))
+      (node (ref U12) (pin 6))
+      (node (ref U12) (pin 7)))
+    (net (code 43) (name HVOUT12)
+      (node (ref J5) (pin 13))
+      (node (ref U8) (pin 6))
+      (node (ref U8) (pin 7)))
+    (net (code 44) (name HVOUT31)
+      (node (ref U42) (pin 6))
+      (node (ref J5) (pin 32))
+      (node (ref U42) (pin 7)))
+    (net (code 45) (name HVOUT21)
+      (node (ref J5) (pin 22))
+      (node (ref U37) (pin 6))
+      (node (ref U37) (pin 7)))
+    (net (code 46) (name HVOUT11)
+      (node (ref J5) (pin 12))
+      (node (ref U32) (pin 6))
+      (node (ref U32) (pin 7)))
+    (net (code 47) (name HVOUT30)
+      (node (ref J5) (pin 31))
+      (node (ref U18) (pin 6))
+      (node (ref U18) (pin 7)))
+    (net (code 48) (name HVOUT20)
+      (node (ref J5) (pin 21))
+      (node (ref U13) (pin 6))
+      (node (ref U13) (pin 7)))
+    (net (code 49) (name HVOUT10)
+      (node (ref J5) (pin 11))
+      (node (ref U9) (pin 7))
+      (node (ref U9) (pin 6)))
+    (net (code 50) (name HVGND)
+      (node (ref U2) (pin 8))
+      (node (ref U3) (pin 8))
+      (node (ref U22) (pin 8))
+      (node (ref U18) (pin 8))
+      (node (ref U30) (pin 8))
+      (node (ref J3) (pin 1))
+      (node (ref U8) (pin 8))
+      (node (ref U7) (pin 8))
+      (node (ref U33) (pin 8))
+      (node (ref U4) (pin 8))
+      (node (ref J4) (pin 1))
+      (node (ref U34) (pin 8))
+      (node (ref U29) (pin 8))
+      (node (ref U28) (pin 8))
+      (node (ref U13) (pin 8))
+      (node (ref U45) (pin 8))
+      (node (ref U46) (pin 8))
+      (node (ref U15) (pin 8))
+      (node (ref U14) (pin 8))
+      (node (ref U37) (pin 8))
+      (node (ref U36) (pin 8))
+      (node (ref U5) (pin 8))
+      (node (ref U20) (pin 8))
+      (node (ref U21) (pin 8))
+      (node (ref U40) (pin 8))
+      (node (ref U35) (pin 8))
+      (node (ref U31) (pin 8))
+      (node (ref U25) (pin 8))
+      (node (ref U32) (pin 8))
+      (node (ref U10) (pin 8))
+      (node (ref U9) (pin 8))
+      (node (ref U24) (pin 8))
+      (node (ref U39) (pin 8))
+      (node (ref U44) (pin 8))
+      (node (ref U43) (pin 8))
+      (node (ref U27) (pin 8))
+      (node (ref U19) (pin 8))
+      (node (ref U42) (pin 8))
+      (node (ref U26) (pin 8))
+      (node (ref U41) (pin 8))
+      (node (ref U12) (pin 8))
+      (node (ref U38) (pin 8)))
+    (net (code 51) (name OUT33)
+      (node (ref U43) (pin 2))
+      (node (ref U16) (pin 47))
+      (node (ref U43) (pin 3))
+      (node (ref R114) (pin 2)))
+    (net (code 52) (name SDA)
+      (node (ref SW1) (pin 22))
+      (node (ref SW1) (pin 14))
+      (node (ref J2) (pin 1))
+      (node (ref SW1) (pin 18))
+      (node (ref U16) (pin 1)))
+    (net (code 53) (name GND)
+      (node (ref R110) (pin 1))
+      (node (ref R61) (pin 1))
+      (node (ref R48) (pin 1))
+      (node (ref R119) (pin 1))
+      (node (ref R59) (pin 1))
+      (node (ref R47) (pin 1))
+      (node (ref R122) (pin 1))
+      (node (ref R111) (pin 1))
+      (node (ref R121) (pin 1))
+      (node (ref R108) (pin 1))
+      (node (ref R97) (pin 1))
+      (node (ref R32) (pin 1))
+      (node (ref R49) (pin 1))
+      (node (ref R109) (pin 1))
+      (node (ref R58) (pin 1))
+      (node (ref R123) (pin 1))
+      (node (ref R60) (pin 1))
+      (node (ref R96) (pin 1))
+      (node (ref R33) (pin 1))
+      (node (ref R46) (pin 1))
+      (node (ref J1) (pin 3))
+      (node (ref R73) (pin 1))
+      (node (ref R8) (pin 1))
+      (node (ref SW1) (pin 23))
+      (node (ref SW1) (pin 15))
+      (node (ref SW1) (pin 19))
+      (node (ref R9) (pin 1))
+      (node (ref R10) (pin 1))
+      (node (ref J1) (pin 2))
+      (node (ref R71) (pin 1))
+      (node (ref R72) (pin 1))
+      (node (ref U16) (pin 23))
+      (node (ref U16) (pin 34))
+      (node (ref U16) (pin 6))
+      (node (ref U16) (pin 30))
+      (node (ref R85) (pin 1))
+      (node (ref U16) (pin 11))
+      (node (ref U16) (pin 51))
+      (node (ref R69) (pin 1))
+      (node (ref R11) (pin 1))
+      (node (ref R95) (pin 1))
+      (node (ref R34) (pin 1))
+      (node (ref R35) (pin 1))
+      (node (ref R94) (pin 1))
+      (node (ref R83) (pin 1))
+      (node (ref R22) (pin 1))
+      (node (ref R82) (pin 1))
+      (node (ref R23) (pin 1))
+      (node (ref C2) (pin 2))
+      (node (ref C9) (pin 2))
+      (node (ref C4) (pin 2))
+      (node (ref U16) (pin 39))
+      (node (ref C5) (pin 2))
+      (node (ref DS1) (pin 2))
+      (node (ref C10) (pin 2))
+      (node (ref C11) (pin 2))
+      (node (ref R84) (pin 1))
+      (node (ref R21) (pin 1))
+      (node (ref R20) (pin 1)))
+    (net (code 54) (name "")
+      (node (ref J2) (pin 10)))
+    (net (code 55) (name "")
+      (node (ref J2) (pin 9)))
+    (net (code 56) (name "")
+      (node (ref J2) (pin 8)))
+    (net (code 57) (name "")
+      (node (ref J2) (pin 7)))
+    (net (code 58) (name "")
+      (node (ref J2) (pin 6)))
+    (net (code 59) (name "")
+      (node (ref J2) (pin 5)))
+    (net (code 60) (name SCL)
+      (node (ref J2) (pin 4))
+      (node (ref SW1) (pin 17))
+      (node (ref SW1) (pin 21))
+      (node (ref SW1) (pin 13))
+      (node (ref U16) (pin 2)))
+    (net (code 61) (name "")
+      (node (ref J2) (pin 3)))
+    (net (code 62) (name "")
+      (node (ref J2) (pin 2)))
+    (net (code 63) (name "")
+      (node (ref J1) (pin 1)))
+    (net (code 64) (name OUT36)
+      (node (ref U25) (pin 2))
+      (node (ref R120) (pin 2))
+      (node (ref U25) (pin 3))
+      (node (ref U16) (pin 50)))
+    (net (code 65) (name OUT37)
+      (node (ref U45) (pin 2))
+      (node (ref U45) (pin 3))
+      (node (ref U16) (pin 52))
+      (node (ref R56) (pin 2)))
+    (net (code 66) (name OUT29)
+      (node (ref U41) (pin 2))
+      (node (ref U16) (pin 42))
+      (node (ref U41) (pin 3))
+      (node (ref R42) (pin 2)))
+    (net (code 67) (name OUT21)
+      (node (ref U37) (pin 2))
+      (node (ref R30) (pin 2))
+      (node (ref U37) (pin 3))
+      (node (ref U16) (pin 32)))
+    (net (code 68) (name OUT16)
+      (node (ref U15) (pin 2))
+      (node (ref U15) (pin 3))
+      (node (ref R36) (pin 2))
+      (node (ref U16) (pin 22)))
+    (net (code 69) (name OUT7)
+      (node (ref U16) (pin 12))
+      (node (ref R68) (pin 2))
+      (node (ref U30) (pin 3))
+      (node (ref U30) (pin 2)))
+    (net (code 70) (name OUT28)
+      (node (ref U19) (pin 3))
+      (node (ref U19) (pin 2))
+      (node (ref R107) (pin 2))
+      (node (ref U16) (pin 41)))
+    (net (code 71) (name OUT20)
+      (node (ref U16) (pin 31))
+      (node (ref U13) (pin 3))
+      (node (ref U13) (pin 2))
+      (node (ref R93) (pin 2)))
+    (net (code 72) (name OUT15)
+      (node (ref U16) (pin 21))
+      (node (ref R80) (pin 2))
+      (node (ref U34) (pin 3))
+      (node (ref U34) (pin 2)))
+    (net (code 73) (name OUT8)
+      (node (ref U10) (pin 3))
+      (node (ref U16) (pin 13))
+      (node (ref U10) (pin 2))
+      (node (ref R24) (pin 2)))
+    (net (code 74) (name OUT27)
+      (node (ref U16) (pin 40))
+      (node (ref U40) (pin 3))
+      (node (ref U40) (pin 2))
+      (node (ref R37) (pin 2)))
+    (net (code 75) (name OUT14)
+      (node (ref U16) (pin 20))
+      (node (ref U7) (pin 3))
+      (node (ref U7) (pin 2))
+      (node (ref R19) (pin 2)))
+    (net (code 76) (name OUT6)
+      (node (ref U2) (pin 3))
+      (node (ref U2) (pin 2))
+      (node (ref R7) (pin 2))
+      (node (ref U16) (pin 10)))
+    (net (code 77) (name OUT5)
+      (node (ref U29) (pin 3))
+      (node (ref U29) (pin 2))
+      (node (ref U16) (pin 9))
+      (node (ref R6) (pin 2)))
+    (net (code 78) (name OUT4)
+      (node (ref U3) (pin 3))
+      (node (ref R70) (pin 2))
+      (node (ref U3) (pin 2))
+      (node (ref U16) (pin 8)))
+    (net (code 79) (name OUT3)
+      (node (ref R1) (pin 2))
+      (node (ref U28) (pin 2))
+      (node (ref U28) (pin 3))
+      (node (ref U16) (pin 7)))
+    (net (code 80) (name OUT2)
+      (node (ref U16) (pin 5))
+      (node (ref R74) (pin 2))
+      (node (ref U4) (pin 3))
+      (node (ref U4) (pin 2)))
+    (net (code 81) (name OUT1)
+      (node (ref U16) (pin 4))
+      (node (ref U27) (pin 3))
+      (node (ref U27) (pin 2))
+      (node (ref R64) (pin 2)))
+    (net (code 82) (name OUT10)
+      (node (ref U9) (pin 2))
+      (node (ref U16) (pin 15))
+      (node (ref U9) (pin 3))
+      (node (ref R86) (pin 2)))
+    (net (code 83) (name OUT12)
+      (node (ref R81) (pin 2))
+      (node (ref U8) (pin 2))
+      (node (ref U8) (pin 3))
+      (node (ref U16) (pin 17)))
+    (net (code 84) (name OUT24)
+      (node (ref R50) (pin 2))
+      (node (ref U16) (pin 36))
+      (node (ref U21) (pin 2))
+      (node (ref U21) (pin 3)))
+    (net (code 85) (name OUT19)
+      (node (ref R25) (pin 2))
+      (node (ref U36) (pin 2))
+      (node (ref U16) (pin 26))
+      (node (ref U36) (pin 3)))
+    (net (code 86) (name OUT11)
+      (node (ref R13) (pin 2))
+      (node (ref U32) (pin 2))
+      (node (ref U32) (pin 3))
+      (node (ref U16) (pin 16)))
+    (net (code 87) (name OUT32)
+      (node (ref U22) (pin 3))
+      (node (ref U16) (pin 45))
+      (node (ref U22) (pin 2))
+      (node (ref R62) (pin 2)))
+    (net (code 88) (name OUT23)
+      (node (ref R92) (pin 2))
+      (node (ref U38) (pin 2))
+      (node (ref U38) (pin 3))
+      (node (ref U16) (pin 35)))
+    (net (code 89) (name OUT18)
+      (node (ref R98) (pin 2))
+      (node (ref U16) (pin 25))
+      (node (ref U14) (pin 3))
+      (node (ref U14) (pin 2)))
+    (net (code 90) (name OUT39)
+      (node (ref U46) (pin 3))
+      (node (ref U46) (pin 2))
+      (node (ref U16) (pin 54))
+      (node (ref R118) (pin 2)))
+    (net (code 91) (name OUT31)
+      (node (ref U42) (pin 3))
+      (node (ref R106) (pin 2))
+      (node (ref U42) (pin 2))
+      (node (ref U16) (pin 44)))
+    (net (code 92) (name OUT17)
+      (node (ref U16) (pin 24))
+      (node (ref R87) (pin 2))
+      (node (ref U35) (pin 2))
+      (node (ref U35) (pin 3)))
+    (net (code 93) (name OUT9)
+      (node (ref R75) (pin 2))
+      (node (ref U31) (pin 2))
+      (node (ref U31) (pin 3))
+      (node (ref U16) (pin 14)))
+    (net (code 94) (name OUT38)
+      (node (ref R57) (pin 2))
+      (node (ref U16) (pin 53))
+      (node (ref U24) (pin 2))
+      (node (ref U24) (pin 3)))
+    (net (code 95) (name OUT30)
+      (node (ref U18) (pin 3))
+      (node (ref U16) (pin 43))
+      (node (ref R44) (pin 2))
+      (node (ref U18) (pin 2)))
+    (net (code 96) (name OUT22)
+      (node (ref R31) (pin 2))
+      (node (ref U16) (pin 33))
+      (node (ref U12) (pin 3))
+      (node (ref U12) (pin 2)))
+    (net (code 97) (name A0)
+      (node (ref U16) (pin 27))
+      (node (ref SW1) (pin 1))
+      (node (ref SW1) (pin 2))
+      (node (ref SW1) (pin 3))
+      (node (ref SW1) (pin 4)))
+    (net (code 98) (name OUT0)
+      (node (ref R12) (pin 2))
+      (node (ref U5) (pin 3))
+      (node (ref U5) (pin 2))
+      (node (ref U16) (pin 3)))
+    (net (code 99) (name A2)
+      (node (ref SW1) (pin 9))
+      (node (ref SW1) (pin 10))
+      (node (ref SW1) (pin 11))
+      (node (ref SW1) (pin 12))
+      (node (ref U16) (pin 29)))
+    (net (code 100) (name A1)
+      (node (ref SW1) (pin 7))
+      (node (ref SW1) (pin 8))
+      (node (ref SW1) (pin 6))
+      (node (ref U16) (pin 28))
+      (node (ref SW1) (pin 5)))
+    (net (code 101) (name "")
+      (node (ref U32) (pin 1))
+      (node (ref R77) (pin 1)))
+    (net (code 102) (name "")
+      (node (ref U9) (pin 1))
+      (node (ref R16) (pin 1)))
+    (net (code 103) (name "")
+      (node (ref R78) (pin 1))
+      (node (ref U33) (pin 1)))
+    (net (code 104) (name "")
+      (node (ref R15) (pin 1))
+      (node (ref U8) (pin 1)))
+    (net (code 105) (name "")
+      (node (ref R23) (pin 2))
+      (node (ref U10) (pin 4)))
+    (net (code 106) (name "")
+      (node (ref U31) (pin 4))
+      (node (ref R82) (pin 2)))
+    (net (code 107) (name "")
+      (node (ref R17) (pin 1))
+      (node (ref U10) (pin 1)))
+    (net (code 108) (name "")
+      (node (ref R22) (pin 2))
+      (node (ref U9) (pin 4)))
+    (net (code 109) (name "")
+      (node (ref U32) (pin 4))
+      (node (ref R83) (pin 2)))
+    (net (code 110) (name "")
+      (node (ref U31) (pin 1))
+      (node (ref R76) (pin 1)))
+    (net (code 111) (name "")
+      (node (ref R88) (pin 1))
+      (node (ref U35) (pin 1)))
+    (net (code 112) (name "")
+      (node (ref R94) (pin 2))
+      (node (ref U35) (pin 4)))
+    (net (code 113) (name "")
+      (node (ref R29) (pin 1))
+      (node (ref U15) (pin 1)))
+    (net (code 114) (name "")
+      (node (ref U36) (pin 1))
+      (node (ref R89) (pin 1)))
+    (net (code 115) (name "")
+      (node (ref U14) (pin 1))
+      (node (ref R28) (pin 1)))
+    (net (code 116) (name "")
+      (node (ref U34) (pin 1))
+      (node (ref R79) (pin 1)))
+    (net (code 117) (name "")
+      (node (ref U7) (pin 1))
+      (node (ref R14) (pin 1)))
+    (net (code 118) (name "")
+      (node (ref U14) (pin 4))
+      (node (ref R34) (pin 2)))
+    (net (code 119) (name "")
+      (node (ref R35) (pin 2))
+      (node (ref U15) (pin 4)))
+    (net (code 120) (name "")
+      (node (ref R95) (pin 2))
+      (node (ref U36) (pin 4)))
+    (net (code 121) (name "")
+      (node (ref R5) (pin 1))
+      (node (ref U5) (pin 1)))
+    (net (code 122) (name "")
+      (node (ref U27) (pin 1))
+      (node (ref R63) (pin 1)))
+    (net (code 123) (name "")
+      (node (ref R69) (pin 2))
+      (node (ref U27) (pin 4)))
+    (net (code 124) (name "")
+      (node (ref R11) (pin 2))
+      (node (ref U5) (pin 4)))
+    (net (code 125) (name "")
+      (node (ref U4) (pin 1))
+      (node (ref R4) (pin 1)))
+    (net (code 126) (name "")
+      (node (ref R8) (pin 2))
+      (node (ref U2) (pin 4)))
+    (net (code 127) (name "")
+      (node (ref U2) (pin 1))
+      (node (ref R2) (pin 1)))
+    (net (code 128) (name "")
+      (node (ref U3) (pin 4))
+      (node (ref R9) (pin 2)))
+    (net (code 129) (name "")
+      (node (ref R73) (pin 2))
+      (node (ref U30) (pin 4)))
+    (net (code 130) (name "")
+      (node (ref U30) (pin 1))
+      (node (ref R67) (pin 1)))
+    (net (code 131) (name "")
+      (node (ref R10) (pin 2))
+      (node (ref U4) (pin 4)))
+    (net (code 132) (name "")
+      (node (ref R65) (pin 1))
+      (node (ref U28) (pin 1)))
+    (net (code 133) (name "")
+      (node (ref U28) (pin 4))
+      (node (ref R71) (pin 2)))
+    (net (code 134) (name "")
+      (node (ref R72) (pin 2))
+      (node (ref U29) (pin 4)))
+    (net (code 135) (name "")
+      (node (ref R66) (pin 1))
+      (node (ref U29) (pin 1)))
+    (net (code 136) (name "")
+      (node (ref R3) (pin 1))
+      (node (ref U3) (pin 1)))
+    (net (code 137) (name "")
+      (node (ref R85) (pin 2))
+      (node (ref U34) (pin 4)))
+    (net (code 138) (name "")
+      (node (ref U7) (pin 4))
+      (node (ref R20) (pin 2)))
+    (net (code 139) (name "")
+      (node (ref U33) (pin 4))
+      (node (ref R84) (pin 2)))
+    (net (code 140) (name "")
+      (node (ref U8) (pin 4))
+      (node (ref R21) (pin 2)))
+    (net (code 141) (name "")
+      (node (ref U42) (pin 1))
+      (node (ref R105) (pin 1)))
+    (net (code 142) (name "")
+      (node (ref U18) (pin 1))
+      (node (ref R38) (pin 1)))
+    (net (code 143) (name "")
+      (node (ref U43) (pin 1))
+      (node (ref R113) (pin 1)))
+    (net (code 144) (name "")
+      (node (ref R55) (pin 1))
+      (node (ref U22) (pin 1)))
+    (net (code 145) (name "")
+      (node (ref R47) (pin 2))
+      (node (ref U19) (pin 4)))
+    (net (code 146) (name "")
+      (node (ref U41) (pin 4))
+      (node (ref R110) (pin 2)))
+    (net (code 147) (name "")
+      (node (ref U19) (pin 1))
+      (node (ref R39) (pin 1)))
+    (net (code 148) (name "")
+      (node (ref R46) (pin 2))
+      (node (ref U18) (pin 4)))
+    (net (code 149) (name "")
+      (node (ref U42) (pin 4))
+      (node (ref R111) (pin 2)))
+    (net (code 150) (name "")
+      (node (ref U41) (pin 1))
+      (node (ref R104) (pin 1)))
+    (net (code 151) (name "")
+      (node (ref U45) (pin 1))
+      (node (ref R116) (pin 1)))
+    (net (code 152) (name "")
+      (node (ref U45) (pin 4))
+      (node (ref R122) (pin 2)))
+    (net (code 153) (name "")
+      (node (ref U25) (pin 1))
+      (node (ref R53) (pin 1)))
+    (net (code 154) (name "")
+      (node (ref R117) (pin 1))
+      (node (ref U46) (pin 1)))
+    (net (code 155) (name "")
+      (node (ref R52) (pin 1))
+      (node (ref U24) (pin 1)))
+    (net (code 156) (name "")
+      (node (ref R115) (pin 1))
+      (node (ref U44) (pin 1)))
+    (net (code 157) (name "")
+      (node (ref R54) (pin 1))
+      (node (ref U26) (pin 1)))
+    (net (code 158) (name "")
+      (node (ref R59) (pin 2))
+      (node (ref U25) (pin 4)))
+    (net (code 159) (name "")
+      (node (ref U46) (pin 4))
+      (node (ref R123) (pin 2)))
+    (net (code 160) (name "")
+      (node (ref U24) (pin 4))
+      (node (ref R58) (pin 2)))
+    (net (code 161) (name "")
+      (node (ref R27) (pin 1))
+      (node (ref U13) (pin 1)))
+    (net (code 162) (name "")
+      (node (ref U13) (pin 4))
+      (node (ref R33) (pin 2)))
+    (net (code 163) (name "")
+      (node (ref U37) (pin 1))
+      (node (ref R90) (pin 1)))
+    (net (code 164) (name "")
+      (node (ref U37) (pin 4))
+      (node (ref R96) (pin 2)))
+    (net (code 165) (name "")
+      (node (ref U12) (pin 1))
+      (node (ref R26) (pin 1)))
+    (net (code 166) (name "")
+      (node (ref R48) (pin 2))
+      (node (ref U20) (pin 4)))
+    (net (code 167) (name "")
+      (node (ref U21) (pin 1))
+      (node (ref R41) (pin 1)))
+    (net (code 168) (name "")
+      (node (ref R49) (pin 2))
+      (node (ref U21) (pin 4)))
+    (net (code 169) (name "")
+      (node (ref U40) (pin 1))
+      (node (ref R103) (pin 1)))
+    (net (code 170) (name "")
+      (node (ref U40) (pin 4))
+      (node (ref R109) (pin 2)))
+    (net (code 171) (name "")
+      (node (ref U20) (pin 1))
+      (node (ref R40) (pin 1)))
+    (net (code 172) (name "")
+      (node (ref U12) (pin 4))
+      (node (ref R32) (pin 2)))
+    (net (code 173) (name "")
+      (node (ref R97) (pin 2))
+      (node (ref U38) (pin 4)))
+    (net (code 174) (name "")
+      (node (ref U38) (pin 1))
+      (node (ref R91) (pin 1)))
+    (net (code 175) (name "")
+      (node (ref R108) (pin 2))
+      (node (ref U39) (pin 4)))
+    (net (code 176) (name "")
+      (node (ref U39) (pin 1))
+      (node (ref R102) (pin 1)))
+    (net (code 177) (name "")
+      (node (ref U44) (pin 4))
+      (node (ref R121) (pin 2)))
+    (net (code 178) (name "")
+      (node (ref R60) (pin 2))
+      (node (ref U26) (pin 4)))
+    (net (code 179) (name "")
+      (node (ref U43) (pin 4))
+      (node (ref R119) (pin 2)))
+    (net (code 180) (name "")
+      (node (ref R61) (pin 2))
+      (node (ref U22) (pin 4)))))
