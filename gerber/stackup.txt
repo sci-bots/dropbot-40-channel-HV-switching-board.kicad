@@ -1,6 +1,0 @@
-[PCB Stackup]
-
-40-channel HV switching board-Front.gtl
-40-channel HV switching board-Power_plane.gbr
-40-channel HV switching board-Ground_plane.gbr
-40-channel HV switching board-Back.gbl

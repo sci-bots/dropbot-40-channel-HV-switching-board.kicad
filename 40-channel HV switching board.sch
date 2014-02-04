@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:40-channel HV switching board-cache
 EELAYER 27 0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "40-channel HV switching board"
-Date "28 jan 2014"
+Date "4 feb 2014"
 Rev "1"
 Comp "Ryan Fobel"
 Comment1 ""
