@@ -30,13 +30,14 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
+LIBS:40-channel HV switching board-cache
 EELAYER 27 0
 EELAYER END
 $Descr User 11000 8500
 encoding utf-8
 Sheet 2 4
 Title ""
-Date "4 feb 2014"
+Date "30 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
