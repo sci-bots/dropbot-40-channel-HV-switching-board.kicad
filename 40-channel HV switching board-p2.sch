@@ -37,7 +37,7 @@ $Descr User 11000 8500
 encoding utf-8
 Sheet 3 4
 Title "40-channel HV switching board"
-Date "30 apr 2014"
+Date "5 may 2014"
 Rev "1"
 Comp "Ryan Fobel"
 Comment1 ""

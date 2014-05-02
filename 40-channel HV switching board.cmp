@@ -1381,35 +1381,35 @@ EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/536131ED;
-Reference = U2;
+Reference = U6;
 ValeurCmp = 4011;
 IdModule  = SO14E;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/52EA8362;
-Reference = U6;
+Reference = U4;
 ValeurCmp = 74HC595A;
 IdModule  = SO16E;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/52EA8258;
-Reference = U11;
+Reference = U2;
 ValeurCmp = 74HC595A;
 IdModule  = SO16E;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/52EA8645;
-Reference = U16;
+Reference = U5;
 ValeurCmp = 74HC595A;
 IdModule  = SO16E;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E330547/52EA8268;
-Reference = U17;
+Reference = U3;
 ValeurCmp = 74HC595A;
 IdModule  = SO16E;
 EndCmp
