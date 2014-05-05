@@ -33,13 +33,13 @@ LIBS:wheelerlab
 LIBS:40-channel HV switching board-cache
 EELAYER 27 0
 EELAYER END
-$Descr User 11000 8500
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 4
-Title ""
-Date "5 may 2014"
-Rev ""
-Comp ""
+Title "40-channel HV switching board"
+Date "6 may 2014"
+Rev "2.1"
+Comp "Ryan Fobel"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -71,8 +71,6 @@ Connection ~ 2200 1350
 Connection ~ 1500 1350
 Connection ~ 1500 950 
 Connection ~ 2200 950 
-Wire Wire Line
-	2900 950  2900 800 
 Connection ~ 2900 950 
 Wire Wire Line
 	2100 2600 2000 2600
@@ -103,12 +101,12 @@ COMMUNICATION\nBUS
 $Comp
 L CONN_40 J5
 U 1 1 52E82584
-P 10150 5150
-F 0 "J5" V 10200 5150 60  0000 C CNN
-F 1 "CONN_40" V 10300 5150 60  0000 C CNN
-F 2 "" H 10150 5150 60  0001 C CNN
-F 3 "" H 10150 5150 60  0001 C CNN
-	1    10150 5150
+P 10150 5250
+F 0 "J5" V 10200 5250 60  0000 C CNN
+F 1 "CONN_40" V 10300 5250 60  0000 C CNN
+F 2 "" H 10150 5250 60  0001 C CNN
+F 3 "" H 10150 5250 60  0001 C CNN
+	1    10150 5250
 	1    0    0    -1  
 $EndComp
 Text Notes 2600 2700 0    60   ~ 0
@@ -117,23 +115,12 @@ Text Notes 2600 2250 0    60   ~ 0
 FROM\nHV AMPLIFIER
 Text Notes 4200 4900 0    60   ~ 0
 SHIFT REGISTERS
-Text Notes 9650 7400 0    60   ~ 0
+Text Notes 9800 3300 0    60   ~ 0
 TO DMF CHIP
 Text GLabel 2900 1850 2    60   Input ~ 0
 GND
 Text GLabel 2900 950  2    60   Input ~ 0
 +5V
-$Comp
-L +5V #PWR01
-U 1 1 52E82587
-P 2900 800
-F 0 "#PWR01" H 2900 890 20  0001 C CNN
-F 1 "+5V" H 2900 890 30  0000 C CNN
-F 2 "" H 2900 800 60  0001 C CNN
-F 3 "" H 2900 800 60  0001 C CNN
-	1    2900 800 
-	1    0    0    -1  
-$EndComp
 Text Notes 700  850  0    60   ~ 0
 POWER
 $Comp
@@ -215,83 +202,83 @@ F 3 "" H 2450 2700 60  0001 C CNN
 $EndComp
 Text GLabel 1900 2000 0    60   Input ~ 0
 HVGND
-Text GLabel 9900 6800 0    60   Input ~ 0
-HVOUT35
 Text GLabel 9900 6900 0    60   Input ~ 0
-HVOUT36
-Text GLabel 9900 7100 0    60   Input ~ 0
-HVOUT38
+HVOUT35
 Text GLabel 9900 7000 0    60   Input ~ 0
-HVOUT37
-Text GLabel 9900 3300 0    60   Input ~ 0
-HVOUT0
+HVOUT36
 Text GLabel 9900 7200 0    60   Input ~ 0
+HVOUT38
+Text GLabel 9900 7100 0    60   Input ~ 0
+HVOUT37
+Text GLabel 9900 3400 0    60   Input ~ 0
+HVOUT0
+Text GLabel 9900 7300 0    60   Input ~ 0
 HVOUT39
-Text GLabel 9900 6700 0    60   Input ~ 0
+Text GLabel 9900 6800 0    60   Input ~ 0
 HVOUT34
-Text GLabel 9900 6600 0    60   Input ~ 0
+Text GLabel 9900 6700 0    60   Input ~ 0
 HVOUT33
-Text GLabel 9900 5000 0    60   Input ~ 0
-HVOUT17
 Text GLabel 9900 5100 0    60   Input ~ 0
-HVOUT18
-Text GLabel 9900 5300 0    60   Input ~ 0
-HVOUT20
+HVOUT17
 Text GLabel 9900 5200 0    60   Input ~ 0
-HVOUT19
-Text GLabel 9900 5600 0    60   Input ~ 0
-HVOUT23
-Text GLabel 9900 5700 0    60   Input ~ 0
-HVOUT24
-Text GLabel 9900 5500 0    60   Input ~ 0
-HVOUT22
+HVOUT18
 Text GLabel 9900 5400 0    60   Input ~ 0
-HVOUT21
-Text GLabel 9900 6200 0    60   Input ~ 0
-HVOUT29
-Text GLabel 9900 6300 0    60   Input ~ 0
-HVOUT30
-Text GLabel 9900 6500 0    60   Input ~ 0
-HVOUT32
-Text GLabel 9900 6400 0    60   Input ~ 0
-HVOUT31
-Text GLabel 9900 6000 0    60   Input ~ 0
-HVOUT27
-Text GLabel 9900 6100 0    60   Input ~ 0
-HVOUT28
-Text GLabel 9900 5900 0    60   Input ~ 0
-HVOUT26
+HVOUT20
+Text GLabel 9900 5300 0    60   Input ~ 0
+HVOUT19
+Text GLabel 9900 5700 0    60   Input ~ 0
+HVOUT23
 Text GLabel 9900 5800 0    60   Input ~ 0
+HVOUT24
+Text GLabel 9900 5600 0    60   Input ~ 0
+HVOUT22
+Text GLabel 9900 5500 0    60   Input ~ 0
+HVOUT21
+Text GLabel 9900 6300 0    60   Input ~ 0
+HVOUT29
+Text GLabel 9900 6400 0    60   Input ~ 0
+HVOUT30
+Text GLabel 9900 6600 0    60   Input ~ 0
+HVOUT32
+Text GLabel 9900 6500 0    60   Input ~ 0
+HVOUT31
+Text GLabel 9900 6100 0    60   Input ~ 0
+HVOUT27
+Text GLabel 9900 6200 0    60   Input ~ 0
+HVOUT28
+Text GLabel 9900 6000 0    60   Input ~ 0
+HVOUT26
+Text GLabel 9900 5900 0    60   Input ~ 0
 HVOUT25
-Text GLabel 9900 4200 0    60   Input ~ 0
-HVOUT9
 Text GLabel 9900 4300 0    60   Input ~ 0
-HVOUT10
-Text GLabel 9900 4500 0    60   Input ~ 0
-HVOUT12
+HVOUT9
 Text GLabel 9900 4400 0    60   Input ~ 0
-HVOUT11
-Text GLabel 9900 4800 0    60   Input ~ 0
-HVOUT15
-Text GLabel 9900 4900 0    60   Input ~ 0
-HVOUT16
-Text GLabel 9900 4700 0    60   Input ~ 0
-HVOUT14
+HVOUT10
 Text GLabel 9900 4600 0    60   Input ~ 0
+HVOUT12
+Text GLabel 9900 4500 0    60   Input ~ 0
+HVOUT11
+Text GLabel 9900 4900 0    60   Input ~ 0
+HVOUT15
+Text GLabel 9900 5000 0    60   Input ~ 0
+HVOUT16
+Text GLabel 9900 4800 0    60   Input ~ 0
+HVOUT14
+Text GLabel 9900 4700 0    60   Input ~ 0
 HVOUT13
-Text GLabel 9900 3800 0    60   Input ~ 0
-HVOUT5
 Text GLabel 9900 3900 0    60   Input ~ 0
-HVOUT6
-Text GLabel 9900 4100 0    60   Input ~ 0
-HVOUT8
+HVOUT5
 Text GLabel 9900 4000 0    60   Input ~ 0
+HVOUT6
+Text GLabel 9900 4200 0    60   Input ~ 0
+HVOUT8
+Text GLabel 9900 4100 0    60   Input ~ 0
 HVOUT7
-Text GLabel 9900 3600 0    60   Input ~ 0
-HVOUT3
 Text GLabel 9900 3700 0    60   Input ~ 0
+HVOUT3
+Text GLabel 9900 3800 0    60   Input ~ 0
 HVOUT4
-Text GLabel 9900 3500 0    60   Input ~ 0
+Text GLabel 9900 3600 0    60   Input ~ 0
 HVOUT2
 Text GLabel 1150 2100 2    60   Input ~ 0
 SDA
@@ -299,7 +286,7 @@ Text GLabel 1150 2400 2    60   Input ~ 0
 SCL
 Text GLabel 1900 2350 0    60   Input ~ 0
 HV
-Text GLabel 9900 3400 0    60   Input ~ 0
+Text GLabel 9900 3500 0    60   Input ~ 0
 HVOUT1
 $Comp
 L CONN_2 J3
@@ -415,7 +402,7 @@ RST
 Text GLabel 8500 7100 2    60   Input ~ 0
 GND
 Text Notes 8050 6500 0    60   ~ 0
-ICSP
+ISP
 Text GLabel 9300 2850 2    60   Input ~ 0
 S_SCK
 Text GLabel 9300 1350 2    60   Input ~ 0
@@ -954,7 +941,7 @@ F 3 "~" H 6650 3250 60  0000 C CNN
 $EndComp
 Text GLabel 6950 3250 2    60   Input ~ 0
 RST
-Text Notes 4300 1800 0    60   ~ 0
+Text Notes 4650 1600 0    60   ~ 0
 ISP LATCH
 $Comp
 L LED DS3
@@ -1086,4 +1073,17 @@ Text GLabel 3150 5950 0    60   Input ~ 0
 +5V
 Text GLabel 850  5950 0    60   Input ~ 0
 +5V
+$Comp
+L C C14
+U 1 1 5367B80F
+P 4300 1750
+F 0 "C14" H 4350 1850 50  0000 L CNN
+F 1 "0.1uF" H 4050 1650 50  0000 L CNN
+F 2 "" H 4300 1750 60  0001 C CNN
+F 3 "" H 4300 1750 60  0001 C CNN
+	1    4300 1750
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 1550 2    60   Input ~ 0
+GND
 $EndSCHEMATC

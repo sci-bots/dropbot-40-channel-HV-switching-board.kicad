@@ -33,12 +33,12 @@ LIBS:wheelerlab
 LIBS:40-channel HV switching board-cache
 EELAYER 27 0
 EELAYER END
-$Descr User 11000 8500
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 4 4
 Title "40-channel HV switching board"
-Date "5 may 2014"
-Rev "1"
+Date "6 may 2014"
+Rev "2.1"
 Comp "Ryan Fobel"
 Comment1 ""
 Comment2 ""
@@ -283,17 +283,6 @@ $EndComp
 Text GLabel 900  1250 0    60   Input ~ 0
 OUT20
 $Comp
-L +5V #PWR042
-U 1 1 52E6D4A1
-P 900 750
-F 0 "#PWR042" H 900 840 20  0001 C CNN
-F 1 "+5V" H 900 840 30  0000 C CNN
-F 2 "" H 900 750 60  0001 C CNN
-F 3 "" H 900 750 60  0001 C CNN
-	1    900  750 
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R33
 U 1 1 52E6D4A2
 P 1150 1450
@@ -358,30 +347,8 @@ Wire Wire Line
 	900  1250 1400 1250
 Wire Wire Line
 	1400 950  1400 750 
-$Comp
-L GND #PWR043
-U 1 1 52E6DB75
-P 900 1450
-F 0 "#PWR043" H 900 1450 30  0001 C CNN
-F 1 "GND" H 900 1380 30  0001 C CNN
-F 2 "" H 900 1450 60  0001 C CNN
-F 3 "" H 900 1450 60  0001 C CNN
-	1    900  1450
-	0    1    1    0   
-$EndComp
 Text GLabel 900  2150 0    60   Input ~ 0
 OUT21
-$Comp
-L +5V #PWR044
-U 1 1 52E6DB76
-P 900 1650
-F 0 "#PWR044" H 900 1740 20  0001 C CNN
-F 1 "+5V" H 900 1740 30  0000 C CNN
-F 2 "" H 900 1650 60  0001 C CNN
-F 3 "" H 900 1650 60  0001 C CNN
-	1    900  1650
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R30
 U 1 1 52E6DB77
@@ -423,32 +390,10 @@ Wire Wire Line
 	900  2150 1400 2150
 Wire Wire Line
 	1400 1850 1400 1650
-$Comp
-L GND #PWR045
-U 1 1 52E6DB79
-P 900 2350
-F 0 "#PWR045" H 900 2350 30  0001 C CNN
-F 1 "GND" H 900 2280 30  0001 C CNN
-F 2 "" H 900 2350 60  0001 C CNN
-F 3 "" H 900 2350 60  0001 C CNN
-	1    900  2350
-	0    1    1    0   
-$EndComp
 Text GLabel 2350 3000 2    60   Input ~ 0
 HVOUT22
 Text GLabel 900  3050 0    60   Input ~ 0
 OUT22
-$Comp
-L +5V #PWR046
-U 1 1 52E6D4AB
-P 900 2550
-F 0 "#PWR046" H 900 2640 20  0001 C CNN
-F 1 "+5V" H 900 2640 30  0000 C CNN
-F 2 "" H 900 2550 60  0001 C CNN
-F 3 "" H 900 2550 60  0001 C CNN
-	1    900  2550
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2350 2750 2    60   Input ~ 0
 HVGND
 Text GLabel 2350 3250 2    60   Input ~ 0
@@ -469,17 +414,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 2750 1400 2550
 $Comp
-L GND #PWR047
-U 1 1 52E6DB7B
-P 900 3250
-F 0 "#PWR047" H 900 3250 30  0001 C CNN
-F 1 "GND" H 900 3180 30  0001 C CNN
-F 2 "" H 900 3250 60  0001 C CNN
-F 3 "" H 900 3250 60  0001 C CNN
-	1    900  3250
-	0    1    1    0   
-$EndComp
-$Comp
 L R R31
 U 1 1 52E6D4AD
 P 900 2800
@@ -494,17 +428,6 @@ Text GLabel 2350 3900 2    60   Input ~ 0
 HVOUT23
 Text GLabel 900  3950 0    60   Input ~ 0
 OUT23
-$Comp
-L +5V #PWR048
-U 1 1 52E6D4AE
-P 900 3450
-F 0 "#PWR048" H 900 3540 20  0001 C CNN
-F 1 "+5V" H 900 3540 30  0000 C CNN
-F 2 "" H 900 3450 60  0001 C CNN
-F 3 "" H 900 3450 60  0001 C CNN
-	1    900  3450
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2350 3650 2    60   Input ~ 0
 HVGND
 Text GLabel 2350 4150 2    60   Input ~ 0
@@ -525,17 +448,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 3650 1400 3450
 $Comp
-L GND #PWR049
-U 1 1 52E6D4AF
-P 900 4150
-F 0 "#PWR049" H 900 4150 30  0001 C CNN
-F 1 "GND" H 900 4080 30  0001 C CNN
-F 2 "" H 900 4150 60  0001 C CNN
-F 3 "" H 900 4150 60  0001 C CNN
-	1    900  4150
-	0    1    1    0   
-$EndComp
-$Comp
 L R R92
 U 1 1 52E6D4B0
 P 900 3700
@@ -550,17 +462,6 @@ Text GLabel 2350 4800 2    60   Input ~ 0
 HVOUT24
 Text GLabel 900  4850 0    60   Input ~ 0
 OUT24
-$Comp
-L +5V #PWR050
-U 1 1 52E6D4B1
-P 900 4350
-F 0 "#PWR050" H 900 4440 20  0001 C CNN
-F 1 "+5V" H 900 4440 30  0000 C CNN
-F 2 "" H 900 4350 60  0001 C CNN
-F 3 "" H 900 4350 60  0001 C CNN
-	1    900  4350
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2350 4550 2    60   Input ~ 0
 HVGND
 Text GLabel 2350 5050 2    60   Input ~ 0
@@ -581,17 +482,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 4550 1400 4350
 $Comp
-L GND #PWR051
-U 1 1 52E6D4B2
-P 900 5050
-F 0 "#PWR051" H 900 5050 30  0001 C CNN
-F 1 "GND" H 900 4980 30  0001 C CNN
-F 2 "" H 900 5050 60  0001 C CNN
-F 3 "" H 900 5050 60  0001 C CNN
-	1    900  5050
-	0    1    1    0   
-$EndComp
-$Comp
 L R R50
 U 1 1 52E6DB82
 P 900 4600
@@ -606,17 +496,6 @@ Text GLabel 2350 5700 2    60   Input ~ 0
 HVOUT25
 Text GLabel 900  5750 0    60   Input ~ 0
 OUT25
-$Comp
-L +5V #PWR052
-U 1 1 52E6DB83
-P 900 5250
-F 0 "#PWR052" H 900 5340 20  0001 C CNN
-F 1 "+5V" H 900 5340 30  0000 C CNN
-F 2 "" H 900 5250 60  0001 C CNN
-F 3 "" H 900 5250 60  0001 C CNN
-	1    900  5250
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2350 5450 2    60   Input ~ 0
 HVGND
 Text GLabel 2350 5950 2    60   Input ~ 0
@@ -637,17 +516,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 5450 1400 5250
 $Comp
-L GND #PWR053
-U 1 1 52E6DB84
-P 900 5950
-F 0 "#PWR053" H 900 5950 30  0001 C CNN
-F 1 "GND" H 900 5880 30  0001 C CNN
-F 2 "" H 900 5950 60  0001 C CNN
-F 3 "" H 900 5950 60  0001 C CNN
-	1    900  5950
-	0    1    1    0   
-$EndComp
-$Comp
 L R R101
 U 1 1 52E6DB85
 P 900 5500
@@ -662,17 +530,6 @@ Text GLabel 2350 6600 2    60   Input ~ 0
 HVOUT26
 Text GLabel 900  6650 0    60   Input ~ 0
 OUT26
-$Comp
-L +5V #PWR054
-U 1 1 52E6D4B7
-P 900 6150
-F 0 "#PWR054" H 900 6240 20  0001 C CNN
-F 1 "+5V" H 900 6240 30  0000 C CNN
-F 2 "" H 900 6150 60  0001 C CNN
-F 3 "" H 900 6150 60  0001 C CNN
-	1    900  6150
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2350 6350 2    60   Input ~ 0
 HVGND
 Text GLabel 2350 6850 2    60   Input ~ 0
@@ -693,17 +550,6 @@ Wire Wire Line
 Wire Wire Line
 	1400 6350 1400 6150
 $Comp
-L GND #PWR055
-U 1 1 52E6D4B8
-P 900 6850
-F 0 "#PWR055" H 900 6850 30  0001 C CNN
-F 1 "GND" H 900 6780 30  0001 C CNN
-F 2 "" H 900 6850 60  0001 C CNN
-F 3 "" H 900 6850 60  0001 C CNN
-	1    900  6850
-	0    1    1    0   
-$EndComp
-$Comp
 L R R112
 U 1 1 52E6DB88
 P 900 6400
@@ -718,17 +564,6 @@ Text GLabel 2350 7500 2    60   Input ~ 0
 HVOUT27
 Text GLabel 900  7550 0    60   Input ~ 0
 OUT27
-$Comp
-L +5V #PWR056
-U 1 1 52E6DB89
-P 900 7050
-F 0 "#PWR056" H 900 7140 20  0001 C CNN
-F 1 "+5V" H 900 7140 30  0000 C CNN
-F 2 "" H 900 7050 60  0001 C CNN
-F 3 "" H 900 7050 60  0001 C CNN
-	1    900  7050
-	0    -1   -1   0   
-$EndComp
 Text GLabel 2350 7250 2    60   Input ~ 0
 HVGND
 Text GLabel 2350 7750 2    60   Input ~ 0
@@ -748,17 +583,6 @@ Wire Wire Line
 	900  7550 1400 7550
 Wire Wire Line
 	1400 7250 1400 7050
-$Comp
-L GND #PWR057
-U 1 1 52E6DB8A
-P 900 7750
-F 0 "#PWR057" H 900 7750 30  0001 C CNN
-F 1 "GND" H 900 7680 30  0001 C CNN
-F 2 "" H 900 7750 60  0001 C CNN
-F 3 "" H 900 7750 60  0001 C CNN
-	1    900  7750
-	0    1    1    0   
-$EndComp
 $Comp
 L R R37
 U 1 1 52E6DB8B
@@ -993,17 +817,6 @@ F 3 "" H 3550 2350 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR058
-U 1 1 52E6DBA0
-P 3300 750
-F 0 "#PWR058" H 3300 840 20  0001 C CNN
-F 1 "+5V" H 3300 840 30  0000 C CNN
-F 2 "" H 3300 750 60  0001 C CNN
-F 3 "" H 3300 750 60  0001 C CNN
-	1    3300 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R47
 U 1 1 52E6DBA1
 P 3550 1450
@@ -1057,30 +870,8 @@ Wire Wire Line
 	3300 1250 3800 1250
 Wire Wire Line
 	3800 950  3800 750 
-$Comp
-L GND #PWR059
-U 1 1 52E6DBA4
-P 3300 1450
-F 0 "#PWR059" H 3300 1450 30  0001 C CNN
-F 1 "GND" H 3300 1380 30  0001 C CNN
-F 2 "" H 3300 1450 60  0001 C CNN
-F 3 "" H 3300 1450 60  0001 C CNN
-	1    3300 1450
-	0    1    1    0   
-$EndComp
 Text GLabel 3300 2150 0    60   Input ~ 0
 OUT29
-$Comp
-L +5V #PWR060
-U 1 1 52E6D56C
-P 3300 1650
-F 0 "#PWR060" H 3300 1740 20  0001 C CNN
-F 1 "+5V" H 3300 1740 30  0000 C CNN
-F 2 "" H 3300 1650 60  0001 C CNN
-F 3 "" H 3300 1650 60  0001 C CNN
-	1    3300 1650
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R42
 U 1 1 52E6DBA6
@@ -1122,32 +913,10 @@ Wire Wire Line
 	3300 2150 3800 2150
 Wire Wire Line
 	3800 1850 3800 1650
-$Comp
-L GND #PWR061
-U 1 1 52E6DBA8
-P 3300 2350
-F 0 "#PWR061" H 3300 2350 30  0001 C CNN
-F 1 "GND" H 3300 2280 30  0001 C CNN
-F 2 "" H 3300 2350 60  0001 C CNN
-F 3 "" H 3300 2350 60  0001 C CNN
-	1    3300 2350
-	0    1    1    0   
-$EndComp
 Text GLabel 4750 3000 2    60   Input ~ 0
 HVOUT30
 Text GLabel 3300 3050 0    60   Input ~ 0
 OUT30
-$Comp
-L +5V #PWR062
-U 1 1 52E6DBA9
-P 3300 2550
-F 0 "#PWR062" H 3300 2640 20  0001 C CNN
-F 1 "+5V" H 3300 2640 30  0000 C CNN
-F 2 "" H 3300 2550 60  0001 C CNN
-F 3 "" H 3300 2550 60  0001 C CNN
-	1    3300 2550
-	0    -1   -1   0   
-$EndComp
 Text GLabel 4750 2750 2    60   Input ~ 0
 HVGND
 Text GLabel 4750 3250 2    60   Input ~ 0
@@ -1168,17 +937,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 2750 3800 2550
 $Comp
-L GND #PWR063
-U 1 1 52E6DBAA
-P 3300 3250
-F 0 "#PWR063" H 3300 3250 30  0001 C CNN
-F 1 "GND" H 3300 3180 30  0001 C CNN
-F 2 "" H 3300 3250 60  0001 C CNN
-F 3 "" H 3300 3250 60  0001 C CNN
-	1    3300 3250
-	0    1    1    0   
-$EndComp
-$Comp
 L R R44
 U 1 1 52E6DBAB
 P 3300 2800
@@ -1193,17 +951,6 @@ Text GLabel 4750 3900 2    60   Input ~ 0
 HVOUT31
 Text GLabel 3300 3950 0    60   Input ~ 0
 OUT31
-$Comp
-L +5V #PWR064
-U 1 1 52E6D5AE
-P 3300 3450
-F 0 "#PWR064" H 3300 3540 20  0001 C CNN
-F 1 "+5V" H 3300 3540 30  0000 C CNN
-F 2 "" H 3300 3450 60  0001 C CNN
-F 3 "" H 3300 3450 60  0001 C CNN
-	1    3300 3450
-	0    -1   -1   0   
-$EndComp
 Text GLabel 4750 3650 2    60   Input ~ 0
 HVGND
 Text GLabel 4750 4150 2    60   Input ~ 0
@@ -1224,17 +971,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 3650 3800 3450
 $Comp
-L GND #PWR065
-U 1 1 52E6D5BE
-P 3300 4150
-F 0 "#PWR065" H 3300 4150 30  0001 C CNN
-F 1 "GND" H 3300 4080 30  0001 C CNN
-F 2 "" H 3300 4150 60  0001 C CNN
-F 3 "" H 3300 4150 60  0001 C CNN
-	1    3300 4150
-	0    1    1    0   
-$EndComp
-$Comp
 L R R106
 U 1 1 52E6DBAE
 P 3300 3700
@@ -1249,17 +985,6 @@ Text GLabel 4750 4800 2    60   Input ~ 0
 HVOUT32
 Text GLabel 3300 4850 0    60   Input ~ 0
 OUT32
-$Comp
-L +5V #PWR066
-U 1 1 52E6D5CC
-P 3300 4350
-F 0 "#PWR066" H 3300 4440 20  0001 C CNN
-F 1 "+5V" H 3300 4440 30  0000 C CNN
-F 2 "" H 3300 4350 60  0001 C CNN
-F 3 "" H 3300 4350 60  0001 C CNN
-	1    3300 4350
-	0    -1   -1   0   
-$EndComp
 Text GLabel 4750 4550 2    60   Input ~ 0
 HVGND
 Text GLabel 4750 5050 2    60   Input ~ 0
@@ -1280,17 +1005,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 4550 3800 4350
 $Comp
-L GND #PWR067
-U 1 1 52E6DBB0
-P 3300 5050
-F 0 "#PWR067" H 3300 5050 30  0001 C CNN
-F 1 "GND" H 3300 4980 30  0001 C CNN
-F 2 "" H 3300 5050 60  0001 C CNN
-F 3 "" H 3300 5050 60  0001 C CNN
-	1    3300 5050
-	0    1    1    0   
-$EndComp
-$Comp
 L R R62
 U 1 1 52E6DBB1
 P 3300 4600
@@ -1305,17 +1019,6 @@ Text GLabel 4750 5700 2    60   Input ~ 0
 HVOUT33
 Text GLabel 3300 5750 0    60   Input ~ 0
 OUT33
-$Comp
-L +5V #PWR068
-U 1 1 52E6DBB2
-P 3300 5250
-F 0 "#PWR068" H 3300 5340 20  0001 C CNN
-F 1 "+5V" H 3300 5340 30  0000 C CNN
-F 2 "" H 3300 5250 60  0001 C CNN
-F 3 "" H 3300 5250 60  0001 C CNN
-	1    3300 5250
-	0    -1   -1   0   
-$EndComp
 Text GLabel 4750 5450 2    60   Input ~ 0
 HVGND
 Text GLabel 4750 5950 2    60   Input ~ 0
@@ -1336,17 +1039,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 5450 3800 5250
 $Comp
-L GND #PWR069
-U 1 1 52E6DBB3
-P 3300 5950
-F 0 "#PWR069" H 3300 5950 30  0001 C CNN
-F 1 "GND" H 3300 5880 30  0001 C CNN
-F 2 "" H 3300 5950 60  0001 C CNN
-F 3 "" H 3300 5950 60  0001 C CNN
-	1    3300 5950
-	0    1    1    0   
-$EndComp
-$Comp
 L R R114
 U 1 1 52E6DBB4
 P 3300 5500
@@ -1361,17 +1053,6 @@ Text GLabel 4750 6600 2    60   Input ~ 0
 HVOUT34
 Text GLabel 3300 6650 0    60   Input ~ 0
 OUT34
-$Comp
-L +5V #PWR070
-U 1 1 52E6DBB5
-P 3300 6150
-F 0 "#PWR070" H 3300 6240 20  0001 C CNN
-F 1 "+5V" H 3300 6240 30  0000 C CNN
-F 2 "" H 3300 6150 60  0001 C CNN
-F 3 "" H 3300 6150 60  0001 C CNN
-	1    3300 6150
-	0    -1   -1   0   
-$EndComp
 Text GLabel 4750 6350 2    60   Input ~ 0
 HVGND
 Text GLabel 4750 6850 2    60   Input ~ 0
@@ -1392,17 +1073,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 6350 3800 6150
 $Comp
-L GND #PWR071
-U 1 1 52E6D618
-P 3300 6850
-F 0 "#PWR071" H 3300 6850 30  0001 C CNN
-F 1 "GND" H 3300 6780 30  0001 C CNN
-F 2 "" H 3300 6850 60  0001 C CNN
-F 3 "" H 3300 6850 60  0001 C CNN
-	1    3300 6850
-	0    1    1    0   
-$EndComp
-$Comp
 L R R124
 U 1 1 52E6D61E
 P 3300 6400
@@ -1417,17 +1087,6 @@ Text GLabel 4750 7500 2    60   Input ~ 0
 HVOUT35
 Text GLabel 3300 7550 0    60   Input ~ 0
 OUT35
-$Comp
-L +5V #PWR072
-U 1 1 52E6D626
-P 3300 7050
-F 0 "#PWR072" H 3300 7140 20  0001 C CNN
-F 1 "+5V" H 3300 7140 30  0000 C CNN
-F 2 "" H 3300 7050 60  0001 C CNN
-F 3 "" H 3300 7050 60  0001 C CNN
-	1    3300 7050
-	0    -1   -1   0   
-$EndComp
 Text GLabel 4750 7250 2    60   Input ~ 0
 HVGND
 Text GLabel 4750 7750 2    60   Input ~ 0
@@ -1447,17 +1106,6 @@ Wire Wire Line
 	3300 7550 3800 7550
 Wire Wire Line
 	3800 7250 3800 7050
-$Comp
-L GND #PWR073
-U 1 1 52E6DBB9
-P 3300 7750
-F 0 "#PWR073" H 3300 7750 30  0001 C CNN
-F 1 "GND" H 3300 7680 30  0001 C CNN
-F 2 "" H 3300 7750 60  0001 C CNN
-F 3 "" H 3300 7750 60  0001 C CNN
-	1    3300 7750
-	0    1    1    0   
-$EndComp
 $Comp
 L R R51
 U 1 1 52E6DBBA
@@ -1573,17 +1221,6 @@ F 3 "" H 5950 2350 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +5V #PWR074
-U 1 1 52E6DBC4
-P 5700 750
-F 0 "#PWR074" H 5700 840 20  0001 C CNN
-F 1 "+5V" H 5700 840 30  0000 C CNN
-F 2 "" H 5700 750 60  0001 C CNN
-F 3 "" H 5700 750 60  0001 C CNN
-	1    5700 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R59
 U 1 1 52E6DBC5
 P 5950 1450
@@ -1637,30 +1274,8 @@ Wire Wire Line
 	5700 1250 6200 1250
 Wire Wire Line
 	6200 950  6200 750 
-$Comp
-L GND #PWR075
-U 1 1 52E6D8AC
-P 5700 1450
-F 0 "#PWR075" H 5700 1450 30  0001 C CNN
-F 1 "GND" H 5700 1380 30  0001 C CNN
-F 2 "" H 5700 1450 60  0001 C CNN
-F 3 "" H 5700 1450 60  0001 C CNN
-	1    5700 1450
-	0    1    1    0   
-$EndComp
 Text GLabel 5700 2150 0    60   Input ~ 0
 OUT37
-$Comp
-L +5V #PWR076
-U 1 1 52E6DBC9
-P 5700 1650
-F 0 "#PWR076" H 5700 1740 20  0001 C CNN
-F 1 "+5V" H 5700 1740 30  0000 C CNN
-F 2 "" H 5700 1650 60  0001 C CNN
-F 3 "" H 5700 1650 60  0001 C CNN
-	1    5700 1650
-	0    -1   -1   0   
-$EndComp
 $Comp
 L R R56
 U 1 1 52E6D8B9
@@ -1702,32 +1317,10 @@ Wire Wire Line
 	5700 2150 6200 2150
 Wire Wire Line
 	6200 1850 6200 1650
-$Comp
-L GND #PWR077
-U 1 1 52E6D8CF
-P 5700 2350
-F 0 "#PWR077" H 5700 2350 30  0001 C CNN
-F 1 "GND" H 5700 2280 30  0001 C CNN
-F 2 "" H 5700 2350 60  0001 C CNN
-F 3 "" H 5700 2350 60  0001 C CNN
-	1    5700 2350
-	0    1    1    0   
-$EndComp
 Text GLabel 7150 3000 2    60   Input ~ 0
 HVOUT38
 Text GLabel 5700 3050 0    60   Input ~ 0
 OUT38
-$Comp
-L +5V #PWR078
-U 1 1 52E6D8D7
-P 5700 2550
-F 0 "#PWR078" H 5700 2640 20  0001 C CNN
-F 1 "+5V" H 5700 2640 30  0000 C CNN
-F 2 "" H 5700 2550 60  0001 C CNN
-F 3 "" H 5700 2550 60  0001 C CNN
-	1    5700 2550
-	0    -1   -1   0   
-$EndComp
 Text GLabel 7150 2750 2    60   Input ~ 0
 HVGND
 Text GLabel 7150 3250 2    60   Input ~ 0
@@ -1748,17 +1341,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 2750 6200 2550
 $Comp
-L GND #PWR079
-U 1 1 52E6D8E7
-P 5700 3250
-F 0 "#PWR079" H 5700 3250 30  0001 C CNN
-F 1 "GND" H 5700 3180 30  0001 C CNN
-F 2 "" H 5700 3250 60  0001 C CNN
-F 3 "" H 5700 3250 60  0001 C CNN
-	1    5700 3250
-	0    1    1    0   
-$EndComp
-$Comp
 L R R57
 U 1 1 52E6D8ED
 P 5700 2800
@@ -1773,17 +1355,6 @@ Text GLabel 7150 3900 2    60   Input ~ 0
 HVOUT39
 Text GLabel 5700 3950 0    60   Input ~ 0
 OUT39
-$Comp
-L +5V #PWR080
-U 1 1 52E6DBD0
-P 5700 3450
-F 0 "#PWR080" H 5700 3540 20  0001 C CNN
-F 1 "+5V" H 5700 3540 30  0000 C CNN
-F 2 "" H 5700 3450 60  0001 C CNN
-F 3 "" H 5700 3450 60  0001 C CNN
-	1    5700 3450
-	0    -1   -1   0   
-$EndComp
 Text GLabel 7150 3650 2    60   Input ~ 0
 HVGND
 Text GLabel 7150 4150 2    60   Input ~ 0
@@ -1804,17 +1375,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 3650 6200 3450
 $Comp
-L GND #PWR081
-U 1 1 52E6DBD1
-P 5700 4150
-F 0 "#PWR081" H 5700 4150 30  0001 C CNN
-F 1 "GND" H 5700 4080 30  0001 C CNN
-F 2 "" H 5700 4150 60  0001 C CNN
-F 3 "" H 5700 4150 60  0001 C CNN
-	1    5700 4150
-	0    1    1    0   
-$EndComp
-$Comp
 L R R118
 U 1 1 52E6DBD2
 P 5700 3700
@@ -1825,4 +1385,84 @@ F 3 "" H 5700 3700 60  0001 C CNN
 	1    5700 3700
 	1    0    0    -1  
 $EndComp
+Text GLabel 900  750  0    60   Input ~ 0
++5V
+Text GLabel 900  1450 0    60   Input ~ 0
+GND
+Text GLabel 900  2350 0    60   Input ~ 0
+GND
+Text GLabel 900  3250 0    60   Input ~ 0
+GND
+Text GLabel 900  4150 0    60   Input ~ 0
+GND
+Text GLabel 900  5050 0    60   Input ~ 0
+GND
+Text GLabel 900  5950 0    60   Input ~ 0
+GND
+Text GLabel 900  6850 0    60   Input ~ 0
+GND
+Text GLabel 900  7750 0    60   Input ~ 0
+GND
+Text GLabel 900  1650 0    60   Input ~ 0
++5V
+Text GLabel 900  2550 0    60   Input ~ 0
++5V
+Text GLabel 900  3450 0    60   Input ~ 0
++5V
+Text GLabel 900  4350 0    60   Input ~ 0
++5V
+Text GLabel 900  5250 0    60   Input ~ 0
++5V
+Text GLabel 900  6150 0    60   Input ~ 0
++5V
+Text GLabel 900  7050 0    60   Input ~ 0
++5V
+Text GLabel 3300 750  0    60   Input ~ 0
++5V
+Text GLabel 3300 1650 0    60   Input ~ 0
++5V
+Text GLabel 3300 2550 0    60   Input ~ 0
++5V
+Text GLabel 3300 3450 0    60   Input ~ 0
++5V
+Text GLabel 3300 4350 0    60   Input ~ 0
++5V
+Text GLabel 3300 5250 0    60   Input ~ 0
++5V
+Text GLabel 3300 6150 0    60   Input ~ 0
++5V
+Text GLabel 3300 7050 0    60   Input ~ 0
++5V
+Text GLabel 3300 1450 0    60   Input ~ 0
+GND
+Text GLabel 3300 2350 0    60   Input ~ 0
+GND
+Text GLabel 3300 3250 0    60   Input ~ 0
+GND
+Text GLabel 3300 4150 0    60   Input ~ 0
+GND
+Text GLabel 3300 5050 0    60   Input ~ 0
+GND
+Text GLabel 3300 5950 0    60   Input ~ 0
+GND
+Text GLabel 3300 6850 0    60   Input ~ 0
+GND
+Text GLabel 3300 7750 0    60   Input ~ 0
+GND
+Text GLabel 5700 750  0    60   Input ~ 0
++5V
+Text GLabel 5700 1650 0    60   Input ~ 0
++5V
+Text GLabel 5700 2550 0    60   Input ~ 0
++5V
+Text GLabel 5700 3450 0    60   Input ~ 0
++5V
+Text GLabel 5700 1450 0    60   Input ~ 0
+GND
+Text GLabel 5700 2350 0    60   Input ~ 0
+GND
+Text GLabel 5700 3250 0    60   Input ~ 0
+GND
+Text GLabel 5700 4150 0    60   Input ~ 0
+GND
 $EndSCHEMATC

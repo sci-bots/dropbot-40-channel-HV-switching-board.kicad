@@ -33,12 +33,12 @@ LIBS:wheelerlab
 LIBS:40-channel HV switching board-cache
 EELAYER 27 0
 EELAYER END
-$Descr User 11000 8500
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 4
 Title "40-channel HV switching board"
-Date "5 may 2014"
-Rev "1"
+Date "6 may 2014"
+Rev "2.1"
 Comp "Ryan Fobel"
 Comment1 ""
 Comment2 ""
