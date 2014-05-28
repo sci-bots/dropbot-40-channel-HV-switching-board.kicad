@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 4
+Sheet 2 3
 Title "40-channel HV switching board"
-Date "6 may 2014"
+Date "28 may 2014"
 Rev "2.1"
 Comp "Ryan Fobel"
 Comment1 ""
