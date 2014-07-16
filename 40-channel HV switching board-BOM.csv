@@ -8,7 +8,7 @@ DS1 DS2 DS3 DS4,"LED, Vis, Solid State, Green",KINGBRIGHT COMPANY LLC,APL3015SGC
 IC1,"IC, MCU 8bit 32KB FLASH 28DIP",ATMEL,ATMEGA328P-PU,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ATMEGA328P-PU-ND
 J1,"Connnection Header, 4 Position, .200, RT ANG",Molex Inc,15-24-4441,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=WM6988-ND
 J2,"Connector, PCB, Right Angle, 10 Position",OMRON ELECTRONICS INC,XG4A-1034,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=OR1001-ND
-J3 J4,"Connector, PCB, Right Angle, SMA",MOLEX INC,733910320,2,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=WM8554-ND
+J3 J4,"Connector, PCB, Right Angle, SMA",TE CONNECTIVITY,5-1814400-1,2,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A97593-ND
 J5,"Connector, 0.05"", Right Angle Header, 40 Position",Samtec Inc,TFML-120-01-S-D-RA,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=SAM8266-ND
 JP1 JP2 JP3,"Male Headers Pins, 0.1"" spacing, 2x1",Harwin Inc,M20-9990246,3,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name= 952-2121-ND
 P1,"Male Headers Pins, 0.1"" spacing, 6x1, R/A",SULLINS CONNECTOR SOLUTIONS,PRPC006SBAN-M71RC,1,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=S1111EC-06-ND
