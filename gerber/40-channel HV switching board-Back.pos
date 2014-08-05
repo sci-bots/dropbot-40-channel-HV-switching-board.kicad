@@ -1,9 +1,31 @@
-### Module positions - created on 04/02/2014 10:44:32 AM ###
+### Module positions - created on 05/08/2014 12:52:44 PM ###
 ### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
 ## Unit = inches, Angle = deg.
 ## Side : Front
 # Ref    Val                  Package         PosX       PosY        Rot     Side
-C13      0.1uF            SM0603              2.0913    -1.5488     270.0    Back
+C3       0.1uF            SM1206              2.5600    -0.8650     270.0    Back
+C13      0.1uF            SM1206              2.0030    -1.5790     180.0    Back
+C14      0.1uF            SM1206              3.0300    -1.1430       0.0    Back
+CH1      AQW216           8DIPCMS             3.4562    -4.4688     180.0    Back
+CH3      AQW216           8DIPCMS             3.4562    -3.7687     180.0    Back
+CH5      AQW216           8DIPCMS             3.4562    -3.0688     180.0    Back
+CH7      AQW216           8DIPCMS             3.4562    -2.3687     180.0    Back
+CH9      AQW216           8DIPCMS             2.8562    -4.4688     180.0    Back
+CH11     AQW216           8DIPCMS             2.8562    -3.7687     180.0    Back
+CH13     AQW216           8DIPCMS             2.8562    -3.0688     180.0    Back
+CH15     AQW216           8DIPCMS             2.8562    -2.3687     180.0    Back
+CH17     AQW216           8DIPCMS             2.2563    -4.4688     180.0    Back
+CH19     AQW216           8DIPCMS             2.2563    -3.7687     180.0    Back
+CH21     AQW216           8DIPCMS             2.2563    -3.0688     180.0    Back
+CH23     AQW216           8DIPCMS             2.2563    -2.3687     180.0    Back
+CH25     AQW216           8DIPCMS             1.6563    -4.4688     180.0    Back
+CH27     AQW216           8DIPCMS             1.6563    -3.7687     180.0    Back
+CH29     AQW216           8DIPCMS             1.6563    -3.0688     180.0    Back
+CH31     AQW216           8DIPCMS             1.6563    -2.3687     180.0    Back
+CH33     AQW216           8DIPCMS             1.0562    -4.4688     180.0    Back
+CH35     AQW216           8DIPCMS             1.0562    -3.7687     180.0    Back
+CH37     AQW216           8DIPCMS             1.0562    -3.0688     180.0    Back
+CH39     AQW216           8DIPCMS             1.0562    -2.3687     180.0    Back
 R1       4.75k            SM1206              3.4562    -4.1238      90.0    Back
 R6       4.75k            SM1206              3.4562    -3.4187      90.0    Back
 R13      4.75k            SM1206              2.8562    -4.1187      90.0    Back
@@ -12,6 +34,7 @@ R25      4.75k            SM1206              2.2563    -4.1187      90.0    Bac
 R30      4.75k            SM1206              2.2563    -3.4187      90.0    Back
 R37      4.75k            SM1206              1.6563    -4.1187      90.0    Back
 R42      4.75k            SM1206              1.6563    -3.4187      90.0    Back
+R45      1k               SM1206              3.5700    -1.0250       0.0    Back
 R51      4.75k            SM1206              1.0562    -4.1187      90.0    Back
 R56      4.75k            SM1206              1.0562    -3.4187      90.0    Back
 R63      375              SM1206              3.6062    -4.8187     270.0    Back
@@ -64,29 +87,12 @@ R119     375              SM1206              0.9063    -4.8187      90.0    Bac
 R121     375              SM1206              0.9063    -4.1187      90.0    Back
 R122     375              SM1206              0.9063    -3.4187      90.0    Back
 R123     375              SM1206              0.9063    -2.7188      90.0    Back
+R125     1k               SM1206              3.5700    -1.2250       0.0    Back
+R126     1k               SM1206              3.5700    -1.3250       0.0    Back
+R127     1k               SM1206              3.5700    -1.1250       0.0    Back
 U1       74HC595A         SO16E               3.4562    -1.9737     180.0    Back
-U6       74HC595A         SO16E               1.6563    -1.9788     180.0    Back
-U11      74HC595A         SO16E               2.8562    -1.9788     180.0    Back
-U16      74HC595A         SO16E               1.0562    -1.9788     180.0    Back
-U17      74HC595A         SO16E               2.2563    -1.9788     180.0    Back
-U27      AQW216           8DIPCMS             3.4562    -4.4688     180.0    Back
-U28      AQW216           8DIPCMS             3.4562    -3.7687     180.0    Back
-U29      AQW216           8DIPCMS             3.4562    -3.0688     180.0    Back
-U30      AQW216           8DIPCMS             3.4562    -2.3687     180.0    Back
-U31      AQW216           8DIPCMS             2.8562    -4.4688     180.0    Back
-U32      AQW216           8DIPCMS             2.8562    -3.7687     180.0    Back
-U33      AQW216           8DIPCMS             2.8562    -3.0688     180.0    Back
-U34      AQW216           8DIPCMS             2.8562    -2.3687     180.0    Back
-U35      AQW216           8DIPCMS             2.2563    -4.4688     180.0    Back
-U36      AQW216           8DIPCMS             2.2563    -3.7687     180.0    Back
-U37      AQW216           8DIPCMS             2.2563    -3.0688     180.0    Back
-U38      AQW216           8DIPCMS             2.2563    -2.3687     180.0    Back
-U39      AQW216           8DIPCMS             1.6563    -4.4688     180.0    Back
-U40      AQW216           8DIPCMS             1.6563    -3.7687     180.0    Back
-U41      AQW216           8DIPCMS             1.6563    -3.0688     180.0    Back
-U42      AQW216           8DIPCMS             1.6563    -2.3687     180.0    Back
-U43      AQW216           8DIPCMS             1.0562    -4.4688     180.0    Back
-U44      AQW216           8DIPCMS             1.0562    -3.7687     180.0    Back
-U45      AQW216           8DIPCMS             1.0562    -3.0688     180.0    Back
-U46      AQW216           8DIPCMS             1.0562    -2.3687     180.0    Back
+U2       74HC595A         SO16E               2.8562    -1.9788     180.0    Back
+U3       74HC595A         SO16E               2.2563    -1.9788     180.0    Back
+U4       74HC595A         SO16E               1.6563    -1.9788     180.0    Back
+U5       74HC595A         SO16E               1.0562    -1.9788     180.0    Back
 ## End

@@ -1,19 +1,41 @@
-### Module positions - created on 04/02/2014 10:44:32 AM ###
+### Module positions - created on 05/08/2014 12:52:44 PM ###
 ### Printed by Pcbnew version pcbnew (2013-07-07 BZR 4022)-stable
 ## Unit = inches, Angle = deg.
 ## Side : Front
 # Ref    Val                  Package         PosX       PosY        Rot     Side
-C1       0.1uF            SM0603              3.7363    -1.8738       0.0    Front
-C3       0.1uF            SM0603              3.4663    -1.3563     180.0    Front
-C5       0.1uF            SM0603              1.9288    -1.8738       0.0    Front
-C6       0.1uF            SM0603              1.0887    -1.5538       0.0    Front
-C7       0.01uF           SM0603              1.0887    -1.6612       0.0    Front
-C8       0.1uF            SM0603              3.1363    -1.8738       0.0    Front
-C9       0.1uF            SM0603              1.3313    -1.8738       0.0    Front
-C10      22pF             SM0603              1.7913    -1.2488      90.0    Front
-C11      22pF             SM0603              1.1912    -1.2488      90.0    Front
-C12      0.1uF            SM0603              2.5313    -1.8738       0.0    Front
-DS1      LED              LED-1206            1.1763    -1.4263     180.0    Front
+C1       0.1uF            SM1206              3.7800    -1.8350       0.0    Front
+C5       0.1uF            SM1206              1.9590    -2.0980     270.0    Front
+C6       0.1uF            SM1206              1.1000    -1.5300       0.0    Front
+C7       0.01uF           SM1206              1.1000    -1.6650       0.0    Front
+C8       0.1uF            SM1206              3.1585    -2.0990     270.0    Front
+C9       0.1uF            SM1206              1.3605    -2.0965     270.0    Front
+C10      22pF             SM1206              1.6730    -0.9840     270.0    Front
+C11      22pF             SM1206              1.1800    -1.2650      90.0    Front
+C12      0.1uF            SM1206              2.5540    -2.0980     270.0    Front
+CH0      AQW216           8DIPCMS             3.4562    -4.4688     180.0    Front
+CH2      AQW216           8DIPCMS             3.4562    -3.7687     180.0    Front
+CH4      AQW216           8DIPCMS             3.4562    -3.0688     180.0    Front
+CH6      AQW216           8DIPCMS             3.4562    -2.3687     180.0    Front
+CH8      AQW216           8DIPCMS             2.8562    -4.4688     180.0    Front
+CH10     AQW216           8DIPCMS             2.8562    -3.7687     180.0    Front
+CH12     AQW216           8DIPCMS             2.8562    -3.0688     180.0    Front
+CH14     AQW216           8DIPCMS             2.8562    -2.3687     180.0    Front
+CH16     AQW216           8DIPCMS             2.2563    -4.4688     180.0    Front
+CH18     AQW216           8DIPCMS             2.2563    -3.7687     180.0    Front
+CH20     AQW216           8DIPCMS             2.2563    -3.0688     180.0    Front
+CH22     AQW216           8DIPCMS             2.2563    -2.3687     180.0    Front
+CH24     AQW216           8DIPCMS             1.6563    -4.4688     180.0    Front
+CH26     AQW216           8DIPCMS             1.6563    -3.7687     180.0    Front
+CH28     AQW216           8DIPCMS             1.6563    -3.0688     180.0    Front
+CH30     AQW216           8DIPCMS             1.6563    -2.3687     180.0    Front
+CH32     AQW216           8DIPCMS             1.0562    -4.4688     180.0    Front
+CH34     AQW216           8DIPCMS             1.0562    -3.7687     180.0    Front
+CH36     AQW216           8DIPCMS             1.0562    -3.0688     180.0    Front
+CH38     AQW216           8DIPCMS             1.0562    -2.3687     180.0    Front
+DS1      +5V              LED-1206            3.5700    -1.0250     180.0    Front
+DS2      VCC              LED-1206            3.5700    -1.1250     180.0    Front
+DS3      PROG_MODE        LED-1206            3.5700    -1.2250     180.0    Front
+DS4      RST              LED-1206            3.5700    -1.3250     180.0    Front
 R2       375              SM1206              3.6062    -2.0187      90.0    Front
 R3       375              SM1206              3.6062    -2.7188      90.0    Front
 R4       375              SM1206              3.6062    -3.4187      90.0    Front
@@ -50,7 +72,6 @@ R40      375              SM1206              1.8062    -3.4187      90.0    Fro
 R41      375              SM1206              1.8062    -4.1187      90.0    Front
 R43      10k              SM1206              3.5925    -1.7200       0.0    Front
 R44      4.75k            SM1206              1.6563    -2.0187     270.0    Front
-R45      375              SM1206              1.2012    -1.6038      90.0    Front
 R46      375              SM1206              1.5062    -2.0187     270.0    Front
 R47      375              SM1206              1.5062    -2.7188     270.0    Front
 R48      375              SM1206              1.5062    -3.4187     270.0    Front
@@ -73,28 +94,10 @@ R86      4.75k            SM1206              2.8562    -3.4187     270.0    Fro
 R93      4.75k            SM1206              2.2563    -2.7188     270.0    Front
 R98      4.75k            SM1206              2.2563    -3.4187     270.0    Front
 R99      1Meg             SM1206              1.4913    -1.0488     180.0    Front
+R100     1k               SM1206              2.8600    -1.1950      90.0    Front
 R107     4.75k            SM1206              1.6563    -2.7188     270.0    Front
 R112     4.75k            SM1206              1.6563    -3.4187     270.0    Front
 R120     4.75k            SM1206              1.0562    -2.7188     270.0    Front
 R124     4.75k            SM1206              1.0562    -3.4187     270.0    Front
-U2       AQW216           8DIPCMS             3.4562    -2.3687     180.0    Front
-U3       AQW216           8DIPCMS             3.4562    -3.0688     180.0    Front
-U4       AQW216           8DIPCMS             3.4562    -3.7687     180.0    Front
-U5       AQW216           8DIPCMS             3.4562    -4.4688     180.0    Front
-U7       AQW216           8DIPCMS             2.8562    -2.3687     180.0    Front
-U8       AQW216           8DIPCMS             2.8562    -3.0688     180.0    Front
-U9       AQW216           8DIPCMS             2.8562    -3.7687     180.0    Front
-U10      AQW216           8DIPCMS             2.8562    -4.4688     180.0    Front
-U12      AQW216           8DIPCMS             2.2563    -2.3687     180.0    Front
-U13      AQW216           8DIPCMS             2.2563    -3.0688     180.0    Front
-U14      AQW216           8DIPCMS             2.2563    -3.7687     180.0    Front
-U15      AQW216           8DIPCMS             2.2563    -4.4688     180.0    Front
-U18      AQW216           8DIPCMS             1.6563    -2.3687     180.0    Front
-U19      AQW216           8DIPCMS             1.6563    -3.0688     180.0    Front
-U20      AQW216           8DIPCMS             1.6563    -3.7687     180.0    Front
-U21      AQW216           8DIPCMS             1.6563    -4.4688     180.0    Front
-U22      AQW216           8DIPCMS             1.0562    -4.4688     180.0    Front
-U24      AQW216           8DIPCMS             1.0562    -2.3687     180.0    Front
-U25      AQW216           8DIPCMS             1.0562    -3.0688     180.0    Front
-U26      AQW216           8DIPCMS             1.0562    -3.7687     180.0    Front
+U6       7400             SO14E               3.1100    -1.1400     180.0    Front
 ## End
