@@ -1,10 +1,10 @@
 Item #,Qty,Reference Designator,Description,Package,Type,Manufacturer,Part No.,Digikey Part No.,Link
-1,2,C10 C11,"Capacitor, Ceramic, 22pF, 100V, X7R, 1206",1206,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31C220JCCNNNC,1276-2820-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-2820-1-ND
-2,1,C7,"Capacitor, Ceramic, 0.01uf, 10%, 50V, X7R",1206,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL31B103KBCNNNC,1276-1035-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-1035-1-ND
-3,9,C1 C3 C5 C6 C8 C9 C12 C13 C14,"Capacitor, Ceramic, 0.1uf, 10%, 50V, X7R",1206,SMT,KEMET ELECTRONICS CORPORATION,C1206C104K5RACTU,399-1249-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-1249-1-ND
+1,2,C10 C11,"Capacitor, Ceramic, 22pF, 100V",0805,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL21C220JCANNNC,1276-2607-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-2607-1-ND
+2,1,C7,"Capacitor, Ceramic, 0.01uf, 10%, 100V",0805,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL21B103KCANNNC,1276-1249-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-1249-1-ND
+3,9,C1 C3 C5 C6 C8 C9 C12 C13 C14,"Capacitor, Ceramic, 0.1uf, 10%, 50V",0805,SMT,"SAMSUNG ELECTRO-MECHANICS AMERICA, INC",CL21B104KBCNNNC,1276-1003-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=1276-1003-1-ND
 4,2,C2 C4,"Capacitor, Tantalum, 33uf, 10%, 20V",2917,SMT,KEMET ELECTRONICS CORPORATION,T491D336K020AT,399-3788-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=399-3788-1-ND
 5,40,CH0 CH1 CH2 CH3 CH4 CH5 CH6 CH7 CH8 CH9 CH10 CH11 CH12 CH13 CH14 CH15 CH16 CH17 CH18 CH19 CH20 CH21 CH22 CH23 CH24 CH25 CH26 CH27 CH28 CH29 CH30 CH31 CH32 CH33 CH34 CH35 CH36 CH37 CH38 CH39,"Relay, PhotoMOS, 600V",8-SMD,SMT,Panasonic Electric Works,AQW216A,255-1969-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=255-1969-ND
-6,4,DS1 DS2 DS3 DS4,"LED, Vis, Solid State, Green",1206,SMT,KINGBRIGHT COMPANY LLC,APL3015SGC-F01,754-1111-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=754-1111-1-ND
+6,4,DS1 DS2 DS3 DS4,LED,0805,SMT,Wurth Electronics Inc,150080BS75000,732-4982-1-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=732-4982-1-ND
 7,1,IC1,"IC, MCU 8bit 32KB FLASH 28DIP",28DIP,Through-hole,ATMEL,ATMEGA328P-PU,ATMEGA328P-PU-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=ATMEGA328P-PU-ND
 8,1,J1,"Connnection Header, 4 Position, .200, RT ANG",header,Through-hole,Molex Inc,15-24-4441,WM6988-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=WM6988-ND
 9,1,J2,"Connector, PCB, Right Angle, 10 Position",header,Through-hole,OMRON ELECTRONICS INC,XG4A-1034,OR1001-ND,http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=OR1001-ND
