@@ -37,7 +37,7 @@ encoding utf-8
 Sheet 1 3
 Title "40-channel HV switching board"
 Date "2016-09-28"
-Rev "2.1"
+Rev "2.1.1"
 Comp "Ryan Fobel"
 Comment1 ""
 Comment2 ""
