@@ -784,14 +784,14 @@ F 3 "" H 900 1950 50  0000 C CNN
 	1    900  1950
 	0    1    1    0   
 $EndComp
-Text GLabel 4100 3050 0    60   Input ~ 0
-HV
-Text GLabel 4600 3050 2    60   Input ~ 0
-HVGND
 Text GLabel 4600 3350 2    60   Input ~ 0
 +3.3V
 Text GLabel 9300 2950 2    60   Input ~ 0
 D5/S_MOSI
 Text GLabel 9300 2850 2    60   Input ~ 0
 D4/S_SCK
+Text GLabel 4600 3050 2    60   Input ~ 0
+RST
+Text GLabel 4100 3050 0    60   Input ~ 0
+GND
 $EndSCHEMATC
