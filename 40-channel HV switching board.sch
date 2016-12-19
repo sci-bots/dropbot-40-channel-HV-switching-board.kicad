@@ -36,9 +36,9 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 3
 Title "40-channel HV switching board"
-Date "2016-11-30"
+Date "2016-12-19"
 Rev "3.0"
-Comp "Ryan Fobel"
+Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -201,20 +201,18 @@ HV
 Text GLabel 4600 950  2    60   Input ~ 0
 HVOUT1
 Text GLabel 9300 2750 2    60   Input ~ 0
-D3/S_SS
+D3/595SS
 Text GLabel 7400 2950 0    60   Input ~ 0
 GND
-Text GLabel 1800 3100 3    60   Input ~ 0
+Text GLabel 1800 3100 2    60   Input ~ 0
 RST
 Text GLabel 9300 2300 2    60   Input ~ 0
 RST
-Text GLabel 2050 2700 2    60   Input ~ 0
+Text GLabel 1800 2800 2    60   Input ~ 0
 +3.3V
 Text GLabel 1150 2800 2    60   Input ~ 0
 +3.3V_USB
 Text GLabel 1150 2600 2    60   Input ~ 0
-GND
-Text GLabel 2650 3500 2    60   Input ~ 0
 GND
 Text GLabel 1150 3000 2    60   Input ~ 0
 RX
@@ -227,12 +225,12 @@ TX
 $Comp
 L R R43
 U 1 1 52E82591
-P 2050 2850
-F 0 "R43" V 2130 2850 50  0000 C CNN
-F 1 "10k" V 2050 2850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" H 2050 2850 60  0001 C CNN
-F 3 "" H 2050 2850 60  0001 C CNN
-	1    2050 2850
+P 1800 2950
+F 0 "R43" V 1880 2950 50  0000 C CNN
+F 1 "10k" V 1800 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 1800 2950 60  0001 C CNN
+F 3 "" H 1800 2950 60  0001 C CNN
+	1    1800 2950
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -365,7 +363,6 @@ F 3 "" H 850 6100 60  0001 C CNN
 	1    850  6100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5850 7650
 Text GLabel 9300 2100 2    60   Input ~ 0
 A4/SDA
 Text GLabel 4600 3250 2    60   Input ~ 0
@@ -477,8 +474,6 @@ Text GLabel 4300 7850 0    60   Input ~ 0
 GND
 Text GLabel 5500 6250 0    60   Input ~ 0
 GND
-Text GLabel 1050 5650 0    60   Input ~ 0
-D3/S_SS
 Text GLabel 900  1650 2    60   Input ~ 0
 +3.3V_USB
 Text Notes 850  1550 0    60   ~ 0
@@ -513,24 +508,6 @@ F1 "switches_20-39.sch" 50
 $EndSheet
 Text Notes 5450 3850 0    60   ~ 0
 SWITCHES
-Text GLabel 1050 5150 0    60   Input ~ 0
-D5/S_MOSI
-Text GLabel 1050 5350 0    60   Input ~ 0
-D4/S_SCK
-Text GLabel 5700 5350 0    60   Input ~ 0
-D4/S_SCK
-Text GLabel 3350 5650 0    60   Input ~ 0
-D3/S_SS
-Text GLabel 5700 5650 0    60   Input ~ 0
-D3/S_SS
-Text GLabel 2100 6950 0    60   Input ~ 0
-D4/S_SCK
-Text GLabel 4450 6950 0    60   Input ~ 0
-D4/S_SCK
-Text GLabel 2100 7250 0    60   Input ~ 0
-D3/S_SS
-Text GLabel 4450 7250 0    60   Input ~ 0
-D3/S_SS
 Text GLabel 1050 5750 0    60   Input ~ 0
 D8/OE
 Text GLabel 3350 5750 0    60   Input ~ 0
@@ -543,8 +520,6 @@ Text GLabel 4450 7350 0    60   Input ~ 0
 D8/OE
 Text GLabel 1050 5450 0    60   Input ~ 0
 D9/SRCLR
-Text GLabel 3350 5350 0    60   Input ~ 0
-D4/S_SCK
 Text GLabel 3350 5450 0    60   Input ~ 0
 D9/SRCLR
 Text GLabel 5700 5450 0    60   Input ~ 0
@@ -584,17 +559,6 @@ F 2 "Pin_Headers:Pin_Header_Angled_1x06" H 950 2850 60  0001 C CNN
 F 3 "" H 950 2850 60  0000 C CNN
 	1    950  2850
 	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch_DPST SW1
-U 1 1 56BA66EC
-P 2350 3300
-F 0 "SW1" H 2350 3650 50  0000 C CNN
-F 1 "Switch_DPST" H 2350 2950 50  0000 C CNN
-F 2 "WheelerLab:SW_PUSH_6mm" H 2350 3300 60  0001 C CNN
-F 3 "" H 2350 3300 60  0000 C CNN
-	1    2350 3300
-	1    0    0    -1  
 $EndComp
 $Comp
 L ATMEGA328P-A IC1
@@ -731,13 +695,6 @@ Text GLabel 2800 900  2    60   Input ~ 0
 +3.3V
 Wire Wire Line
 	1150 3100 1350 3100
-Wire Wire Line
-	1650 3100 2050 3100
-Connection ~ 2050 3100
-Wire Wire Line
-	2050 3000 2050 3500
-Wire Wire Line
-	2650 3500 2650 3100
 $Comp
 L CONN_02X25 P3
 U 1 1 58374A5A
@@ -786,12 +743,90 @@ F 3 "" H 900 1950 50  0000 C CNN
 $EndComp
 Text GLabel 4600 3350 2    60   Input ~ 0
 +3.3V
-Text GLabel 9300 2950 2    60   Input ~ 0
-D5/S_MOSI
-Text GLabel 9300 2850 2    60   Input ~ 0
-D4/S_SCK
 Text GLabel 4600 3050 2    60   Input ~ 0
 RST
 Text GLabel 4100 3050 0    60   Input ~ 0
 GND
+Wire Wire Line
+	1650 3100 1800 3100
+$Comp
+L W25Q64FV U6
+U 1 1 58540758
+P 8900 4300
+F 0 "U6" H 8905 4545 60  0000 C CNN
+F 1 "W25Q64FV" H 8900 4045 60  0000 C CNN
+F 2 "SMD_Packages:SOIC-8-N" H 8890 4295 60  0001 C CNN
+F 3 "" H 8890 4295 60  0000 C CNN
+	1    8900 4300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9300 2950
+$Comp
+L C C10
+U 1 1 585434C1
+P 8650 3900
+F 0 "C10" H 8550 4000 50  0000 L CNN
+F 1 "0.1uF" H 8400 3800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 8650 3900 60  0001 C CNN
+F 3 "" H 8650 3900 60  0001 C CNN
+	1    8650 3900
+	0    1    1    0   
+$EndComp
+Text GLabel 8500 4450 0    60   Input ~ 0
+GND
+Text GLabel 9200 4000 2    60   Input ~ 0
++3.3V
+Text GLabel 9300 2850 2    60   Input ~ 0
+D4/W25SS
+Text GLabel 8450 4150 0    60   Input ~ 0
+D4/W25SS
+Text GLabel 8450 4250 0    60   Input ~ 0
+D11/MOSI
+Text GLabel 9200 4450 2    60   Input ~ 0
+D12/MISO
+Text GLabel 9200 4350 2    60   Input ~ 0
+D13/SCK
+Wire Wire Line
+	9200 4000 9200 4250
+Wire Wire Line
+	8600 4350 8550 4350
+Wire Wire Line
+	8550 4350 8550 4000
+Connection ~ 9200 4150
+Wire Wire Line
+	8550 4000 9200 4000
+Wire Wire Line
+	8800 3900 8800 4000
+Connection ~ 8800 4000
+Wire Wire Line
+	8500 3900 8500 4450
+Wire Wire Line
+	8500 4450 8600 4450
+Wire Wire Line
+	8450 4150 8600 4150
+Wire Wire Line
+	8450 4250 8600 4250
+Text GLabel 1050 5650 0    60   Input ~ 0
+D3/595SS
+Text GLabel 1050 5150 0    60   Input ~ 0
+D11/MOSI
+Text GLabel 1050 5350 0    60   Input ~ 0
+D13/SCK
+NoConn ~ 5850 7650
+Text GLabel 3350 5350 0    60   Input ~ 0
+D13/SCK
+Text GLabel 3350 5650 0    60   Input ~ 0
+D3/595SS
+Text GLabel 5700 5650 0    60   Input ~ 0
+D3/595SS
+Text GLabel 5700 5350 0    60   Input ~ 0
+D13/SCK
+Text GLabel 2100 7250 0    60   Input ~ 0
+D3/595SS
+Text GLabel 2100 6950 0    60   Input ~ 0
+D13/SCK
+Text GLabel 4450 7250 0    60   Input ~ 0
+D3/595SS
+Text GLabel 4450 6950 0    60   Input ~ 0
+D13/SCK
 $EndSCHEMATC
