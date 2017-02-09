@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:wheelerlab
-LIBS:40-channel HV switching board-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -60,7 +59,7 @@ F 2 "LEDs:LED_0805" H 2800 1400 60  0001 C CNN
 F 3 "" H 2800 1400 60  0001 C CNN
 F 4 "150080BS75000" H 2800 1400 60  0001 C CNN "Mfg_Part_No"
 	1    2800 1400
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R45
