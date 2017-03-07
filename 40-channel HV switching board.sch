@@ -36,8 +36,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 3
 Title "40-channel HV switching board"
-Date "2016-12-19"
-Rev "3.0"
+Date "2017-03-07"
+Rev "3.1"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
@@ -122,89 +122,89 @@ F 4 "CL21B104KBCNNNC" H 1600 1100 60  0001 C CNN "Mfg_Part_No"
 	1    1600 1100
 	1    0    0    -1  
 $EndComp
-Text GLabel 5200 2950 2    60   Input ~ 0
+Text GLabel 5100 1350 2    60   Input ~ 0
 HVGND
-Text GLabel 5200 2650 2    60   Input ~ 0
-HVOUT35
-Text GLabel 4400 2750 0    60   Input ~ 0
-HVOUT36
-Text GLabel 4400 2850 0    60   Input ~ 0
-HVOUT38
-Text GLabel 5200 2750 2    60   Input ~ 0
-HVOUT37
-Text GLabel 4400 950  0    60   Input ~ 0
-HVOUT0
-Text GLabel 5200 2850 2    60   Input ~ 0
-HVOUT39
-Text GLabel 4400 2650 0    60   Input ~ 0
-HVOUT34
-Text GLabel 5200 2550 2    60   Input ~ 0
-HVOUT33
-Text GLabel 5200 1750 2    60   Input ~ 0
-HVOUT17
-Text GLabel 4400 1850 0    60   Input ~ 0
-HVOUT18
-Text GLabel 4400 1950 0    60   Input ~ 0
-HVOUT20
-Text GLabel 5200 1850 2    60   Input ~ 0
-HVOUT19
-Text GLabel 5200 2050 2    60   Input ~ 0
-HVOUT23
-Text GLabel 4400 2150 0    60   Input ~ 0
-HVOUT24
-Text GLabel 4400 2050 0    60   Input ~ 0
-HVOUT22
-Text GLabel 5200 1950 2    60   Input ~ 0
-HVOUT21
-Text GLabel 5200 2350 2    60   Input ~ 0
-HVOUT29
-Text GLabel 4400 2450 0    60   Input ~ 0
-HVOUT30
-Text GLabel 4400 2550 0    60   Input ~ 0
-HVOUT32
-Text GLabel 5200 2450 2    60   Input ~ 0
-HVOUT31
-Text GLabel 5200 2250 2    60   Input ~ 0
-HVOUT27
-Text GLabel 4400 2350 0    60   Input ~ 0
-HVOUT28
-Text GLabel 4400 2250 0    60   Input ~ 0
-HVOUT26
-Text GLabel 5200 2150 2    60   Input ~ 0
-HVOUT25
-Text GLabel 5200 1350 2    60   Input ~ 0
-HVOUT9
-Text GLabel 4400 1450 0    60   Input ~ 0
-HVOUT10
-Text GLabel 4400 1550 0    60   Input ~ 0
-HVOUT12
-Text GLabel 5200 1450 2    60   Input ~ 0
-HVOUT11
-Text GLabel 5200 1650 2    60   Input ~ 0
-HVOUT15
-Text GLabel 4400 1750 0    60   Input ~ 0
-HVOUT16
 Text GLabel 4400 1650 0    60   Input ~ 0
-HVOUT14
-Text GLabel 5200 1550 2    60   Input ~ 0
-HVOUT13
-Text GLabel 5200 1150 2    60   Input ~ 0
-HVOUT5
-Text GLabel 4400 1250 0    60   Input ~ 0
-HVOUT6
-Text GLabel 4400 1350 0    60   Input ~ 0
-HVOUT8
-Text GLabel 5200 1250 2    60   Input ~ 0
-HVOUT7
-Text GLabel 5200 1050 2    60   Input ~ 0
-HVOUT3
-Text GLabel 4400 1150 0    60   Input ~ 0
-HVOUT4
-Text GLabel 4400 1050 0    60   Input ~ 0
-HVOUT2
+HVOUT35
+Text GLabel 5100 1550 2    60   Input ~ 0
+HVOUT36
+Text GLabel 5100 1450 2    60   Input ~ 0
+HVOUT38
+Text GLabel 4400 1550 0    60   Input ~ 0
+HVOUT37
+Text GLabel 5100 3350 2    60   Input ~ 0
+HVOUT0
+Text GLabel 4400 1450 0    60   Input ~ 0
+HVOUT39
+Text GLabel 5100 1650 2    60   Input ~ 0
+HVOUT34
+Text GLabel 4400 1750 0    60   Input ~ 0
+HVOUT33
+Text GLabel 4400 2550 0    60   Input ~ 0
+HVOUT17
+Text GLabel 5100 2450 2    60   Input ~ 0
+HVOUT18
+Text GLabel 5100 2350 2    60   Input ~ 0
+HVOUT20
+Text GLabel 4400 2450 0    60   Input ~ 0
+HVOUT19
+Text GLabel 4400 2250 0    60   Input ~ 0
+HVOUT23
+Text GLabel 5100 2150 2    60   Input ~ 0
+HVOUT24
+Text GLabel 5100 2250 2    60   Input ~ 0
+HVOUT22
+Text GLabel 4400 2350 0    60   Input ~ 0
+HVOUT21
+Text GLabel 4400 1950 0    60   Input ~ 0
+HVOUT29
+Text GLabel 5100 1850 2    60   Input ~ 0
+HVOUT30
+Text GLabel 5100 1750 2    60   Input ~ 0
+HVOUT32
+Text GLabel 4400 1850 0    60   Input ~ 0
+HVOUT31
+Text GLabel 4400 2050 0    60   Input ~ 0
+HVOUT27
+Text GLabel 5100 1950 2    60   Input ~ 0
+HVOUT28
+Text GLabel 5100 2050 2    60   Input ~ 0
+HVOUT26
+Text GLabel 4400 2150 0    60   Input ~ 0
+HVOUT25
 Text GLabel 4400 2950 0    60   Input ~ 0
+HVOUT9
+Text GLabel 5100 2850 2    60   Input ~ 0
+HVOUT10
+Text GLabel 5100 2750 2    60   Input ~ 0
+HVOUT12
+Text GLabel 4400 2850 0    60   Input ~ 0
+HVOUT11
+Text GLabel 4400 2650 0    60   Input ~ 0
+HVOUT15
+Text GLabel 5100 2550 2    60   Input ~ 0
+HVOUT16
+Text GLabel 5100 2650 2    60   Input ~ 0
+HVOUT14
+Text GLabel 4400 2750 0    60   Input ~ 0
+HVOUT13
+Text GLabel 4400 3150 0    60   Input ~ 0
+HVOUT5
+Text GLabel 5100 3050 2    60   Input ~ 0
+HVOUT6
+Text GLabel 5100 2950 2    60   Input ~ 0
+HVOUT8
+Text GLabel 4400 3050 0    60   Input ~ 0
+HVOUT7
+Text GLabel 4400 3250 0    60   Input ~ 0
+HVOUT3
+Text GLabel 5100 3150 2    60   Input ~ 0
+HVOUT4
+Text GLabel 5100 3250 2    60   Input ~ 0
+HVOUT2
+Text GLabel 4400 1350 0    60   Input ~ 0
 HV
-Text GLabel 5200 950  2    60   Input ~ 0
+Text GLabel 4400 3350 0    60   Input ~ 0
 HVOUT1
 Text GLabel 9300 2750 2    60   Input ~ 0
 D3/595SS
@@ -260,7 +260,7 @@ Text GLabel 1150 4450 2    60   Input ~ 0
 GND
 Text Notes 900  3850 0    60   ~ 0
 ISP
-Text GLabel 9300 2200 2    60   Input ~ 0
+Text GLabel 10100 2200 2    60   Input ~ 0
 A5/SCL
 NoConn ~ 7400 1450
 Text GLabel 10200 1750 2    60   Input ~ 0
@@ -273,6 +273,7 @@ F 0 "C13" H 7200 1000 50  0000 L CNN
 F 1 "0.1uF" H 6750 1000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7050 1000 60  0001 C CNN
 F 3 "" H 7050 1000 60  0001 C CNN
+F 4 "CL21B104KBCNNNC" H 7050 1000 60  0001 C CNN "Mfg_Part_No"
 	1    7050 1000
 	-1   0    0    1   
 $EndComp
@@ -371,9 +372,9 @@ F 3 "" H 850 6100 60  0001 C CNN
 	1    850  6100
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 2100 2    60   Input ~ 0
+Text GLabel 10100 2100 2    60   Input ~ 0
 A4/SDA
-Text GLabel 5200 3250 2    60   Input ~ 0
+Text GLabel 5100 1050 2    60   Input ~ 0
 +3.3V
 $Comp
 L 74HC595A U1
@@ -541,9 +542,9 @@ Text GLabel 4450 7050 0    60   Input ~ 0
 D9/SRCLR
 Text GLabel 2100 7050 0    60   Input ~ 0
 D9/SRCLR
-Text GLabel 4400 3350 0    60   Input ~ 0
+Text GLabel 4400 950  0    60   Input ~ 0
 A4/SDA
-Text GLabel 5200 3150 2    60   Input ~ 0
+Text GLabel 5100 1150 2    60   Input ~ 0
 A5/SCL
 Text GLabel 1150 4250 2    60   Input ~ 0
 D11/MOSI
@@ -579,13 +580,13 @@ U 1 1 583628D3
 P 8300 1950
 F 0 "IC1" H 7550 3200 50  0000 L BNN
 F 1 "ATMEGA328P-A" H 8700 550 50  0000 L BNN
-F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 8300 500 50  0000 C CIN
+F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 8300 500 50  0001 C CIN
 F 3 "" H 8300 1950 50  0000 C CNN
 F 4 "ATMEGA328P-AU" H 8300 1950 60  0001 C CNN "Mfg_Part_No"
 	1    8300 1950
 	1    0    0    -1  
 $EndComp
-Text GLabel 9300 1150 2    60   Input ~ 0
+Text GLabel 9900 1150 2    60   Input ~ 0
 D11/MOSI
 Text GLabel 9300 1250 2    60   Input ~ 0
 D12/MISO
@@ -595,14 +596,14 @@ Text GLabel 9300 950  2    60   Input ~ 0
 D9/SRCLR
 Text GLabel 9300 1050 2    60   Input ~ 0
 D10/SS
-Text GLabel 9300 1350 2    60   Input ~ 0
+Text GLabel 9900 1350 2    60   Input ~ 0
 D13/SCK
 $Comp
 L RESONATOR Y1
 U 1 1 583632A3
 P 9950 1750
 F 0 "Y1" H 9970 1950 60  0000 C CNN
-F 1 "RESONATOR" H 10380 1550 60  0000 C CNN
+F 1 "RESONATOR" V 10150 1500 60  0000 C CNN
 F 2 "WheelerLab:CSTCE_G15C" H 9950 1750 60  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p16e.ashx" H 9950 1750 60  0001 C CNN
 F 4 "CSTCE8M00G55-R0" H 9950 1750 60  0001 C CNN "Mfg_Part_No"
@@ -678,11 +679,11 @@ Wire Wire Line
 Wire Wire Line
 	9900 1450 9300 1450
 Wire Wire Line
-	9900 2050 9650 2050
+	9900 2050 9700 2050
 Wire Wire Line
-	9650 2050 9650 1550
+	9700 2050 9700 1550
 Wire Wire Line
-	9650 1550 9300 1550
+	9700 1550 9300 1550
 Wire Wire Line
 	7400 850  7400 950 
 Connection ~ 7400 850 
@@ -703,17 +704,15 @@ Text GLabel 900  2250 2    60   Input ~ 0
 +3.3V
 Text GLabel 7050 850  0    60   Input ~ 0
 +3.3V
-Text GLabel 7400 1150 0    60   Input ~ 0
-+3.3V
 Text GLabel 2800 900  2    60   Input ~ 0
 +3.3V
 Wire Wire Line
 	1150 3100 1350 3100
 Wire Wire Line
 	900  1300 2350 1300
-Text GLabel 4400 3250 0    60   Input ~ 0
+Text GLabel 4400 1050 0    60   Input ~ 0
 GND
-Text GLabel 4400 3150 0    60   Input ~ 0
+Text GLabel 4400 1150 0    60   Input ~ 0
 GND
 Text Notes 3700 800  0    60   ~ 0
 EDGE CONNECTOR
@@ -744,11 +743,11 @@ F 3 "" H 900 1950 50  0000 C CNN
 	1    900  1950
 	0    1    1    0   
 $EndComp
-Text GLabel 5200 3350 2    60   Input ~ 0
+Text GLabel 5100 950  2    60   Input ~ 0
 +3.3V
-Text GLabel 5200 3050 2    60   Input ~ 0
+Text GLabel 5100 1250 2    60   Input ~ 0
 RST
-Text GLabel 4400 3050 0    60   Input ~ 0
+Text GLabel 4400 1250 0    60   Input ~ 0
 GND
 Wire Wire Line
 	1650 3100 1800 3100
@@ -784,9 +783,9 @@ Text GLabel 9300 2850 2    60   Input ~ 0
 D4/W25SS
 Text GLabel 8450 4150 0    60   Input ~ 0
 D4/W25SS
-Text GLabel 8450 4250 0    60   Input ~ 0
-D11/MOSI
 Text GLabel 9200 4450 2    60   Input ~ 0
+D11/MOSI
+Text GLabel 8150 4250 0    60   Input ~ 0
 D12/MISO
 Text GLabel 9200 4350 2    60   Input ~ 0
 D13/SCK
@@ -808,15 +807,12 @@ Wire Wire Line
 	8500 4450 8600 4450
 Wire Wire Line
 	8450 4150 8600 4150
-Wire Wire Line
-	8450 4250 8600 4250
 Text GLabel 1050 5650 0    60   Input ~ 0
 D3/595SS
 Text GLabel 1050 5150 0    60   Input ~ 0
 D11/MOSI
 Text GLabel 1050 5350 0    60   Input ~ 0
 D13/SCK
-NoConn ~ 5850 7650
 Text GLabel 3350 5350 0    60   Input ~ 0
 D13/SCK
 Text GLabel 3350 5650 0    60   Input ~ 0
@@ -838,7 +834,7 @@ L TFM-125-02-X-DH J1
 U 1 1 58B6BC14
 P 4400 950
 F 0 "J1" H 4600 1100 45  0000 L BNN
-F 1 "TFM-125-02-X-DH" H 4600 -1650 45  0000 L BNN
+F 1 "TFM-125-02-X-DH" V 4750 -650 45  0000 L BNN
 F 2 "WheelerLab:TFM-125-02-X-DH" H 4430 1100 20  0001 C CNN
 F 3 "" H 4400 950 60  0000 C CNN
 	1    4400 950 
@@ -847,53 +843,252 @@ $EndComp
 $Comp
 L CONN_01X01 P3
 U 1 1 58B6C9D8
-P 3100 2600
-F 0 "P3" H 3100 2700 50  0000 C CNN
-F 1 "CONN_01X01" H 3400 2600 50  0000 C CNN
-F 2 "Connect:1pin" H 3100 2600 50  0001 C CNN
-F 3 "" H 3100 2600 50  0000 C CNN
-	1    3100 2600
+P 3450 2600
+F 0 "P3" H 3450 2700 50  0000 C CNN
+F 1 "CONN_01X01" H 3750 2600 50  0001 C CNN
+F 2 "Connect:1pin" H 3450 2600 50  0001 C CNN
+F 3 "" H 3450 2600 50  0000 C CNN
+	1    3450 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X01 P4
 U 1 1 58B6CAF5
-P 3100 2800
-F 0 "P4" H 3100 2900 50  0000 C CNN
-F 1 "CONN_01X01" H 3400 2800 50  0000 C CNN
-F 2 "Connect:1pin" H 3100 2800 50  0001 C CNN
-F 3 "" H 3100 2800 50  0000 C CNN
-	1    3100 2800
+P 3450 2800
+F 0 "P4" H 3450 2900 50  0000 C CNN
+F 1 "CONN_01X01" H 3750 2800 50  0001 C CNN
+F 2 "Connect:1pin" H 3450 2800 50  0001 C CNN
+F 3 "" H 3450 2800 50  0000 C CNN
+	1    3450 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X01 P5
 U 1 1 58B6CB3C
-P 3100 3000
-F 0 "P5" H 3100 3100 50  0000 C CNN
-F 1 "CONN_01X01" H 3400 3000 50  0000 C CNN
-F 2 "Connect:1pin" H 3100 3000 50  0001 C CNN
-F 3 "" H 3100 3000 50  0000 C CNN
-	1    3100 3000
+P 3450 3000
+F 0 "P5" H 3450 3100 50  0000 C CNN
+F 1 "CONN_01X01" H 3750 3000 50  0001 C CNN
+F 2 "Connect:1pin" H 3450 3000 50  0001 C CNN
+F 3 "" H 3450 3000 50  0000 C CNN
+	1    3450 3000
 	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X01 P6
 U 1 1 58B6CB42
-P 3100 3200
-F 0 "P6" H 3100 3300 50  0000 C CNN
-F 1 "CONN_01X01" H 3400 3200 50  0000 C CNN
-F 2 "Connect:1pin" H 3100 3200 50  0001 C CNN
-F 3 "" H 3100 3200 50  0000 C CNN
-	1    3100 3200
+P 3450 3200
+F 0 "P6" H 3450 3300 50  0000 C CNN
+F 1 "CONN_01X01" H 3750 3200 50  0001 C CNN
+F 2 "Connect:1pin" H 3450 3200 50  0001 C CNN
+F 3 "" H 3450 3200 50  0000 C CNN
+	1    3450 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 2600 2900 3200
-Connection ~ 2900 2800
-Connection ~ 2900 3000
-Text GLabel 2900 2600 0    60   Input ~ 0
-GND
+	3250 2600 3250 3200
+Connection ~ 3250 2800
+Connection ~ 3250 3000
+Text GLabel 3250 2600 0    60   Input ~ 0
+CHASIS_GND
 Text Notes 2650 2450 0    60   ~ 0
 MOUNTING HOLES
+$Comp
+L C C11
+U 1 1 58C732B5
+P 7050 1450
+F 0 "C11" H 7200 1450 50  0000 L CNN
+F 1 "0.1uF" H 6750 1450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 7050 1450 60  0001 C CNN
+F 3 "" H 7050 1450 60  0001 C CNN
+F 4 "CL21B104KBCNNNC" H 7050 1450 60  0001 C CNN "Mfg_Part_No"
+	1    7050 1450
+	-1   0    0    1   
+$EndComp
+Text GLabel 7050 1600 0    60   Input ~ 0
+GND
+Wire Wire Line
+	7050 1300 7400 1300
+Text GLabel 7050 1300 0    60   Input ~ 0
++3.3V
+Wire Wire Line
+	7400 1300 7400 1150
+Text GLabel 6150 7900 0    60   Input ~ 0
+D12/MISO
+Wire Wire Line
+	4400 3550 4400 3650
+Wire Wire Line
+	4400 3650 5100 3650
+Wire Wire Line
+	5100 3650 5100 3550
+$Comp
+L FERRITE FB1
+U 1 1 58BE05EA
+P 9450 1150
+F 0 "FB1" H 9600 1100 50  0000 L CNN
+F 1 "FERRITE" H 9600 1150 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 9450 1050 60  0001 C CNN
+F 3 "" H 9450 1050 60  0000 C CNN
+	1    9450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L FERRITE FB2
+U 1 1 58BE10B8
+P 6000 7650
+F 0 "FB2" H 5900 7750 50  0000 L CNN
+F 1 "FERRITE" H 5850 7550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 6000 7550 60  0001 C CNN
+F 3 "" H 6000 7550 60  0000 C CNN
+	1    6000 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L FERRITE FB3
+U 1 1 58BE10E8
+P 9450 1350
+F 0 "FB3" H 9600 1300 50  0000 L CNN
+F 1 "FERRITE" H 9600 1350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 9450 1250 60  0001 C CNN
+F 3 "" H 9450 1250 60  0000 C CNN
+	1    9450 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 1150 9900 1150
+Wire Wire Line
+	9600 1350 9900 1350
+$Comp
+L C C15
+U 1 1 58BE17E1
+P 9650 2350
+F 0 "C15" H 9550 2450 50  0000 L CNN
+F 1 "C" H 9500 2350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9650 2350 60  0001 C CNN
+F 3 "" H 9650 2350 60  0001 C CNN
+F 4 "CL21B104KBCNNNC" H 9650 2350 60  0001 C CNN "Mfg_Part_No"
+	1    9650 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C14
+U 1 1 58BE1A11
+P 9650 1950
+F 0 "C14" H 9500 2050 50  0000 L CNN
+F 1 "C" H 9450 1950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 9650 1950 60  0001 C CNN
+F 3 "" H 9650 1950 60  0001 C CNN
+F 4 "CL21B104KBCNNNC" H 9650 1950 60  0001 C CNN "Mfg_Part_No"
+	1    9650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R99
+U 1 1 58BE238C
+P 9450 2100
+F 0 "R99" V 9400 2250 50  0000 C CNN
+F 1 "R" V 9450 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 9450 2100 60  0001 C CNN
+F 3 "" H 9450 2100 60  0001 C CNN
+	1    9450 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R100
+U 1 1 58BE292D
+P 9450 2200
+F 0 "R100" V 9400 2350 50  0000 C CNN
+F 1 "R" V 9450 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 9450 2200 60  0001 C CNN
+F 3 "" H 9450 2200 60  0001 C CNN
+	1    9450 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R125
+U 1 1 58BE2D27
+P 9850 2100
+F 0 "R125" V 9800 2250 50  0000 C CNN
+F 1 "R" V 9850 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 9850 2100 60  0001 C CNN
+F 3 "" H 9850 2100 60  0001 C CNN
+	1    9850 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R126
+U 1 1 58BE2D2D
+P 9850 2200
+F 0 "R126" V 9800 2350 50  0000 C CNN
+F 1 "R" V 9850 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 9850 2200 60  0001 C CNN
+F 3 "" H 9850 2200 60  0001 C CNN
+	1    9850 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9600 2100 9700 2100
+Wire Wire Line
+	9600 2200 9700 2200
+Text GLabel 9600 1800 1    60   Input ~ 0
+GND
+Wire Wire Line
+	9600 1800 9650 1800
+Text GLabel 9650 2550 2    60   Input ~ 0
+GND
+Wire Wire Line
+	9650 2550 9650 2500
+Connection ~ 9650 2100
+Connection ~ 9650 2200
+Wire Wire Line
+	10000 2100 10100 2100
+Wire Wire Line
+	10000 2200 10100 2200
+Wire Wire Line
+	6150 7650 6150 7900
+$Comp
+L FERRITE FB4
+U 1 1 58BE6642
+P 8450 4250
+F 0 "FB4" H 8600 4300 50  0000 L CNN
+F 1 "FERRITE" H 8450 4350 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 8450 4150 60  0001 C CNN
+F 3 "" H 8450 4150 60  0000 C CNN
+	1    8450 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8150 4250 8300 4250
+Text GLabel 3250 3450 0    60   Input ~ 0
+CHASIS_GND
+Text GLabel 3550 3450 2    60   Input ~ 0
+GND
+$Comp
+L FERRITE FB5
+U 1 1 58BF8B7E
+P 3400 3450
+F 0 "FB5" H 3200 3550 50  0000 L CNN
+F 1 "FERRITE" H 3400 3550 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 3400 3350 60  0001 C CNN
+F 3 "" H 3400 3350 60  0000 C CNN
+	1    3400 3450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 3650 0    60   Input ~ 0
+CHASIS_GND
+$Comp
+L C C16
+U 1 1 58BFB321
+P 3400 3600
+F 0 "C16" H 3450 3700 50  0000 L CNN
+F 1 "0.1uF" H 3450 3500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 3400 3600 60  0001 C CNN
+F 3 "" H 3400 3600 60  0001 C CNN
+F 4 "CL21B104KBCNNNC" H 3400 3600 60  0001 C CNN "Mfg_Part_No"
+	1    3400 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 3600 3250 3450
+Wire Wire Line
+	3550 3600 3550 3450
 $EndSCHEMATC
