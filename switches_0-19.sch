@@ -36,8 +36,8 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 3
 Title "40-channel HV switching board"
-Date "2016-12-19"
-Rev "3.0"
+Date "2017-04-05"
+Rev "3.1"
 Comp "Sci-Bots Inc."
 Comment1 ""
 Comment2 ""
