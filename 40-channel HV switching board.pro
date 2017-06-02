@@ -1,4 +1,4 @@
-update=2017-02-28 8:54:42 AM
+update=6/1/2017 9:35:33 AM
 last_client=kicad
 [general]
 version=1
@@ -39,6 +39,16 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=svg
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=library
@@ -73,13 +83,3 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=wheelerlab
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=svg
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
