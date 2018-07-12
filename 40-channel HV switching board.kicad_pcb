@@ -848,7 +848,7 @@
       (xy 10.0584 -1.9304) (xy 10.100851 -1.91244)) (layer F.SilkS) (width 0.01))
   )
 
-  (module WheelerLab:SM2917 (layer Back) (tedit 58BF33C9) (tstamp 57EA93FA)
+  (module Sci-Bots:SM2917 (layer Back) (tedit 58BF33C9) (tstamp 57EA93FA)
     (at 93.6 108.1 270)
     (path /52E8258C)
     (fp_text reference C2 (at -3.5 -3.2 360) (layer B.SilkS)
@@ -874,7 +874,7 @@
     )
   )
 
-  (module WheelerLab:SM2917 (layer Front) (tedit 583FA329) (tstamp 57EA9404)
+  (module Sci-Bots:SM2917 (layer Front) (tedit 583FA329) (tstamp 57EA9404)
     (at 93.6 108.1 270)
     (path /52E8258B)
     (fp_text reference C4 (at 4.9 0 360) (layer F.SilkS)
@@ -2676,7 +2676,7 @@
     )
   )
 
-  (module WheelerLab:SO16E (layer Back) (tedit 583FA47D) (tstamp 57EA9920)
+  (module Sci-Bots:SO16E (layer Back) (tedit 583FA47D) (tstamp 57EA9920)
     (at 36.56125 97.19175)
     (descr "Module CMS SOJ 16 pins etroit")
     (tags "CMS SOJ")
@@ -2734,7 +2734,7 @@
     )
   )
 
-  (module WheelerLab:SO16E (layer Back) (tedit 583FA477) (tstamp 57EA9933)
+  (module Sci-Bots:SO16E (layer Back) (tedit 583FA477) (tstamp 57EA9933)
     (at 51.80125 97.06475)
     (descr "Module CMS SOJ 16 pins etroit")
     (tags "CMS SOJ")
@@ -2792,7 +2792,7 @@
     )
   )
 
-  (module WheelerLab:SO16E (layer Back) (tedit 583FA470) (tstamp 57EA9946)
+  (module Sci-Bots:SO16E (layer Back) (tedit 583FA470) (tstamp 57EA9946)
     (at 67.04125 97.06475)
     (descr "Module CMS SOJ 16 pins etroit")
     (tags "CMS SOJ")
@@ -2850,7 +2850,7 @@
     )
   )
 
-  (module WheelerLab:SO16E (layer Back) (tedit 583FA494) (tstamp 57EA9959)
+  (module Sci-Bots:SO16E (layer Back) (tedit 583FA494) (tstamp 57EA9959)
     (at 82.28125 97.06475)
     (descr "Module CMS SOJ 16 pins etroit")
     (tags "CMS SOJ")
@@ -2908,7 +2908,7 @@
     )
   )
 
-  (module WheelerLab:SO16E (layer Back) (tedit 583FA462) (tstamp 57EA996C)
+  (module Sci-Bots:SO16E (layer Back) (tedit 583FA462) (tstamp 57EA996C)
     (at 97.52125 97.06475)
     (descr "Module CMS SOJ 16 pins etroit")
     (tags "CMS SOJ")
@@ -2966,7 +2966,7 @@
     )
   )
 
-  (module WheelerLab:OSHW_logo_10mm (layer Front) (tedit 0) (tstamp 57EAA2BF)
+  (module Sci-Bots:OSHW_logo_10mm (layer Front) (tedit 0) (tstamp 57EAA2BF)
     (at 102 103)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
@@ -3844,7 +3844,7 @@
       (xy -0.522042 -5.212843) (xy -0.507346 -5.226922) (xy 0.507808 -5.226922) (xy 0.522657 -5.211981)) (layer F.SilkS) (width 0.01))
   )
 
-  (module WheelerLab:CC_S_A_logo_10mm (layer Front) (tedit 0) (tstamp 57EAA2C8)
+  (module Sci-Bots:CC_S_A_logo_10mm (layer Front) (tedit 0) (tstamp 57EAA2C8)
     (at 29.6 106.5)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
@@ -8409,7 +8409,7 @@
     )
   )
 
-  (module WheelerLab:CSTCE_G15C (layer Front) (tedit 58BF327C) (tstamp 583F8E2F)
+  (module Sci-Bots:CSTCE_G15C (layer Front) (tedit 58BF327C) (tstamp 583F8E2F)
     (at 47.8 102.2 180)
     (path /583632A3)
     (fp_text reference Y1 (at 0 1.4 180) (layer F.SilkS)
@@ -8937,7 +8937,7 @@
     )
   )
 
-  (module WheelerLab:TFM-125-02-X-DH (layer Front) (tedit 59304C9E) (tstamp 58B6E0E9)
+  (module Sci-Bots:TFM-125-02-X-DH (layer Front) (tedit 59304C9E) (tstamp 58B6E0E9)
     (at 81 23)
     (descr "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")
     (tags "0.050\" DOUBLE HORIZONTAL TERMINAL STRIP.")

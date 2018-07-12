@@ -32,7 +32,7 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=wheelerlab
+LibName11=sci-bots
 LibDir=library
 [cvpcb]
 version=1
@@ -82,4 +82,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=wheelerlab
+LibName30=sci-bots

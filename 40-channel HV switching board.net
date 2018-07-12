@@ -63,7 +63,7 @@
       (tstamp 52E8258A))
     (comp (ref C4)
       (value 33uF)
-      (footprint WheelerLab:SM2917)
+      (footprint Sci-Bots:SM2917)
       (fields
         (field (name Mfg_Part_No) T491D336K020AT))
       (libsource (lib device) (part CP1))
@@ -71,7 +71,7 @@
       (tstamp 52E8258B))
     (comp (ref C2)
       (value 33uF)
-      (footprint WheelerLab:SM2917)
+      (footprint Sci-Bots:SM2917)
       (fields
         (field (name Mfg_Part_No) T491D336K020AT))
       (libsource (lib device) (part CP1))
@@ -117,18 +117,18 @@
       (tstamp 52E9BB2A))
     (comp (ref U1)
       (value 74HC595A)
-      (footprint WheelerLab:SO16E)
+      (footprint Sci-Bots:SO16E)
       (fields
         (field (name Mfg_Part_No) MM74HC595MX))
-      (libsource (lib wheelerlab) (part 74HC595A))
+      (libsource (lib sci-bots) (part 74HC595A))
       (sheetpath (names /) (tstamps /))
       (tstamp 52EA81C2))
     (comp (ref U2)
       (value 74HC595A)
-      (footprint WheelerLab:SO16E)
+      (footprint Sci-Bots:SO16E)
       (fields
         (field (name Mfg_Part_No) MM74HC595MX))
-      (libsource (lib wheelerlab) (part 74HC595A))
+      (libsource (lib sci-bots) (part 74HC595A))
       (sheetpath (names /) (tstamps /))
       (tstamp 52EA8258))
     (comp (ref C8)
@@ -139,10 +139,10 @@
       (tstamp 52EA8260))
     (comp (ref U3)
       (value 74HC595A)
-      (footprint WheelerLab:SO16E)
+      (footprint Sci-Bots:SO16E)
       (fields
         (field (name Mfg_Part_No) MM74HC595MX))
-      (libsource (lib wheelerlab) (part 74HC595A))
+      (libsource (lib sci-bots) (part 74HC595A))
       (sheetpath (names /) (tstamps /))
       (tstamp 52EA8268))
     (comp (ref C12)
@@ -153,10 +153,10 @@
       (tstamp 52EA82A7))
     (comp (ref U4)
       (value 74HC595A)
-      (footprint WheelerLab:SO16E)
+      (footprint Sci-Bots:SO16E)
       (fields
         (field (name Mfg_Part_No) MM74HC595MX))
-      (libsource (lib wheelerlab) (part 74HC595A))
+      (libsource (lib sci-bots) (part 74HC595A))
       (sheetpath (names /) (tstamps /))
       (tstamp 52EA8362))
     (comp (ref C5)
@@ -167,10 +167,10 @@
       (tstamp 52EA83E6))
     (comp (ref U5)
       (value 74HC595A)
-      (footprint WheelerLab:SO16E)
+      (footprint Sci-Bots:SO16E)
       (fields
         (field (name Mfg_Part_No) MM74HC595MX))
-      (libsource (lib wheelerlab) (part 74HC595A))
+      (libsource (lib sci-bots) (part 74HC595A))
       (sheetpath (names /) (tstamps /))
       (tstamp 52EA8645))
     (comp (ref C9)
@@ -193,11 +193,11 @@
       (tstamp 56BA3316))
     (comp (ref Y1)
       (value RESONATOR)
-      (footprint WheelerLab:CSTCE_G15C)
+      (footprint Sci-Bots:CSTCE_G15C)
       (datasheet http://www.murata.com/~/media/webrenewal/support/library/catalog/products/timingdevice/ceralock/p16e.ashx)
       (fields
         (field (name Mfg_Part_No) CSTCE8M00G55-R0))
-      (libsource (lib wheelerlab) (part RESONATOR))
+      (libsource (lib sci-bots) (part RESONATOR))
       (sheetpath (names /) (tstamps /))
       (tstamp 583632A3))
     (comp (ref JP1)
@@ -211,7 +211,7 @@
       (footprint SMD_Packages:SOIC-8-N)
       (fields
         (field (name Mfg_Part_No) "W25Q64FVSSIG TR"))
-      (libsource (lib wheelerlab) (part W25Q64FV))
+      (libsource (lib sci-bots) (part W25Q64FV))
       (sheetpath (names /) (tstamps /))
       (tstamp 58540758))
     (comp (ref C10)
@@ -222,10 +222,10 @@
       (tstamp 585434C1))
     (comp (ref P7)
       (value TFM-125-02-X-DH)
-      (footprint WheelerLab:TFM-125-02-X-DH)
+      (footprint Sci-Bots:TFM-125-02-X-DH)
       (fields
         (field (name Mfg_Part_No) TFM-125-02-L-DH))
-      (libsource (lib wheelerlab) (part TFM-125-02-X-DH))
+      (libsource (lib sci-bots) (part TFM-125-02-X-DH))
       (sheetpath (names /) (tstamps /))
       (tstamp 58B6BC14))
     (comp (ref P3)
@@ -265,7 +265,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BE05EA))
     (comp (ref FB2)
@@ -273,7 +273,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BE10B8))
     (comp (ref FB3)
@@ -281,7 +281,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BE10E8))
     (comp (ref C15)
@@ -337,7 +337,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BE6642))
     (comp (ref FB5)
@@ -345,7 +345,7 @@
       (footprint Resistors_SMD:R_0805)
       (fields
         (field (name Mfg_Part_No) 742792040))
-      (libsource (lib wheelerlab) (part FERRITE))
+      (libsource (lib sci-bots) (part FERRITE))
       (sheetpath (names /) (tstamps /))
       (tstamp 58BF8B7E))
     (comp (ref C16)
@@ -385,7 +385,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DB5D))
     (comp (ref R73)
@@ -405,7 +405,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D491))
     (comp (ref R2)
@@ -425,7 +425,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D494))
     (comp (ref R71)
@@ -445,7 +445,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D497))
     (comp (ref R66)
@@ -465,7 +465,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DB69))
     (comp (ref R9)
@@ -485,7 +485,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DB6C))
     (comp (ref R4)
@@ -523,7 +523,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DB73))
     (comp (ref R5)
@@ -543,7 +543,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D4A9))
     (comp (ref R74)
@@ -593,7 +593,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DB8D))
     (comp (ref R85)
@@ -613,7 +613,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D4DA))
     (comp (ref R14)
@@ -633,7 +633,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D4EC))
     (comp (ref R21)
@@ -653,7 +653,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D4FE))
     (comp (ref R78)
@@ -673,7 +673,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DB99))
     (comp (ref R22)
@@ -693,7 +693,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D522))
     (comp (ref R77)
@@ -719,7 +719,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DBA2))
     (comp (ref R17)
@@ -739,7 +739,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D579))
     (comp (ref R86)
@@ -795,7 +795,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D85E))
     (comp (ref R34)
@@ -815,7 +815,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DBC0))
     (comp (ref R89)
@@ -847,7 +847,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6D896))
     (comp (ref R29)
@@ -867,7 +867,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_0-19/) (tstamps /5384E75E/))
       (tstamp 52E6DBCB))
     (comp (ref R98)
@@ -905,7 +905,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D48E))
     (comp (ref R109)
@@ -925,7 +925,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DB60))
     (comp (ref R40)
@@ -945,7 +945,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DB63))
     (comp (ref R49)
@@ -965,7 +965,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DB66))
     (comp (ref R102)
@@ -985,7 +985,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D49A))
     (comp (ref R32)
@@ -1005,7 +1005,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D49D))
     (comp (ref R91)
@@ -1043,7 +1043,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D4A4))
     (comp (ref R27)
@@ -1063,7 +1063,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DB78))
     (comp (ref R31)
@@ -1113,7 +1113,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D4C8))
     (comp (ref R121)
@@ -1133,7 +1133,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DB90))
     (comp (ref R54)
@@ -1153,7 +1153,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DB93))
     (comp (ref R61)
@@ -1173,7 +1173,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DB96))
     (comp (ref R113)
@@ -1193,7 +1193,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D510))
     (comp (ref R46)
@@ -1213,7 +1213,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DB9C))
     (comp (ref R105)
@@ -1245,7 +1245,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D54F))
     (comp (ref R39)
@@ -1265,7 +1265,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DBA7))
     (comp (ref R44)
@@ -1321,7 +1321,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DBBD))
     (comp (ref R58)
@@ -1341,7 +1341,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D870))
     (comp (ref R117)
@@ -1373,7 +1373,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DBC6))
     (comp (ref R53)
@@ -1393,7 +1393,7 @@
       (footprint SMD_Packages:DIP-8_SMD)
       (fields
         (field (name Mfg_Part_No) "TLP227G-2(TP1,N,F)"))
-      (libsource (lib wheelerlab) (part SSR-DPST))
+      (libsource (lib sci-bots) (part SSR-DPST))
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6D8C0))
     (comp (ref R57)
@@ -1409,7 +1409,7 @@
       (sheetpath (names /switches_20-39/) (tstamps /5384E71B/))
       (tstamp 52E6DBD2)))
   (libparts
-    (libpart (lib wheelerlab) (part 74HC595A)
+    (libpart (lib sci-bots) (part 74HC595A)
       (fields
         (field (name Reference) U)
         (field (name Value) 74HC595A))
@@ -1527,7 +1527,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib wheelerlab) (part FERRITE)
+    (libpart (lib sci-bots) (part FERRITE)
       (fields
         (field (name Reference) FB)
         (field (name Value) FERRITE))
@@ -1563,7 +1563,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib wheelerlab) (part RESONATOR)
+    (libpart (lib sci-bots) (part RESONATOR)
       (fields
         (field (name Reference) Y)
         (field (name Value) RESONATOR))
@@ -1571,7 +1571,7 @@
         (pin (num 1) (name 1) (type passive))
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive))))
-    (libpart (lib wheelerlab) (part SSR-DPST)
+    (libpart (lib sci-bots) (part SSR-DPST)
       (fields
         (field (name Reference) U)
         (field (name Value) SSR-DPST))
@@ -1584,7 +1584,7 @@
         (pin (num 6) (name INOUTA2) (type passive))
         (pin (num 7) (name INOUTB1) (type passive))
         (pin (num 8) (name INOUTA1) (type passive))))
-    (libpart (lib wheelerlab) (part TFM-125-02-X-DH)
+    (libpart (lib sci-bots) (part TFM-125-02-X-DH)
       (footprints
         (fp *TFM-120-02-X-DH*))
       (fields
@@ -1646,7 +1646,7 @@
         (pin (num G2) (name 52) (type BiDi))
         (pin (num G3) (name 53) (type BiDi))
         (pin (num G4) (name 54) (type BiDi))))
-    (libpart (lib wheelerlab) (part W25Q64FV)
+    (libpart (lib sci-bots) (part W25Q64FV)
       (fields
         (field (name Reference) U)
         (field (name Value) W25Q64FV))
@@ -1664,8 +1664,8 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical atmel)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
-    (library (logical wheelerlab)
-      (uri C:\Users\Ryan\Documents\dev\kicad\dropbot-v3\40-channel-HV-switching-board\library\wheelerlab.lib))
+    (library (logical sci-bots)
+      (uri C:\Users\Ryan\Documents\dev\kicad\dropbot-v3\40-channel-HV-switching-board\library\sci-bots.lib))
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
   (nets
