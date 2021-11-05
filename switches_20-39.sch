@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:sci-bots
-LIBS:40-channel HV switching board-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -47,7 +16,7 @@ $EndDescr
 Text GLabel 3300 1250 0    60   Input ~ 0
 OUT28
 $Comp
-L R R107
+L Device:R R107
 U 1 1 52E6D48A
 P 3300 1000
 F 0 "R107" V 3380 1000 50  0000 C CNN
@@ -58,7 +27,7 @@ F 3 "" H 3300 1000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R103
+L Device:R R103
 U 1 1 52E6D48D
 P 1150 7050
 F 0 "R103" V 1230 7050 50  0000 C CNN
@@ -81,7 +50,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 1800 7500 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R109
+L Device:R R109
 U 1 1 52E6D48F
 P 1150 7750
 F 0 "R109" V 1230 7750 50  0000 C CNN
@@ -92,7 +61,7 @@ F 3 "" H 1150 7750 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R48
+L Device:R R48
 U 1 1 52E6DB5F
 P 1150 6850
 F 0 "R48" V 1230 6850 50  0000 C CNN
@@ -115,7 +84,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 1800 6600 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R40
+L Device:R R40
 U 1 1 52E6D492
 P 1150 6150
 F 0 "R40" V 1230 6150 50  0000 C CNN
@@ -126,7 +95,7 @@ F 3 "" H 1150 6150 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R41
+L Device:R R41
 U 1 1 52E6D493
 P 1150 4350
 F 0 "R41" V 1230 4350 50  0000 C CNN
@@ -149,7 +118,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 1800 4800 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R49
+L Device:R R49
 U 1 1 52E6DB64
 P 1150 5050
 F 0 "R49" V 1230 5050 50  0000 C CNN
@@ -160,7 +129,7 @@ F 3 "" H 1150 5050 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R108
+L Device:R R108
 U 1 1 52E6DB65
 P 1150 5950
 F 0 "R108" V 1230 5950 50  0000 C CNN
@@ -183,7 +152,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 1800 5700 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R102
+L Device:R R102
 U 1 1 52E6D498
 P 1150 5250
 F 0 "R102" V 1230 5250 50  0000 C CNN
@@ -194,7 +163,7 @@ F 3 "" H 1150 5250 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R26
+L Device:R R26
 U 1 1 52E6DB68
 P 1150 2550
 F 0 "R26" V 1230 2550 50  0000 C CNN
@@ -217,7 +186,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 1800 3000 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L Device:R R32
 U 1 1 52E6D49B
 P 1150 3250
 F 0 "R32" V 1230 3250 50  0000 C CNN
@@ -228,7 +197,7 @@ F 3 "" H 1150 3250 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R97
+L Device:R R97
 U 1 1 52E6D49C
 P 1150 4150
 F 0 "R97" V 1230 4150 50  0000 C CNN
@@ -251,7 +220,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 1800 3900 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R91
+L Device:R R91
 U 1 1 52E6D49E
 P 1150 3450
 F 0 "R91" V 1230 3450 50  0000 C CNN
@@ -262,7 +231,7 @@ F 3 "" H 1150 3450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R90
+L Device:R R90
 U 1 1 52E6D49F
 P 1150 1650
 F 0 "R90" V 1230 1650 50  0000 C CNN
@@ -275,7 +244,7 @@ $EndComp
 Text GLabel 2350 2100 2    60   Input ~ 0
 HVOUT21
 $Comp
-L R R96
+L Device:R R96
 U 1 1 52E6D4A0
 P 1150 2350
 F 0 "R96" V 1230 2350 50  0000 C CNN
@@ -288,7 +257,7 @@ $EndComp
 Text GLabel 900  1250 0    60   Input ~ 0
 OUT20
 $Comp
-L R R33
+L Device:R R33
 U 1 1 52E6D4A2
 P 1150 1450
 F 0 "R33" V 1230 1450 50  0000 C CNN
@@ -299,7 +268,7 @@ F 3 "" H 1150 1450 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R93
+L Device:R R93
 U 1 1 52E6DB72
 P 900 1000
 F 0 "R93" V 980 1000 50  0000 C CNN
@@ -328,7 +297,7 @@ HV
 Text GLabel 2350 1200 2    60   Input ~ 0
 HVOUT20
 $Comp
-L R R27
+L Device:R R27
 U 1 1 52E6D4A5
 P 1150 750
 F 0 "R27" V 1230 750 50  0000 C CNN
@@ -341,7 +310,7 @@ $EndComp
 Text GLabel 900  2150 0    60   Input ~ 0
 OUT21
 $Comp
-L R R30
+L Device:R R30
 U 1 1 52E6DB77
 P 900 1900
 F 0 "R30" V 980 1900 50  0000 C CNN
@@ -376,7 +345,7 @@ HVGND
 Text GLabel 2350 3250 2    60   Input ~ 0
 HV
 $Comp
-L R R31
+L Device:R R31
 U 1 1 52E6D4AD
 P 900 2800
 F 0 "R31" V 980 2800 50  0000 C CNN
@@ -395,7 +364,7 @@ HVGND
 Text GLabel 2350 4150 2    60   Input ~ 0
 HV
 $Comp
-L R R92
+L Device:R R92
 U 1 1 52E6D4B0
 P 900 3700
 F 0 "R92" V 980 3700 50  0000 C CNN
@@ -414,7 +383,7 @@ HVGND
 Text GLabel 2350 5050 2    60   Input ~ 0
 HV
 $Comp
-L R R50
+L Device:R R50
 U 1 1 52E6DB82
 P 900 4600
 F 0 "R50" V 980 4600 50  0000 C CNN
@@ -433,7 +402,7 @@ HVGND
 Text GLabel 2350 5950 2    60   Input ~ 0
 HV
 $Comp
-L R R101
+L Device:R R101
 U 1 1 52E6DB85
 P 900 5500
 F 0 "R101" V 980 5500 50  0000 C CNN
@@ -452,7 +421,7 @@ HVGND
 Text GLabel 2350 6850 2    60   Input ~ 0
 HV
 $Comp
-L R R112
+L Device:R R112
 U 1 1 52E6DB88
 P 900 6400
 F 0 "R112" V 980 6400 50  0000 C CNN
@@ -471,7 +440,7 @@ HVGND
 Text GLabel 2350 7750 2    60   Input ~ 0
 HV
 $Comp
-L R R37
+L Device:R R37
 U 1 1 52E6DB8B
 P 900 7300
 F 0 "R37" V 980 7300 50  0000 C CNN
@@ -482,7 +451,7 @@ F 3 "" H 900 7300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R115
+L Device:R R115
 U 1 1 52E6DB8C
 P 3550 7050
 F 0 "R115" V 3630 7050 50  0000 C CNN
@@ -505,7 +474,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 4200 7500 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R121
+L Device:R R121
 U 1 1 52E6D4CE
 P 3550 7750
 F 0 "R121" V 3630 7750 50  0000 C CNN
@@ -516,7 +485,7 @@ F 3 "" H 3550 7750 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R60
+L Device:R R60
 U 1 1 52E6D4D4
 P 3550 6850
 F 0 "R60" V 3630 6850 50  0000 C CNN
@@ -539,7 +508,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 4200 6600 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R54
+L Device:R R54
 U 1 1 52E6D4E0
 P 3550 6150
 F 0 "R54" V 3630 6150 50  0000 C CNN
@@ -550,7 +519,7 @@ F 3 "" H 3550 6150 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R55
+L Device:R R55
 U 1 1 52E6DB92
 P 3550 4350
 F 0 "R55" V 3630 4350 50  0000 C CNN
@@ -573,7 +542,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 4200 4800 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R61
+L Device:R R61
 U 1 1 52E6DB94
 P 3550 5050
 F 0 "R61" V 3630 5050 50  0000 C CNN
@@ -584,7 +553,7 @@ F 3 "" H 3550 5050 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R119
+L Device:R R119
 U 1 1 52E6DB95
 P 3550 5950
 F 0 "R119" V 3630 5950 50  0000 C CNN
@@ -607,7 +576,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 4200 5700 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R113
+L Device:R R113
 U 1 1 52E6DB97
 P 3550 5250
 F 0 "R113" V 3630 5250 50  0000 C CNN
@@ -618,7 +587,7 @@ F 3 "" H 3550 5250 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R38
+L Device:R R38
 U 1 1 52E6D50A
 P 3550 2550
 F 0 "R38" V 3630 2550 50  0000 C CNN
@@ -641,7 +610,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 4200 3000 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R46
+L Device:R R46
 U 1 1 52E6DB9A
 P 3550 3250
 F 0 "R46" V 3630 3250 50  0000 C CNN
@@ -652,7 +621,7 @@ F 3 "" H 3550 3250 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R111
+L Device:R R111
 U 1 1 52E6DB9B
 P 3550 4150
 F 0 "R111" V 3630 4150 50  0000 C CNN
@@ -675,7 +644,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 4200 3900 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R105
+L Device:R R105
 U 1 1 52E6D528
 P 3550 3450
 F 0 "R105" V 3630 3450 50  0000 C CNN
@@ -686,7 +655,7 @@ F 3 "" H 3550 3450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R104
+L Device:R R104
 U 1 1 52E6DB9E
 P 3550 1650
 F 0 "R104" V 3630 1650 50  0000 C CNN
@@ -699,7 +668,7 @@ $EndComp
 Text GLabel 4750 2100 2    60   Input ~ 0
 HVOUT29
 $Comp
-L R R110
+L Device:R R110
 U 1 1 52E6DB9F
 P 3550 2350
 F 0 "R110" V 3630 2350 50  0000 C CNN
@@ -710,7 +679,7 @@ F 3 "" H 3550 2350 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R47
+L Device:R R47
 U 1 1 52E6DBA1
 P 3550 1450
 F 0 "R47" V 3630 1450 50  0000 C CNN
@@ -739,7 +708,7 @@ HV
 Text GLabel 4750 1200 2    60   Input ~ 0
 HVOUT28
 $Comp
-L R R39
+L Device:R R39
 U 1 1 52E6D557
 P 3550 750
 F 0 "R39" V 3630 750 50  0000 C CNN
@@ -752,7 +721,7 @@ $EndComp
 Text GLabel 3300 2150 0    60   Input ~ 0
 OUT29
 $Comp
-L R R42
+L Device:R R42
 U 1 1 52E6DBA6
 P 3300 1900
 F 0 "R42" V 3380 1900 50  0000 C CNN
@@ -787,7 +756,7 @@ HVGND
 Text GLabel 4750 3250 2    60   Input ~ 0
 HV
 $Comp
-L R R44
+L Device:R R44
 U 1 1 52E6DBAB
 P 3300 2800
 F 0 "R44" V 3380 2800 50  0000 C CNN
@@ -806,7 +775,7 @@ HVGND
 Text GLabel 4750 4150 2    60   Input ~ 0
 HV
 $Comp
-L R R106
+L Device:R R106
 U 1 1 52E6DBAE
 P 3300 3700
 F 0 "R106" V 3380 3700 50  0000 C CNN
@@ -825,7 +794,7 @@ HVGND
 Text GLabel 4750 5050 2    60   Input ~ 0
 HV
 $Comp
-L R R62
+L Device:R R62
 U 1 1 52E6DBB1
 P 3300 4600
 F 0 "R62" V 3380 4600 50  0000 C CNN
@@ -844,7 +813,7 @@ HVGND
 Text GLabel 4750 5950 2    60   Input ~ 0
 HV
 $Comp
-L R R114
+L Device:R R114
 U 1 1 52E6DBB4
 P 3300 5500
 F 0 "R114" V 3380 5500 50  0000 C CNN
@@ -863,7 +832,7 @@ HVGND
 Text GLabel 4750 6850 2    60   Input ~ 0
 HV
 $Comp
-L R R124
+L Device:R R124
 U 1 1 52E6D61E
 P 3300 6400
 F 0 "R124" V 3380 6400 50  0000 C CNN
@@ -882,7 +851,7 @@ HVGND
 Text GLabel 4750 7750 2    60   Input ~ 0
 HV
 $Comp
-L R R51
+L Device:R R51
 U 1 1 52E6DBBA
 P 3300 7300
 F 0 "R51" V 3380 7300 50  0000 C CNN
@@ -895,7 +864,7 @@ $EndComp
 Text GLabel 5700 1250 0    60   Input ~ 0
 OUT36
 $Comp
-L R R120
+L Device:R R120
 U 1 1 52E6DBBB
 P 5700 1000
 F 0 "R120" V 5780 1000 50  0000 C CNN
@@ -906,7 +875,7 @@ F 3 "" H 5700 1000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R52
+L Device:R R52
 U 1 1 52E6DBBC
 P 5950 2550
 F 0 "R52" V 6030 2550 50  0000 C CNN
@@ -929,7 +898,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 6600 3000 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R58
+L Device:R R58
 U 1 1 52E6DBBE
 P 5950 3250
 F 0 "R58" V 6030 3250 50  0000 C CNN
@@ -940,7 +909,7 @@ F 3 "" H 5950 3250 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R123
+L Device:R R123
 U 1 1 52E6DBBF
 P 5950 4150
 F 0 "R123" V 6030 4150 50  0000 C CNN
@@ -963,7 +932,7 @@ F 4 "TLP227G-2(TP1,N,F)" H 6600 3900 60  0001 C CNN "Mfg_Part_No"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R117
+L Device:R R117
 U 1 1 52E6D876
 P 5950 3450
 F 0 "R117" V 6030 3450 50  0000 C CNN
@@ -974,7 +943,7 @@ F 3 "" H 5950 3450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R116
+L Device:R R116
 U 1 1 52E6DBC2
 P 5950 1650
 F 0 "R116" V 6030 1650 50  0000 C CNN
@@ -987,7 +956,7 @@ $EndComp
 Text GLabel 7150 2100 2    60   Input ~ 0
 HVOUT37
 $Comp
-L R R122
+L Device:R R122
 U 1 1 52E6DBC3
 P 5950 2350
 F 0 "R122" V 6030 2350 50  0000 C CNN
@@ -998,7 +967,7 @@ F 3 "" H 5950 2350 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R59
+L Device:R R59
 U 1 1 52E6DBC5
 P 5950 1450
 F 0 "R59" V 6030 1450 50  0000 C CNN
@@ -1027,7 +996,7 @@ HV
 Text GLabel 7150 1200 2    60   Input ~ 0
 HVOUT36
 $Comp
-L R R53
+L Device:R R53
 U 1 1 52E6DBC7
 P 5950 750
 F 0 "R53" V 6030 750 50  0000 C CNN
@@ -1040,7 +1009,7 @@ $EndComp
 Text GLabel 5700 2150 0    60   Input ~ 0
 OUT37
 $Comp
-L R R56
+L Device:R R56
 U 1 1 52E6D8B9
 P 5700 1900
 F 0 "R56" V 5780 1900 50  0000 C CNN
@@ -1075,7 +1044,7 @@ HVGND
 Text GLabel 7150 3250 2    60   Input ~ 0
 HV
 $Comp
-L R R57
+L Device:R R57
 U 1 1 52E6D8ED
 P 5700 2800
 F 0 "R57" V 5780 2800 50  0000 C CNN
@@ -1094,7 +1063,7 @@ HVGND
 Text GLabel 7150 4150 2    60   Input ~ 0
 HV
 $Comp
-L R R118
+L Device:R R118
 U 1 1 52E6DBD2
 P 5700 3700
 F 0 "R118" V 5780 3700 50  0000 C CNN
