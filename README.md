@@ -4,10 +4,10 @@ The high-voltage switching boards control the on/off state of electrodes in the 
 
 For more information, please visit https://sci-bots.com
 
-[![Sci-Bots logo](png/sci-bots-logo.png)][sci-bots]
+[![Sci-Bots logo](docs/png/sci-bots-logo.png)][sci-bots]
 
-[![front](png/front-small.png)](png/front.png)
-[![back](png/back-small.png)](png/back.png)
+[![front](docs/png/front-small.png)](png/front.png)
+[![back](docs/png/back-small.png)](png/back.png)
 
 This design is open-source hardware released under a [Creative Commons Attribution-ShareAlike licence][cc-by-sa].
 
