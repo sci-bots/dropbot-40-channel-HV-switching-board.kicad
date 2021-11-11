@@ -1,4 +1,4 @@
-name: Kicad project
+name: build-manufacturing-outputs
 
 on:
   push:
