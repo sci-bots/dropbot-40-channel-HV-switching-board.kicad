@@ -37,3 +37,5 @@ pcb-services: [aisler, pcbway, oshpark, jlcpcb]
   #      - pcbway
   #      - oshpark
   #      - jlcpcb
+
+multi: # Identifier field only used if the repository contains multiple projects. See below for details.
