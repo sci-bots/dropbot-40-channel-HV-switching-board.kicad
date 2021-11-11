@@ -1,4 +1,4 @@
-name: build-manufacturing-outputs
+name: manufacturing-outputs
 
 on:
   push:
