@@ -1,0 +1,21 @@
+kibot:
+  version: 1
+
+preflight:
+  run_drc: true
+  check_zone_fills: true
+  ignore_unconnected: false
+
+  filters:
+    - filter: 'Ignore Courtyards overlap C6 and C7'
+      error: '45'
+      regex:  'Footprint C6 on Front'
+    - filter: 'Ignore Courtyards overlap R99 and R125'
+      error: '45'
+      regex:  'Footprint R99 on Front'
+    - filter: 'Ignore Courtyards overlap R100 and R126'
+      error: '45'
+      regex:  'Footprint R100 on Front'
+    - filter: 'Ignore Courtyards overlap FB1 and FB3'
+      error: '45'
+      regex:  'Footprint FB1 on Back'

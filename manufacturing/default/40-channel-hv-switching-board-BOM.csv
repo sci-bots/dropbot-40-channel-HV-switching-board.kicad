@@ -5,10 +5,10 @@ Refs,Quantity,MPN,Manufacturer,datasheet,footprint,value
 C7,1,CL21B103KCANNNC,Samsung,,Capacitors_SMD:C_0805,0.01uF
 DS1,1,150080BS75000,Würth Elektronik,,LEDs:LED_0805,+3.3V_PWR
 FB1-FB5,5,742792040,Würth Elektronik,,Resistors_SMD:R_0805,FERRITE
-JP1,1,,,,Resistors_SMD:R_0805,JUMPER
-P1,1,,,,Pin_Headers:Pin_Header_Angled_1x06,CONN_01X06
-P2,1,,,,Pin_Headers:Pin_Header_Straight_2x03,CONN_01X06
-P3-P6,4,,,,Connect:1pin,CONN_01X01
+JP1,1,DNP,DNP,,Resistors_SMD:R_0805,JUMPER
+P1,1,DNP,DNP,,Pin_Headers:Pin_Header_Angled_1x06,CONN_01X06
+P2,1,DNP,DNP,,Pin_Headers:Pin_Header_Straight_2x03,CONN_01X06
+P3-P6,4,DNP,DNP,,Connect:1pin,CONN_01X01
 P7,1,TFM-125-02-L-DH,Samtec,,Sci-Bots:TFM-125-02-X-DH,TFM-125-02-X-DH
 "R99, R100",2,RC0805FR-0751RL,Yageo,,Resistors_SMD:R_0805,51
 "R125, R126",2,RC0805FR-07150RL,Yageo,,Resistors_SMD:R_0805,150
