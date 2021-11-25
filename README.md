@@ -1,4 +1,4 @@
-[![manufacturing-outputs](https://github.com/sci-bots/dropbot-40-channel-HV-switching-board.kicad/actions/workflows/build.yml/badge.svg)](https://github.com/sci-bots/dropbot-40-channel-HV-switching-board.kicad/actions/workflows/build.yml)
+[![tests](https://github.com/sci-bots/dropbot-40-channel-HV-switching-board.kicad/actions/workflows/build.yml/badge.svg)](https://github.com/sci-bots/dropbot-40-channel-HV-switching-board.kicad/actions/workflows/build.yml)
 [![kitspace](https://img.shields.io/badge/kitspace-ok-success)](https://kitspace.org/boards/github.com/sci-bots/dropbot-40-channel-hv-switching-board.kicad/)
 
 # DropBot v3 40-channel high-voltage switching board
