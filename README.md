@@ -1,6 +1,5 @@
 [![tests](https://github.com/sci-bots/dropbot-40-channel-HV-switching-board.kicad/actions/workflows/build.yml/badge.svg)](https://github.com/sci-bots/dropbot-40-channel-HV-switching-board.kicad/actions/workflows/build.yml)
-[![kitspace](https://img.shields.io/website?down_color=red&down_message=no&label=kitspace&up_color=sucess&up_message=ok&url=https%3A%2F%2Fkitspace.org%2Fboards%2Fgithub.com%2Fsci-bots%2Fdropbot-40-channel-hv-switching-board.kicad)](https://kitspace.org/boards/github.com/sci-bots/dropbot-40-channel-hv-switching-board.kicad/)
-
+[![kitspace](https://img.shields.io/website?down_color=red&down_message=no&label=kitspace&up_color=sucess&up_message=ok&url=https%3A%2F%2Fkitspace.org%2Fboards%2Fgithub.com%2Fsci-bots%2Fdropbot-40-channel-HV-switching-board.kicad)](https://kitspace.org/boards/github.com/sci-bots/dropbot-40-channel-HV-switching-board.kicad)
 # DropBot v3 40-channel high-voltage switching board
 
 The high-voltage switching boards control the on/off state of electrodes in the [DropBot system][dropbot]. Each board controls 40-channels and multiple boards can be daisy-chained together.
@@ -19,4 +18,3 @@ This design is open-source hardware released under a [Creative Commons Attributi
 [dropbot]: https://github.com/sci-bots/dropbot-v3
 [sci-bots]: https://sci-bots.com/
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/3.0
-
